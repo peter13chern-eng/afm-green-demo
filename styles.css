@@ -4311,17 +4311,16 @@ html[lang="zh-Hant"] .tiktok-solution-hero h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 12px clamp(18px, 3vw, 46px);
-  width: fit-content;
-  max-width: min(100%, 1180px);
+  gap: 12px clamp(18px, 2.4vw, 34px);
+  width: min(100%, 1180px);
   margin: clamp(92px, 9vw, 138px) auto 0;
   padding-top: clamp(16px, 1.8vw, 24px);
-  padding-inline: clamp(8px, 1vw, 18px);
   border-top: 1px solid rgba(255, 255, 255, 0.24);
   color: rgba(255, 255, 255, 0.56);
   font-size: clamp(11px, 0.86vw, 16px);
   font-weight: 500;
   line-height: 1.28;
+  text-align: center;
 }
 
 .footer-legal p {
