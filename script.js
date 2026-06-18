@@ -62,24 +62,24 @@ const translations = {
       title: "How To Collaborate?",
       step1: {
         label: "STEP 1",
-        title: "Connect &amp; Discover",
-        copy: "We learn about your goals, whether you&apos;re a brand looking to boost sales or a creator ready to grow.",
+        title: "Connect & Discover",
+        copy: "We learn about your goals, whether you're a brand looking to boost sales or a creator ready to grow.",
       },
       step2: {
         label: "STEP 2",
-        title: "Match &amp; Strategize",
+        title: "Match & Strategize",
         copy: "We match brands with verified creators and craft a plan from shop setup to live and campaign planning.",
       },
       step3: {
         label: "STEP 3",
-        title: "Launch &amp; Scale",
+        title: "Launch & Scale",
         copy: "From content to conversion, we launch, track, and optimize toward measurable growth.",
       },
     },
     stats: {
       creators: "Collaborated Creators",
       brands: "Brands Trusted",
-      gmv: "Monthly Binding GMV",
+      gmv: "Coverage rate of top customers",
     },
     booking: {
       kicker: "Book a Call",
@@ -190,7 +190,7 @@ const translations = {
     stats: {
       creators: "合作达人",
       brands: "信任品牌",
-      gmv: "月绑定 GMV",
+      gmv: "头部客户覆盖率",
     },
     booking: {
       kicker: "预约沟通",
@@ -302,7 +302,7 @@ Object.assign(translations, {
     stats: {
       creators: "Creadores aliados",
       brands: "Marcas confiadas",
-      gmv: "GMV mensual vinculado",
+      gmv: "Cobertura de clientes principales",
     },
     booking: {
       kicker: "Agenda una llamada",
@@ -409,7 +409,7 @@ Object.assign(translations, {
     stats: {
       creators: "連携クリエイター",
       brands: "導入ブランド",
-      gmv: "月間連携 GMV",
+      gmv: "主要顧客カバー率",
     },
     booking: {
       kicker: "相談予約",
@@ -516,7 +516,7 @@ Object.assign(translations, {
     stats: {
       creators: "Creator im Netzwerk",
       brands: "Vertraute Marken",
-      gmv: "Monatliches GMV",
+      gmv: "Abdeckung führender Kunden",
     },
     booking: {
       kicker: "Call buchen",
@@ -622,7 +622,7 @@ Object.assign(translations, {
     stats: {
       creators: "Criadores parceiros",
       brands: "Marcas atendidas",
-      gmv: "GMV mensal vinculado",
+      gmv: "Cobertura dos principais clientes",
     },
     booking: {
       kicker: "Agende uma chamada",
@@ -729,7 +729,7 @@ Object.assign(translations, {
     stats: {
       creators: "협업 크리에이터",
       brands: "신뢰 브랜드",
-      gmv: "월 연결 GMV",
+      gmv: "주요 고객 커버리지",
     },
     booking: {
       kicker: "상담 예약",
@@ -836,7 +836,7 @@ Object.assign(translations, {
     stats: {
       creators: "مبدعون متعاونون",
       brands: "علامات موثوقة",
-      gmv: "GMV شهري مرتبط",
+      gmv: "معدل تغطية كبار العملاء",
     },
     booking: {
       kicker: "احجز مكالمة",
@@ -943,7 +943,7 @@ Object.assign(translations, {
     stats: {
       creators: "Creator collaboratori",
       brands: "Brand serviti",
-      gmv: "GMV mensile collegato",
+      gmv: "Copertura dei clienti principali",
     },
     booking: {
       kicker: "Prenota una call",
@@ -1063,7 +1063,7 @@ Object.assign(translations, {
     stats: {
       creators: "Créateurs partenaires",
       brands: "Marques accompagnées",
-      gmv: "GMV mensuel lié",
+      gmv: "Taux de couverture des meilleurs clients",
     },
     booking: {
       kicker: "Réserver un appel",
@@ -1170,7 +1170,7 @@ Object.assign(translations, {
     stats: {
       creators: "Creator hợp tác",
       brands: "Thương hiệu tin dùng",
-      gmv: "GMV liên kết hằng tháng",
+      gmv: "Tỷ lệ phủ nhóm khách hàng hàng đầu",
     },
     booking: {
       kicker: "Đặt lịch gọi",
@@ -1277,7 +1277,7 @@ Object.assign(translations, {
     stats: {
       creators: "ครีเอเตอร์ร่วมงาน",
       brands: "แบรนด์ที่ไว้วางใจ",
-      gmv: "GMV รายเดือน",
+      gmv: "อัตราครอบคลุมลูกค้าชั้นนำ",
     },
     booking: {
       kicker: "จองการโทร",
@@ -1384,7 +1384,7 @@ Object.assign(translations, {
     stats: {
       creators: "Pencipta kerjasama",
       brands: "Jenama percaya",
-      gmv: "GMV bulanan terikat",
+      gmv: "Kadar liputan pelanggan utama",
     },
     booking: {
       kicker: "Tempah panggilan",
@@ -1491,7 +1491,7 @@ Object.assign(translations, {
     stats: {
       creators: "Kreator kolaborasi",
       brands: "Brand percaya",
-      gmv: "GMV bulanan terkait",
+      gmv: "Tingkat cakupan pelanggan utama",
     },
     booking: {
       kicker: "Jadwalkan panggilan",
@@ -2422,6 +2422,15 @@ const aboutLabels = {
     missionKicker: "Our Mission",
     missionTitle: "A global growth bridge for modern brands",
     missionCopy: "We combine creator partnerships, media buying, campaign planning, and commerce execution into one practical system, so brands can move faster from audience attention to measurable sales.",
+    missionMarker1: "SERV",
+    missionMarker2: "TEAM",
+    missionMarker3: "CLIENT",
+    missionPoint1Title: "Full-chain global growth services",
+    missionPoint1Copy: "TikTok ads, TTS tools, global KOL content marketing, performance creative, brand strategy, and end-to-end overseas growth.",
+    missionPoint2Title: "Senior teams and platform resources",
+    missionPoint2Copy: "Core members bring 9+ years in overseas growth, with deep ad and creator resources across Southeast Asia, North America, Latin America, and Europe.",
+    missionPoint3Title: "1,000+ clients across major categories",
+    missionPoint3Copy: "Serving FMCG, 3C, fashion, lifestyle, DTC, games, fintech, social, and utility brands, including 50+ leading and emerging names.",
     principle1Title: "Creator-first growth",
     principle1Copy: "We build with creators who understand culture, audience trust, and conversion moments.",
     principle2Title: "Performance in every plan",
@@ -2430,9 +2439,9 @@ const aboutLabels = {
     principle3Copy: "We connect regional execution with international growth ambitions for brands scaling across markets.",
     statsKicker: "Our Scale",
     statsTitle: "Built for cross-platform creator commerce",
-    stat1: "Creator network",
-    stat2: "Brand partners",
-    stat3: "Monthly binding GMV",
+    stat1: "Collaborated Creators",
+    stat2: "Brands Trusted",
+    stat3: "Coverage rate of top customers",
     footprintKicker: "Global Footprint",
     footprintTitle: "Rooted in execution, connected to the world",
     footprintCopy: "Our work links brand strategy, creator communities, paid media, and commerce operations across markets, with a practical focus on measurable business outcomes.",
@@ -2440,8 +2449,8 @@ const aboutLabels = {
     location1Copy: "Guangzhou-based campaign, commerce, and creator collaboration support.",
     location2Title: "United States expansion",
     location2Copy: "Preparing local collaboration channels for brands entering or growing in the U.S. market.",
-    location3Title: "Global creator ecosystem",
-    location3Copy: "A flexible network built around short video, live commerce, creator events, and paid social growth.",
+    location3Title: "United Kingdom expansion",
+    location3Copy: "Preparing local collaboration channels for brands entering or growing in the U.K. market.",
     ctaKicker: "Work With Millim",
     ctaTitle: "Ready to link your brand to the next audience?",
     ctaCopy: "Share your market, channel, and growth goal. We will help shape the creator and media path forward.",
@@ -2456,6 +2465,15 @@ const aboutLabels = {
     missionKicker: "我们的使命",
     missionTitle: "成为现代品牌的全球增长桥梁",
     missionCopy: "我们把达人合作、媒体投放、活动策划和电商执行整合成一个实用体系，让品牌更快从用户注意力走向可衡量的销售增长。",
+    missionMarker1: "服务",
+    missionMarker2: "团队",
+    missionMarker3: "客户",
+    missionPoint1Title: "全链路出海增长服务",
+    missionPoint1Copy: "TikTok广告代理、TTS技术工具、全球KOL内容营销、创意效果素材、品牌全案与出海全链方案。",
+    missionPoint2Title: "资深团队与平台资源",
+    missionPoint2Copy: "主创均9年+出海服务经验，深耕东南亚、北美、拉美、欧洲广告与达人资源，并认证为TikTok官方达人服务商、短视频素材服务商。",
+    missionPoint3Title: "1000+客户与多行业覆盖",
+    missionPoint3Copy: "覆盖电商FMCG、3C、Fashion、Lifestyle、DTC、游戏、金融支付、社交和工具等垂类，服务50+头部与新锐品牌。",
     principle1Title: "以达人为增长起点",
     principle1Copy: "我们与真正理解文化、用户信任和转化场景的达人共同创造内容。",
     principle2Title: "每个方案都面向效果",
@@ -2464,9 +2482,9 @@ const aboutLabels = {
     principle3Copy: "我们把区域执行能力与品牌的国际化增长目标连接起来，支持跨市场扩张。",
     statsKicker: "我们的规模",
     statsTitle: "为跨平台达人电商增长而生",
-    stat1: "达人网络",
-    stat2: "品牌伙伴",
-    stat3: "月绑定 GMV",
+    stat1: "合作达人",
+    stat2: "信任品牌",
+    stat3: "头部客户覆盖率",
     footprintKicker: "全球布局",
     footprintTitle: "扎根执行，连接世界",
     footprintCopy: "我们的工作连接品牌策略、达人社群、付费媒体和电商运营，并始终聚焦可衡量的业务结果。",
@@ -2474,8 +2492,8 @@ const aboutLabels = {
     location1Copy: "以广州为核心，提供活动、电商和达人协作支持。",
     location2Title: "美国市场拓展",
     location2Copy: "为进入或增长美国市场的品牌准备本地合作通道。",
-    location3Title: "全球达人生态",
-    location3Copy: "围绕短视频、直播电商、达人活动和付费社媒增长建立灵活网络。",
+    location3Title: "英国市场拓展",
+    location3Copy: "为进入或增长英国市场的品牌准备本地合作通道。",
     ctaKicker: "与 Millim 合作",
     ctaTitle: "准备把品牌链接到下一个目标受众了吗？",
     ctaCopy: "告诉我们你的市场、渠道和增长目标，我们会一起梳理达人与媒体增长路径。",
@@ -2490,6 +2508,15 @@ const aboutLabels = {
     missionKicker: "Nuestra misión",
     missionTitle: "Un puente global de crecimiento para marcas modernas",
     missionCopy: "Unimos alianzas con creadores, compra de medios, planificación de campañas y ejecución comercial en un sistema práctico para pasar de la atención a ventas medibles.",
+    missionMarker1: "SERV",
+    missionMarker2: "EQUIPO",
+    missionMarker3: "CLIENTE",
+    missionPoint1Title: "Servicios integrales de crecimiento global",
+    missionPoint1Copy: "Anuncios TikTok, herramientas TTS, marketing global con KOL, creatividades de performance, estrategia de marca y crecimiento internacional completo.",
+    missionPoint2Title: "Equipos senior y recursos de plataforma",
+    missionPoint2Copy: "El equipo central suma más de 9 años en crecimiento internacional, con recursos de ads y creadores en Sudeste Asiático, Norteamérica, Latam y Europa.",
+    missionPoint3Title: "1,000+ clientes en categorías clave",
+    missionPoint3Copy: "Atendemos FMCG, 3C, moda, lifestyle, DTC, juegos, fintech, social y utilidades, incluidas 50+ marcas líderes y emergentes.",
     principle1Title: "Crecimiento creator-first",
     principle1Copy: "Trabajamos con creadores que entienden la cultura, la confianza de la audiencia y los momentos de conversión.",
     principle2Title: "Performance en cada plan",
@@ -2498,9 +2525,9 @@ const aboutLabels = {
     principle3Copy: "Conectamos ejecución regional con ambiciones internacionales para marcas que escalan.",
     statsKicker: "Nuestra escala",
     statsTitle: "Preparados para comercio de creadores multiplataforma",
-    stat1: "Red de creadores",
-    stat2: "Marcas aliadas",
-    stat3: "GMV mensual vinculado",
+    stat1: "Creadores aliados",
+    stat2: "Marcas confiadas",
+    stat3: "Cobertura de clientes principales",
     footprintKicker: "Presencia global",
     footprintTitle: "Enfocados en ejecución, conectados al mundo",
     footprintCopy: "Conectamos estrategia de marca, comunidades de creadores, paid media y operaciones de comercio con foco en resultados medibles.",
@@ -2508,8 +2535,8 @@ const aboutLabels = {
     location1Copy: "Soporte de campañas, comercio y colaboración con creadores desde Guangzhou.",
     location2Title: "Expansión en Estados Unidos",
     location2Copy: "Preparando canales locales para marcas que entran o crecen en el mercado estadounidense.",
-    location3Title: "Ecosistema global de creadores",
-    location3Copy: "Una red flexible para video corto, live commerce, eventos con creadores y crecimiento en paid social.",
+    location3Title: "Expansión en Reino Unido",
+    location3Copy: "Preparando canales locales para marcas que entran o crecen en el mercado del Reino Unido.",
     ctaKicker: "Trabaja con Millim",
     ctaTitle: "¿Listo para conectar tu marca con la próxima audiencia?",
     ctaCopy: "Comparte tu mercado, canal y objetivo de crecimiento. Te ayudaremos a definir el camino de creadores y medios.",
@@ -2524,6 +2551,15 @@ const aboutLabels = {
     missionKicker: "ミッション",
     missionTitle: "現代ブランドのためのグローバル成長ブリッジ",
     missionCopy: "クリエイター提携、メディアバイイング、キャンペーン設計、コマース実行をひとつの実践的な仕組みにまとめ、注目から測定可能な売上までを速くつなぎます。",
+    missionMarker1: "サービス",
+    missionMarker2: "チーム",
+    missionMarker3: "顧客",
+    missionPoint1Title: "海外成長を支えるフルチェーンサービス",
+    missionPoint1Copy: "TikTok広告、TTSツール、グローバルKOLコンテンツ、成果型クリエイティブ、ブランド戦略、海外展開全体を支援します。",
+    missionPoint2Title: "経験豊富なチームとプラットフォーム資源",
+    missionPoint2Copy: "主要メンバーは海外支援9年以上。東南アジア、北米、中南米、欧州の広告・クリエイター資源に深く根ざしています。",
+    missionPoint3Title: "主要カテゴリで1,000社以上を支援",
+    missionPoint3Copy: "FMCG、3C、ファッション、ライフスタイル、DTC、ゲーム、フィンテック、SNS、ツール領域で50以上の有力・新興ブランドを支援しています。",
     principle1Title: "クリエイター起点の成長",
     principle1Copy: "文化、信頼、コンバージョンの瞬間を理解するクリエイターと共に作ります。",
     principle2Title: "すべての計画に成果視点",
@@ -2532,9 +2568,9 @@ const aboutLabels = {
     principle3Copy: "地域の実行力とブランドの国際的な成長目標をつなぎます。",
     statsKicker: "私たちの規模",
     statsTitle: "クロスプラットフォームのクリエイターコマースへ",
-    stat1: "クリエイターネットワーク",
-    stat2: "ブランドパートナー",
-    stat3: "月間連携 GMV",
+    stat1: "連携クリエイター",
+    stat2: "導入ブランド",
+    stat3: "主要顧客カバー率",
     footprintKicker: "グローバル拠点",
     footprintTitle: "実行に根ざし、世界とつながる",
     footprintCopy: "ブランド戦略、クリエイターコミュニティ、ペイドメディア、コマース運用を結び、測定可能な事業成果に集中します。",
@@ -2542,8 +2578,8 @@ const aboutLabels = {
     location1Copy: "広州を拠点にキャンペーン、コマース、クリエイター協業を支援します。",
     location2Title: "米国展開",
     location2Copy: "米国市場に参入または成長するブランドのため、現地連携チャネルを準備しています。",
-    location3Title: "グローバルクリエイターエコシステム",
-    location3Copy: "ショート動画、ライブコマース、クリエイターイベント、ペイドソーシャル成長を支える柔軟なネットワークです。",
+    location3Title: "英国市場展開",
+    location3Copy: "英国市場に参入または成長するブランドのため、現地連携チャネルを準備しています。",
     ctaKicker: "Millim と協業",
     ctaTitle: "次のオーディエンスへブランドをつなぎませんか？",
     ctaCopy: "市場、チャネル、成長目標を共有してください。クリエイターとメディアの進め方を一緒に設計します。",
@@ -2558,6 +2594,15 @@ const aboutLabels = {
     missionKicker: "Unsere Mission",
     missionTitle: "Eine globale Wachstumsbrücke für moderne Marken",
     missionCopy: "Wir verbinden Creator-Partnerschaften, Media Buying, Kampagnenplanung und Commerce-Ausführung in einem praktischen System, damit Marken schneller von Aufmerksamkeit zu messbaren Verkäufen kommen.",
+    missionMarker1: "SERVICE",
+    missionMarker2: "TEAM",
+    missionMarker3: "KUNDEN",
+    missionPoint1Title: "Full-Chain-Services für globales Wachstum",
+    missionPoint1Copy: "TikTok Ads, TTS-Tools, globales KOL-Content-Marketing, Performance-Creatives, Markenstrategie und durchgängige Overseas-Growth-Lösungen.",
+    missionPoint2Title: "Senior-Teams und Plattformressourcen",
+    missionPoint2Copy: "Das Kernteam bringt 9+ Jahre Overseas-Growth-Erfahrung mit tiefen Ads- und Creator-Ressourcen in Südostasien, Nordamerika, Lateinamerika und Europa.",
+    missionPoint3Title: "1,000+ Kunden in wichtigen Kategorien",
+    missionPoint3Copy: "Wir betreuen FMCG, 3C, Fashion, Lifestyle, DTC, Games, Fintech, Social und Utility, darunter 50+ führende und aufstrebende Marken.",
     principle1Title: "Creator-first Wachstum",
     principle1Copy: "Wir arbeiten mit Creators, die Kultur, Vertrauen und Conversion-Momente verstehen.",
     principle2Title: "Performance in jedem Plan",
@@ -2566,9 +2611,9 @@ const aboutLabels = {
     principle3Copy: "Wir verbinden regionale Umsetzung mit internationalen Wachstumszielen für skalierende Marken.",
     statsKicker: "Unsere Größe",
     statsTitle: "Gebaut für plattformübergreifenden Creator Commerce",
-    stat1: "Creator-Netzwerk",
-    stat2: "Markenpartner",
-    stat3: "Monatlich gebundener GMV",
+    stat1: "Creator im Netzwerk",
+    stat2: "Vertraute Marken",
+    stat3: "Abdeckung führender Kunden",
     footprintKicker: "Globaler Footprint",
     footprintTitle: "In der Ausführung verwurzelt, mit der Welt verbunden",
     footprintCopy: "Wir verknüpfen Markenstrategie, Creator Communities, Paid Media und Commerce Operations über Märkte hinweg mit Fokus auf messbare Ergebnisse.",
@@ -2576,8 +2621,8 @@ const aboutLabels = {
     location1Copy: "Unterstützung für Kampagnen, Commerce und Creator-Kollaboration aus Guangzhou.",
     location2Title: "Expansion USA",
     location2Copy: "Lokale Kooperationskanäle für Marken, die in den US-Markt eintreten oder dort wachsen.",
-    location3Title: "Globales Creator-Ökosystem",
-    location3Copy: "Ein flexibles Netzwerk für Short Video, Live Commerce, Creator Events und Paid-Social-Wachstum.",
+    location3Title: "Expansion Großbritannien",
+    location3Copy: "Lokale Kooperationskanäle für Marken, die in den britischen Markt eintreten oder dort wachsen.",
     ctaKicker: "Mit Millim arbeiten",
     ctaTitle: "Bereit, Ihre Marke mit der nächsten Zielgruppe zu verbinden?",
     ctaCopy: "Teilen Sie Markt, Kanal und Wachstumsziel. Wir helfen beim Creator- und Media-Pfad.",
@@ -2592,6 +2637,15 @@ const aboutLabels = {
     missionKicker: "Nossa missão",
     missionTitle: "Uma ponte global de crescimento para marcas modernas",
     missionCopy: "Combinamos parcerias com criadores, compra de mídia, planejamento de campanhas e execução de commerce em um sistema prático para acelerar atenção em vendas mensuráveis.",
+    missionMarker1: "SERV",
+    missionMarker2: "EQUIPE",
+    missionMarker3: "CLIENTE",
+    missionPoint1Title: "Serviços full-chain de crescimento global",
+    missionPoint1Copy: "TikTok Ads, ferramentas TTS, marketing global com KOLs, criativos de performance, estratégia de marca e soluções completas de expansão internacional.",
+    missionPoint2Title: "Equipes sênior e recursos de plataforma",
+    missionPoint2Copy: "O time principal reúne 9+ anos em crescimento internacional, com recursos profundos de mídia e criadores no Sudeste Asiático, América do Norte, Latam e Europa.",
+    missionPoint3Title: "1.000+ clientes em grandes categorias",
+    missionPoint3Copy: "Atendemos FMCG, 3C, fashion, lifestyle, DTC, games, fintech, social e utilidades, incluindo 50+ marcas líderes e emergentes.",
     principle1Title: "Crescimento creator-first",
     principle1Copy: "Trabalhamos com criadores que entendem cultura, confiança da audiência e momentos de conversão.",
     principle2Title: "Performance em cada plano",
@@ -2600,9 +2654,9 @@ const aboutLabels = {
     principle3Copy: "Conectamos execução regional com ambições globais para marcas em expansão.",
     statsKicker: "Nossa escala",
     statsTitle: "Criada para creator commerce multiplataforma",
-    stat1: "Rede de criadores",
-    stat2: "Marcas parceiras",
-    stat3: "GMV mensal vinculado",
+    stat1: "Criadores parceiros",
+    stat2: "Marcas atendidas",
+    stat3: "Cobertura dos principais clientes",
     footprintKicker: "Presença global",
     footprintTitle: "Baseada em execução, conectada ao mundo",
     footprintCopy: "Ligamos estratégia de marca, comunidades de criadores, mídia paga e operações de commerce com foco em resultados mensuráveis.",
@@ -2610,8 +2664,8 @@ const aboutLabels = {
     location1Copy: "Suporte a campanhas, commerce e colaboração com criadores a partir de Guangzhou.",
     location2Title: "Expansão nos Estados Unidos",
     location2Copy: "Preparando canais locais para marcas que entram ou crescem no mercado dos EUA.",
-    location3Title: "Ecossistema global de criadores",
-    location3Copy: "Uma rede flexível para vídeo curto, live commerce, eventos com criadores e crescimento em paid social.",
+    location3Title: "Expansão no Reino Unido",
+    location3Copy: "Preparando canais locais para marcas que entram ou crescem no mercado do Reino Unido.",
     ctaKicker: "Trabalhe com a Millim",
     ctaTitle: "Pronto para conectar sua marca ao próximo público?",
     ctaCopy: "Compartilhe mercado, canal e objetivo de crescimento. Vamos ajudar a definir o caminho de criadores e mídia.",
@@ -2626,6 +2680,15 @@ const aboutLabels = {
     missionKicker: "우리의 미션",
     missionTitle: "현대 브랜드를 위한 글로벌 성장 브리지",
     missionCopy: "크리에이터 파트너십, 미디어 바잉, 캠페인 기획, 커머스 실행을 하나의 실용적인 시스템으로 연결해 관심을 측정 가능한 매출로 빠르게 전환합니다.",
+    missionMarker1: "서비스",
+    missionMarker2: "팀",
+    missionMarker3: "고객",
+    missionPoint1Title: "글로벌 성장 풀체인 서비스",
+    missionPoint1Copy: "TikTok 광고, TTS 도구, 글로벌 KOL 콘텐츠 마케팅, 퍼포먼스 크리에이티브, 브랜드 전략, 해외 성장 전 과정을 지원합니다.",
+    missionPoint2Title: "시니어 팀과 플랫폼 리소스",
+    missionPoint2Copy: "핵심 멤버는 9년+ 해외 성장 경험을 보유하고, 동남아, 북미, 라틴아메리카, 유럽의 광고 및 크리에이터 리소스에 깊이 연결되어 있습니다.",
+    missionPoint3Title: "주요 카테고리 1,000+ 고객",
+    missionPoint3Copy: "FMCG, 3C, 패션, 라이프스타일, DTC, 게임, 핀테크, 소셜, 유틸리티를 포함해 50+ 선도 및 신흥 브랜드를 지원합니다.",
     principle1Title: "크리에이터 중심 성장",
     principle1Copy: "문화, 오디언스 신뢰, 전환 순간을 이해하는 크리에이터와 함께 만듭니다.",
     principle2Title: "모든 계획의 퍼포먼스",
@@ -2634,9 +2697,9 @@ const aboutLabels = {
     principle3Copy: "지역 실행력과 브랜드의 국제 성장 목표를 연결합니다.",
     statsKicker: "우리의 규모",
     statsTitle: "크로스 플랫폼 크리에이터 커머스를 위해 설계",
-    stat1: "크리에이터 네트워크",
-    stat2: "브랜드 파트너",
-    stat3: "월간 바인딩 GMV",
+    stat1: "협업 크리에이터",
+    stat2: "신뢰 브랜드",
+    stat3: "주요 고객 커버리지",
     footprintKicker: "글로벌 풋프린트",
     footprintTitle: "실행에 뿌리내리고 세계와 연결",
     footprintCopy: "브랜드 전략, 크리에이터 커뮤니티, 유료 미디어, 커머스 운영을 시장 전반에서 연결하며 측정 가능한 성과에 집중합니다.",
@@ -2644,8 +2707,8 @@ const aboutLabels = {
     location1Copy: "광저우 기반 캠페인, 커머스, 크리에이터 협업 지원.",
     location2Title: "미국 확장",
     location2Copy: "미국 시장에 진입하거나 성장하는 브랜드를 위한 현지 협업 채널 준비.",
-    location3Title: "글로벌 크리에이터 생태계",
-    location3Copy: "숏폼, 라이브 커머스, 크리에이터 이벤트, 유료 소셜 성장을 위한 유연한 네트워크.",
+    location3Title: "영국 시장 확장",
+    location3Copy: "영국 시장에 진입하거나 성장하는 브랜드를 위한 현지 협업 채널 준비.",
     ctaKicker: "Millim과 협업",
     ctaTitle: "브랜드를 다음 오디언스와 연결할 준비가 되셨나요?",
     ctaCopy: "시장, 채널, 성장 목표를 공유해 주세요. 크리에이터와 미디어 성장 경로를 함께 설계합니다.",
@@ -2660,6 +2723,15 @@ const aboutLabels = {
     missionKicker: "مهمتنا",
     missionTitle: "جسر نمو عالمي للعلامات الحديثة",
     missionCopy: "نربط شراكات المبدعين وشراء الوسائط وتخطيط الحملات وتنفيذ التجارة في نظام عملي يحول الانتباه إلى مبيعات قابلة للقياس.",
+    missionMarker1: "خدمة",
+    missionMarker2: "فريق",
+    missionMarker3: "عملاء",
+    missionPoint1Title: "خدمات نمو عالمية شاملة",
+    missionPoint1Copy: "إعلانات TikTok وأدوات TTS وتسويق محتوى KOL عالمي ومواد أداء إبداعية واستراتيجية علامة وحلول كاملة للتوسع الخارجي.",
+    missionPoint2Title: "فرق خبيرة وموارد منصات",
+    missionPoint2Copy: "يمتلك الفريق الأساسي خبرة 9+ سنوات في النمو الخارجي، مع موارد إعلانية ومبدعين في جنوب شرق آسيا وأمريكا الشمالية وأمريكا اللاتينية وأوروبا.",
+    missionPoint3Title: "أكثر من 1,000 عميل عبر الفئات",
+    missionPoint3Copy: "نخدم FMCG و3C والأزياء ونمط الحياة وDTC والألعاب والتقنية المالية والاجتماعي والأدوات، بما في ذلك 50+ علامة رائدة وناشئة.",
     principle1Title: "نمو يبدأ بالمبدعين",
     principle1Copy: "نعمل مع مبدعين يفهمون الثقافة وثقة الجمهور ولحظات التحويل.",
     principle2Title: "الأداء في كل خطة",
@@ -2668,9 +2740,9 @@ const aboutLabels = {
     principle3Copy: "نصل التنفيذ المحلي بطموحات النمو العالمية للعلامات التي تتوسع.",
     statsKicker: "حجمنا",
     statsTitle: "مبني لتجارة المبدعين عبر المنصات",
-    stat1: "شبكة المبدعين",
-    stat2: "شركاء العلامات",
-    stat3: "GMV شهري مرتبط",
+    stat1: "مبدعون متعاونون",
+    stat2: "علامات موثوقة",
+    stat3: "معدل تغطية كبار العملاء",
     footprintKicker: "انتشار عالمي",
     footprintTitle: "راسخون في التنفيذ ومتصلون بالعالم",
     footprintCopy: "نربط استراتيجية العلامة ومجتمعات المبدعين والإعلام المدفوع وعمليات التجارة عبر الأسواق مع تركيز عملي على النتائج.",
@@ -2678,8 +2750,8 @@ const aboutLabels = {
     location1Copy: "دعم الحملات والتجارة وتعاون المبدعين من قوانغتشو.",
     location2Title: "توسع الولايات المتحدة",
     location2Copy: "إعداد قنوات تعاون محلية للعلامات التي تدخل السوق الأمريكي أو تنمو فيه.",
-    location3Title: "نظام مبدعين عالمي",
-    location3Copy: "شبكة مرنة للفيديو القصير والتجارة المباشرة وفعاليات المبدعين ونمو paid social.",
+    location3Title: "توسع سوق المملكة المتحدة",
+    location3Copy: "إعداد قنوات تعاون محلية للعلامات التي تدخل سوق المملكة المتحدة أو تنمو فيه.",
     ctaKicker: "اعمل مع Millim",
     ctaTitle: "هل أنت مستعد لربط علامتك بالجمهور التالي؟",
     ctaCopy: "شارك السوق والقناة وهدف النمو، وسنساعدك في تشكيل مسار المبدعين والإعلام.",
@@ -2694,6 +2766,15 @@ const aboutLabels = {
     missionKicker: "La nostra missione",
     missionTitle: "Un ponte globale di crescita per brand moderni",
     missionCopy: "Uniamo partnership con creator, media buying, pianificazione campagne ed esecuzione commerce in un sistema pratico per passare dall'attenzione a vendite misurabili.",
+    missionMarker1: "SERV",
+    missionMarker2: "TEAM",
+    missionMarker3: "CLIENTI",
+    missionPoint1Title: "Servizi full-chain per la crescita globale",
+    missionPoint1Copy: "TikTok Ads, strumenti TTS, marketing globale con KOL, creatività performance, strategia di brand e soluzioni end-to-end per l'espansione internazionale.",
+    missionPoint2Title: "Team senior e risorse di piattaforma",
+    missionPoint2Copy: "Il team core porta 9+ anni di esperienza overseas, con solide risorse ads e creator in Sud-est asiatico, Nord America, America Latina ed Europa.",
+    missionPoint3Title: "1.000+ clienti nelle categorie chiave",
+    missionPoint3Copy: "Serviamo FMCG, 3C, fashion, lifestyle, DTC, gaming, fintech, social e utility, incluse 50+ marche leader ed emergenti.",
     principle1Title: "Crescita creator-first",
     principle1Copy: "Costruiamo con creator che comprendono cultura, fiducia del pubblico e momenti di conversione.",
     principle2Title: "Performance in ogni piano",
@@ -2702,9 +2783,9 @@ const aboutLabels = {
     principle3Copy: "Colleghiamo l'esecuzione regionale con ambizioni di crescita internazionale.",
     statsKicker: "La nostra scala",
     statsTitle: "Costruita per il creator commerce cross-platform",
-    stat1: "Rete creator",
-    stat2: "Brand partner",
-    stat3: "GMV mensile collegato",
+    stat1: "Creator collaboratori",
+    stat2: "Brand serviti",
+    stat3: "Copertura dei clienti principali",
     footprintKicker: "Presenza globale",
     footprintTitle: "Radicati nell'esecuzione, connessi al mondo",
     footprintCopy: "Colleghiamo strategia di brand, community di creator, paid media e operazioni commerce con focus su risultati misurabili.",
@@ -2712,8 +2793,8 @@ const aboutLabels = {
     location1Copy: "Supporto campagne, commerce e collaborazioni creator da Guangzhou.",
     location2Title: "Espansione negli Stati Uniti",
     location2Copy: "Prepariamo canali locali per brand che entrano o crescono nel mercato USA.",
-    location3Title: "Ecosistema creator globale",
-    location3Copy: "Una rete flessibile per short video, live commerce, eventi creator e crescita paid social.",
+    location3Title: "Espansione nel Regno Unito",
+    location3Copy: "Prepariamo canali locali per brand che entrano o crescono nel mercato britannico.",
     ctaKicker: "Lavora con Millim",
     ctaTitle: "Pronto a collegare il tuo brand al prossimo pubblico?",
     ctaCopy: "Condividi mercato, canale e obiettivo di crescita. Ti aiuteremo a definire il percorso creator e media.",
@@ -2728,6 +2809,15 @@ const aboutLabels = {
     missionKicker: "Notre mission",
     missionTitle: "Un pont de croissance mondial pour les marques modernes",
     missionCopy: "Nous réunissons partenariats créateurs, achat média, planification de campagnes et exécution commerce dans un système pratique pour transformer l'attention en ventes mesurables.",
+    missionMarker1: "SERV",
+    missionMarker2: "ÉQUIPE",
+    missionMarker3: "CLIENT",
+    missionPoint1Title: "Services full-chain de croissance globale",
+    missionPoint1Copy: "TikTok Ads, outils TTS, marketing de contenu KOL mondial, créations performance, stratégie de marque et solutions complètes d'expansion internationale.",
+    missionPoint2Title: "Équipes senior et ressources plateformes",
+    missionPoint2Copy: "L'équipe cœur apporte 9+ ans d'expérience overseas, avec des ressources ads et créateurs en Asie du Sud-Est, Amérique du Nord, Amérique latine et Europe.",
+    missionPoint3Title: "1 000+ clients dans les grandes catégories",
+    missionPoint3Copy: "Nous servons FMCG, 3C, mode, lifestyle, DTC, jeux, fintech, social et outils, dont 50+ marques leaders et émergentes.",
     principle1Title: "Croissance creator-first",
     principle1Copy: "Nous construisons avec des créateurs qui comprennent la culture, la confiance d'audience et les moments de conversion.",
     principle2Title: "Performance dans chaque plan",
@@ -2736,9 +2826,9 @@ const aboutLabels = {
     principle3Copy: "Nous connectons l'exécution régionale aux ambitions internationales des marques.",
     statsKicker: "Notre échelle",
     statsTitle: "Conçu pour le creator commerce multiplateforme",
-    stat1: "Réseau de créateurs",
-    stat2: "Marques partenaires",
-    stat3: "GMV mensuel lié",
+    stat1: "Créateurs partenaires",
+    stat2: "Marques accompagnées",
+    stat3: "Taux de couverture des meilleurs clients",
     footprintKicker: "Présence mondiale",
     footprintTitle: "Ancrés dans l'exécution, connectés au monde",
     footprintCopy: "Nous relions stratégie de marque, communautés créateurs, paid media et opérations commerce avec un focus sur les résultats mesurables.",
@@ -2746,8 +2836,8 @@ const aboutLabels = {
     location1Copy: "Support campagnes, commerce et collaboration créateurs depuis Guangzhou.",
     location2Title: "Expansion aux États-Unis",
     location2Copy: "Préparation de canaux locaux pour les marques entrant ou grandissant sur le marché américain.",
-    location3Title: "Écosystème créateurs global",
-    location3Copy: "Un réseau flexible pour vidéo courte, live commerce, événements créateurs et croissance paid social.",
+    location3Title: "Expansion au Royaume-Uni",
+    location3Copy: "Préparation de canaux locaux pour les marques entrant ou grandissant sur le marché britannique.",
     ctaKicker: "Travailler avec Millim",
     ctaTitle: "Prêt à connecter votre marque à la prochaine audience ?",
     ctaCopy: "Partagez votre marché, canal et objectif de croissance. Nous aiderons à structurer la voie créateurs et média.",
@@ -2762,6 +2852,15 @@ const aboutLabels = {
     missionKicker: "Sứ mệnh",
     missionTitle: "Cầu nối tăng trưởng toàn cầu cho thương hiệu hiện đại",
     missionCopy: "Chúng tôi kết hợp hợp tác creator, mua truyền thông, lập kế hoạch chiến dịch và vận hành commerce trong một hệ thống thực tiễn để chuyển sự chú ý thành doanh số đo lường được.",
+    missionMarker1: "DỊCH VỤ",
+    missionMarker2: "ĐỘI NGŨ",
+    missionMarker3: "KHÁCH",
+    missionPoint1Title: "Dịch vụ tăng trưởng toàn cầu trọn chuỗi",
+    missionPoint1Copy: "TikTok Ads, công cụ TTS, marketing nội dung KOL toàn cầu, creative hiệu quả, chiến lược thương hiệu và giải pháp tăng trưởng overseas end-to-end.",
+    missionPoint2Title: "Đội ngũ senior và tài nguyên nền tảng",
+    missionPoint2Copy: "Nhân sự chủ chốt có 9+ năm kinh nghiệm tăng trưởng overseas, cùng tài nguyên ads và creator tại Đông Nam Á, Bắc Mỹ, Mỹ Latinh và châu Âu.",
+    missionPoint3Title: "1.000+ khách hàng ở nhiều ngành",
+    missionPoint3Copy: "Phục vụ FMCG, 3C, fashion, lifestyle, DTC, game, fintech, social và utility, gồm 50+ thương hiệu dẫn đầu và mới nổi.",
     principle1Title: "Tăng trưởng creator-first",
     principle1Copy: "Chúng tôi làm việc với creator hiểu văn hóa, niềm tin khán giả và khoảnh khắc chuyển đổi.",
     principle2Title: "Hiệu quả trong mọi kế hoạch",
@@ -2770,9 +2869,9 @@ const aboutLabels = {
     principle3Copy: "Chúng tôi kết nối thực thi khu vực với mục tiêu tăng trưởng quốc tế của thương hiệu.",
     statsKicker: "Quy mô",
     statsTitle: "Xây dựng cho creator commerce đa nền tảng",
-    stat1: "Mạng lưới creator",
-    stat2: "Đối tác thương hiệu",
-    stat3: "GMV liên kết hàng tháng",
+    stat1: "Creator hợp tác",
+    stat2: "Thương hiệu tin dùng",
+    stat3: "Tỷ lệ phủ nhóm khách hàng hàng đầu",
     footprintKicker: "Dấu ấn toàn cầu",
     footprintTitle: "Bám sát thực thi, kết nối thế giới",
     footprintCopy: "Chúng tôi liên kết chiến lược thương hiệu, cộng đồng creator, paid media và vận hành commerce với trọng tâm là kết quả kinh doanh đo lường được.",
@@ -2780,8 +2879,8 @@ const aboutLabels = {
     location1Copy: "Hỗ trợ chiến dịch, commerce và hợp tác creator từ Guangzhou.",
     location2Title: "Mở rộng tại Hoa Kỳ",
     location2Copy: "Chuẩn bị kênh hợp tác địa phương cho thương hiệu vào hoặc tăng trưởng tại thị trường Mỹ.",
-    location3Title: "Hệ sinh thái creator toàn cầu",
-    location3Copy: "Mạng lưới linh hoạt cho video ngắn, live commerce, sự kiện creator và tăng trưởng paid social.",
+    location3Title: "Mở rộng thị trường Anh",
+    location3Copy: "Chuẩn bị kênh hợp tác địa phương cho thương hiệu vào hoặc tăng trưởng tại thị trường Anh.",
     ctaKicker: "Làm việc với Millim",
     ctaTitle: "Sẵn sàng kết nối thương hiệu với nhóm khán giả tiếp theo?",
     ctaCopy: "Chia sẻ thị trường, kênh và mục tiêu tăng trưởng. Chúng tôi sẽ giúp định hình lộ trình creator và media.",
@@ -2796,6 +2895,15 @@ const aboutLabels = {
     missionKicker: "พันธกิจของเรา",
     missionTitle: "สะพานการเติบโตระดับโลกสำหรับแบรนด์ยุคใหม่",
     missionCopy: "เรารวมพาร์ทเนอร์ครีเอเตอร์ การซื้อสื่อ การวางแผนแคมเปญ และการทำ commerce ไว้ในระบบเดียว เพื่อเปลี่ยนความสนใจให้เป็นยอดขายที่วัดผลได้",
+    missionMarker1: "บริการ",
+    missionMarker2: "ทีม",
+    missionMarker3: "ลูกค้า",
+    missionPoint1Title: "บริการเติบโตระดับโลกแบบครบวงจร",
+    missionPoint1Copy: "TikTok Ads, เครื่องมือ TTS, การตลาดคอนเทนต์ KOL ระดับโลก, ครีเอทีฟเพื่อผลลัพธ์, กลยุทธ์แบรนด์ และโซลูชันขยายตลาดต่างประเทศครบวงจร",
+    missionPoint2Title: "ทีม senior และทรัพยากรแพลตฟอร์ม",
+    missionPoint2Copy: "ทีมหลักมีประสบการณ์บริการ overseas 9+ ปี พร้อมทรัพยากรโฆษณาและครีเอเตอร์ในเอเชียตะวันออกเฉียงใต้ อเมริกาเหนือ ละตินอเมริกา และยุโรป",
+    missionPoint3Title: "ลูกค้า 1,000+ รายในหลายหมวด",
+    missionPoint3Copy: "ให้บริการ FMCG, 3C, แฟชั่น, lifestyle, DTC, เกม, fintech, social และ utility รวมถึง 50+ แบรนด์ชั้นนำและแบรนด์ใหม่",
     principle1Title: "เติบโตด้วยครีเอเตอร์เป็นหลัก",
     principle1Copy: "เราทำงานกับครีเอเตอร์ที่เข้าใจวัฒนธรรม ความเชื่อใจของผู้ชม และจังหวะการซื้อ",
     principle2Title: "ทุกแผนต้องมีประสิทธิภาพ",
@@ -2804,9 +2912,9 @@ const aboutLabels = {
     principle3Copy: "เราเชื่อมการทำงานในแต่ละภูมิภาคกับเป้าหมายการเติบโตข้ามประเทศของแบรนด์",
     statsKicker: "ขนาดของเรา",
     statsTitle: "สร้างมาเพื่อ creator commerce หลายแพลตฟอร์ม",
-    stat1: "เครือข่ายครีเอเตอร์",
-    stat2: "พาร์ทเนอร์แบรนด์",
-    stat3: "GMV รายเดือนที่เชื่อมต่อ",
+    stat1: "ครีเอเตอร์ร่วมงาน",
+    stat2: "แบรนด์ที่ไว้วางใจ",
+    stat3: "อัตราครอบคลุมลูกค้าชั้นนำ",
     footprintKicker: "การเชื่อมต่อทั่วโลก",
     footprintTitle: "ลงมือจริง และเชื่อมต่อโลก",
     footprintCopy: "เราเชื่อมกลยุทธ์แบรนด์ ชุมชนครีเอเตอร์ paid media และการดำเนินงาน commerce โดยโฟกัสผลลัพธ์ทางธุรกิจที่วัดได้",
@@ -2814,8 +2922,8 @@ const aboutLabels = {
     location1Copy: "สนับสนุนแคมเปญ commerce และความร่วมมือครีเอเตอร์จาก Guangzhou",
     location2Title: "การขยายในสหรัฐฯ",
     location2Copy: "เตรียมช่องทางความร่วมมือท้องถิ่นสำหรับแบรนด์ที่เข้าสู่หรือเติบโตในตลาดสหรัฐฯ",
-    location3Title: "ระบบนิเวศครีเอเตอร์ทั่วโลก",
-    location3Copy: "เครือข่ายยืดหยุ่นสำหรับวิดีโอสั้น live commerce อีเวนต์ครีเอเตอร์ และ paid social growth",
+    location3Title: "การขยายตลาดสหราชอาณาจักร",
+    location3Copy: "เตรียมช่องทางความร่วมมือท้องถิ่นสำหรับแบรนด์ที่เข้าสู่หรือเติบโตในตลาดสหราชอาณาจักร",
     ctaKicker: "ร่วมงานกับ Millim",
     ctaTitle: "พร้อมเชื่อมแบรนด์ของคุณกับผู้ชมกลุ่มถัดไปหรือยัง?",
     ctaCopy: "แชร์ตลาด ช่องทาง และเป้าหมายการเติบโตของคุณ แล้วเราจะช่วยวางเส้นทาง creator และ media",
@@ -2830,6 +2938,15 @@ const aboutLabels = {
     missionKicker: "Misi kami",
     missionTitle: "Jambatan pertumbuhan global untuk jenama moden",
     missionCopy: "Kami menggabungkan kerjasama pencipta, pembelian media, perancangan kempen dan pelaksanaan commerce dalam satu sistem praktikal untuk menukar perhatian kepada jualan terukur.",
+    missionMarker1: "SERVIS",
+    missionMarker2: "PASUKAN",
+    missionMarker3: "KLIEN",
+    missionPoint1Title: "Servis pertumbuhan global hujung ke hujung",
+    missionPoint1Copy: "TikTok Ads, alat TTS, pemasaran kandungan KOL global, kreatif prestasi, strategi jenama dan penyelesaian lengkap untuk pertumbuhan luar negara.",
+    missionPoint2Title: "Pasukan senior dan sumber platform",
+    missionPoint2Copy: "Ahli teras membawa 9+ tahun pengalaman overseas, dengan sumber iklan dan pencipta di Asia Tenggara, Amerika Utara, Amerika Latin dan Eropah.",
+    missionPoint3Title: "1,000+ klien merentas kategori utama",
+    missionPoint3Copy: "Kami menyokong FMCG, 3C, fesyen, lifestyle, DTC, permainan, fintech, sosial dan utiliti, termasuk 50+ jenama terkemuka dan baharu.",
     principle1Title: "Pertumbuhan berpaksikan pencipta",
     principle1Copy: "Kami membina bersama pencipta yang memahami budaya, kepercayaan audiens dan detik penukaran.",
     principle2Title: "Prestasi dalam setiap pelan",
@@ -2838,9 +2955,9 @@ const aboutLabels = {
     principle3Copy: "Kami menghubungkan pelaksanaan serantau dengan cita-cita pertumbuhan antarabangsa jenama.",
     statsKicker: "Skala kami",
     statsTitle: "Dibina untuk creator commerce merentas platform",
-    stat1: "Rangkaian pencipta",
-    stat2: "Rakan jenama",
-    stat3: "GMV bulanan terikat",
+    stat1: "Pencipta kerjasama",
+    stat2: "Jenama percaya",
+    stat3: "Kadar liputan pelanggan utama",
     footprintKicker: "Jejak global",
     footprintTitle: "Berakar pada pelaksanaan, terhubung ke dunia",
     footprintCopy: "Kami menghubungkan strategi jenama, komuniti pencipta, paid media dan operasi commerce dengan fokus pada hasil perniagaan yang boleh diukur.",
@@ -2848,8 +2965,8 @@ const aboutLabels = {
     location1Copy: "Sokongan kempen, commerce dan kolaborasi pencipta dari Guangzhou.",
     location2Title: "Pengembangan Amerika Syarikat",
     location2Copy: "Menyediakan saluran kolaborasi tempatan untuk jenama yang masuk atau berkembang di pasaran AS.",
-    location3Title: "Ekosistem pencipta global",
-    location3Copy: "Rangkaian fleksibel untuk video pendek, live commerce, acara pencipta dan pertumbuhan paid social.",
+    location3Title: "Pengembangan pasaran United Kingdom",
+    location3Copy: "Menyediakan saluran kolaborasi tempatan untuk jenama yang masuk atau berkembang di pasaran UK.",
     ctaKicker: "Bekerja dengan Millim",
     ctaTitle: "Sedia menghubungkan jenama anda kepada audiens seterusnya?",
     ctaCopy: "Kongsikan pasaran, saluran dan matlamat pertumbuhan anda. Kami akan bantu membentuk laluan pencipta dan media.",
@@ -2864,6 +2981,15 @@ const aboutLabels = {
     missionKicker: "Misi kami",
     missionTitle: "Jembatan pertumbuhan global untuk brand modern",
     missionCopy: "Kami menggabungkan kemitraan kreator, media buying, perencanaan kampanye, dan eksekusi commerce dalam satu sistem praktis agar brand bergerak cepat dari perhatian audiens ke penjualan terukur.",
+    missionMarker1: "SERVIS",
+    missionMarker2: "TIM",
+    missionMarker3: "KLIEN",
+    missionPoint1Title: "Layanan pertumbuhan global end-to-end",
+    missionPoint1Copy: "TikTok Ads, alat TTS, pemasaran konten KOL global, creative performance, strategi brand, dan solusi lengkap untuk pertumbuhan overseas.",
+    missionPoint2Title: "Tim senior dan resource platform",
+    missionPoint2Copy: "Anggota inti memiliki 9+ tahun pengalaman overseas, dengan resource ads dan kreator di Asia Tenggara, Amerika Utara, Amerika Latin, dan Eropa.",
+    missionPoint3Title: "1.000+ klien di kategori utama",
+    missionPoint3Copy: "Melayani FMCG, 3C, fashion, lifestyle, DTC, game, fintech, social, dan utility, termasuk 50+ brand terkemuka dan brand baru.",
     principle1Title: "Pertumbuhan berbasis kreator",
     principle1Copy: "Kami membangun bersama kreator yang memahami budaya, kepercayaan audiens, dan momen konversi.",
     principle2Title: "Performance di setiap rencana",
@@ -2872,9 +2998,9 @@ const aboutLabels = {
     principle3Copy: "Kami menghubungkan eksekusi regional dengan ambisi pertumbuhan internasional brand.",
     statsKicker: "Skala kami",
     statsTitle: "Dibangun untuk creator commerce lintas platform",
-    stat1: "Jaringan kreator",
-    stat2: "Partner brand",
-    stat3: "GMV bulanan terikat",
+    stat1: "Kreator kolaborasi",
+    stat2: "Brand percaya",
+    stat3: "Tingkat cakupan pelanggan utama",
     footprintKicker: "Jejak global",
     footprintTitle: "Berakar pada eksekusi, terhubung ke dunia",
     footprintCopy: "Kami menghubungkan strategi brand, komunitas kreator, paid media, dan operasi commerce dengan fokus pada hasil bisnis yang terukur.",
@@ -2882,8 +3008,8 @@ const aboutLabels = {
     location1Copy: "Dukungan kampanye, commerce, dan kolaborasi kreator dari Guangzhou.",
     location2Title: "Ekspansi Amerika Serikat",
     location2Copy: "Menyiapkan kanal kolaborasi lokal untuk brand yang masuk atau tumbuh di pasar AS.",
-    location3Title: "Ekosistem kreator global",
-    location3Copy: "Jaringan fleksibel untuk video pendek, live commerce, event kreator, dan pertumbuhan paid social.",
+    location3Title: "Ekspansi pasar Inggris",
+    location3Copy: "Menyiapkan kanal kolaborasi lokal untuk brand yang masuk atau tumbuh di pasar Inggris.",
     ctaKicker: "Bekerja dengan Millim",
     ctaTitle: "Siap menghubungkan brand Anda ke audiens berikutnya?",
     ctaCopy: "Bagikan pasar, kanal, dan tujuan pertumbuhan Anda. Kami akan membantu membentuk jalur kreator dan media.",
@@ -2936,17 +3062,17 @@ Object.entries(casesPageRows).forEach(([lang, values]) => {
 });
 
 const casesOrbitOverrides = {
-  en: { orbitTitle: "Case Studies", orbitSubtitle: "Brands/E-Commerce<br />Apps/Games" },
+  en: { orbitTitle: "Case Studies", orbitSubtitle: "Brands/E-Commerce<br />apps/games" },
   zh: { orbitTitle: "案例研究", orbitSubtitle: "品牌/电商<br />应用/游戏" },
   zhHant: { orbitTitle: "案例研究", orbitSubtitle: "品牌/電商<br />應用/遊戲" },
-  es: { orbitTitle: "Casos de estudio", orbitSubtitle: "Marcas/E-commerce<br />Apps/Juegos" },
+  es: { orbitTitle: "Casos de estudio", orbitSubtitle: "Marcas/E-commerce<br />apps/Juegos" },
   ja: { orbitTitle: "事例紹介", orbitSubtitle: "ブランド/EC<br />アプリ/ゲーム" },
-  de: { orbitTitle: "Fallstudien", orbitSubtitle: "Marken/E-Commerce<br />Apps/Games" },
+  de: { orbitTitle: "Fallstudien", orbitSubtitle: "Marken/E-Commerce<br />apps/games" },
   pt: { orbitTitle: "Estudos de caso", orbitSubtitle: "Marcas/E-commerce<br />Apps/Jogos" },
   ko: { orbitTitle: "사례 연구", orbitSubtitle: "브랜드/E-Commerce<br />앱/게임" },
   ar: { orbitTitle: "دراسات حالة", orbitSubtitle: "علامات/تجارة إلكترونية<br />تطبيقات/ألعاب" },
   it: { orbitTitle: "Case study", orbitSubtitle: "Brand/E-commerce<br />App/Giochi" },
-  fr: { orbitTitle: "Cas clients", orbitSubtitle: "Marques/E-commerce<br />Apps/Jeux" },
+  fr: { orbitTitle: "Cas clients", orbitSubtitle: "Marques/E-commerce<br />apps/Jeux" },
   vi: { orbitTitle: "Case Study", orbitSubtitle: "Thương hiệu/TMĐT<br />Ứng dụng/Game" },
   th: { orbitTitle: "กรณีศึกษา", orbitSubtitle: "แบรนด์/E-Commerce<br />แอป/เกม" },
   ms: { orbitTitle: "Kajian kes", orbitSubtitle: "Jenama/E-commerce<br />Aplikasi/Game" },
@@ -2956,6 +3082,35 @@ const casesOrbitOverrides = {
 Object.entries(casesOrbitOverrides).forEach(([lang, override]) => {
   if (!translations[lang]) return;
   translations[lang].cases = mergeLanguage(translations[lang].cases || {}, override);
+});
+
+const casesShowcaseOverrides = {
+  en: { showcaseTitle: "Selected work across commerce, app, and games" },
+  zh: { showcaseTitle: "精选电商、app 与游戏项目" },
+  zhHant: { showcaseTitle: "精選電商、app 與遊戲專案" },
+  es: { showcaseTitle: "Trabajos seleccionados en commerce, app y games" },
+  ja: { showcaseTitle: "コマース、app、games の厳選事例" },
+  de: { showcaseTitle: "Ausgewählte Arbeit in Commerce, app und games" },
+  pt: { showcaseTitle: "Trabalhos selecionados em commerce, app e games" },
+  ko: { showcaseTitle: "커머스, app, games 대표 프로젝트" },
+  ar: { showcaseTitle: "أعمال مختارة في التجارة و app و games" },
+  it: { showcaseTitle: "Lavori selezionati tra commerce, app e games" },
+  fr: { showcaseTitle: "Travaux sélectionnés en commerce, app et games" },
+  vi: { showcaseTitle: "Dự án chọn lọc về commerce, app và games" },
+  th: { showcaseTitle: "งานคัดสรรใน commerce, app และ games" },
+  ms: { showcaseTitle: "Kerja terpilih merentas commerce, app dan games" },
+  id: { showcaseTitle: "Karya pilihan di commerce, app, dan games" },
+};
+
+Object.entries(casesShowcaseOverrides).forEach(([lang, override]) => {
+  if (!translations[lang]) return;
+  translations[lang].cases = mergeLanguage(translations[lang].cases || {}, {
+    filterAll: "ALL",
+    filterCreator: "E-Commerce",
+    filterAds: "app",
+    filterCommerce: "game",
+    ...override,
+  });
 });
 
 const contentPageKeys = [
@@ -3066,6 +3221,913 @@ Object.entries(localizedContentPageRows).forEach(([lang, pages]) => {
       return labels;
     }, {});
   });
+});
+
+const creatorSolutionDetailKeys = [
+  "metaTitle", "heroKicker", "heroTitle", "heroCopy",
+  "painKicker", "painTitle", "pill1", "pill2", "pill3",
+  "pain1", "pain2", "pain3",
+  "answer1Title", "answer1Copy", "answer2Title", "answer2Copy", "answer3Title", "answer3Copy",
+  "capabilityKicker", "capabilityTitle", "capabilityCopy",
+  "capability1Title", "capability1Copy", "capability2Title", "capability2Copy",
+  "capability3Title", "capability3Copy", "capability4Title", "capability4Copy",
+  "benchmarkKicker", "benchmarkTitle", "benchmarkMetric",
+  "metric1", "metric2", "metric3", "metric4", "metric5", "metric6", "metric7",
+  "metric3Millim", "metric3Others", "metric5Millim", "metric5Others", "metric6Millim", "metric6Others", "metric7Millim", "metric7Others",
+  "sopKicker", "sopTitle",
+  "sop1Title", "sop1Item1", "sop1Item2",
+  "sop2Title", "sop2Item1", "sop2Item2", "sop2Item3", "sop2Item4",
+  "sop3Title", "sop3Item1", "sop3Item2",
+  "sop4Title", "sop4Item1", "sop4Item2", "sop4Item3",
+  "ctaKicker", "ctaTitle", "ctaCopy", "ctaButton",
+];
+
+const creatorSolutionDetailRows = {
+  en: ["Millim | Integrated Creator Solution", "Creator Solution", "Integrated Creator Solution", "From creator screening, content ideas, multi-platform distribution to data review, we provide an integrated strategy + resources + execution solution for brand cold starts and sustained growth.", "Brand Pain Points and Millim Solutions", "Complete the creator seeding chain with brand thinking, high-potential resources, and a dedicated team", "Brand thinking", "High-potential resources", "Dedicated team", "Brand pain point: stuck in sales-led seeding logic and unable to increase influence through brand-building promotion.", "Brand pain point: resource barriers make it hard to collaborate with top overseas IPs.", "Brand pain point: non-dedicated teams slow execution, causing delivery to drift far from expectations.", "Brand thinking", "Our core team brings international 4A and overseas marketing experience, and can tailor brand-and-performance strategies to each brand.", "High-potential resources", "We hold first-tier North American celebrity, artist, and IP resources, with proven execution experience that feeds brand equity.", "Dedicated team", "We configure dedicated project teams to avoid delays and communication gaps caused by multi-project handoffs.", "Service Capability", "Full-coverage creator resources and full-chain professional service", "100k+ global KOL resources across North America, Europe, Southeast Asia, and other markets, precisely matching beauty, baby, 3C, and more vertical creators, including celebrities, KOLs, and KOCs.", "Full-coverage creator resources", "100k+ global KOL resources across North America, Europe, Southeast Asia, and other markets, precisely matching beauty, baby, 3C, and other vertical creators with celebrity/KOL/KOC matrices.", "Full-chain professional service", "From creator screening, content ideas, multi-platform distribution to data review, we provide an integrated strategy + resources + execution solution for cold starts and sustained growth.", "Localized deep operations", "Customize content strategy by regional culture, from story-led seeding in Europe and the US to unboxing scenarios in Southeast Asia, linking short video, live, and PR moments into full-funnel bursts.", "Innovation DNA + agile response", "4A-level strategic depth with startup flexibility, fast delivery for celebrity collaborations and holiday promotions, and 7/24 cross-time-zone response.", "Efficiency Benchmark", "Creator delivery efficiency and service depth comparison", "Metric", "Creator delivery rate", "Creator contract fulfillment rate", "Creator list proposal time", "Creator list matching accuracy", "Creator signing time", "Creator response time", "Customized creator ideas", "1 business day", "5 business days", "2 business days", "7 business days", "within 12 hours", "72 hours", "Yes", "No", "Creator Service SOP", "Strategy and preparation, list confirmation, execution and review, recap and value growth", "Strategy and Preparation", "<strong>Clarify strategy:</strong> Confirm product-stage goals and creator types.", "<strong>Brief co-creation:</strong> Align core selling points and content direction with the brand.", "List Confirmation", "<strong>Batch outreach:</strong> Reach creators across platforms based on creator profiles.", "<strong>Dynamic proposal and filtering:</strong> Submit in batches and adjust direction based on feedback.", "<strong>Backup list reserve:</strong> Prepare 25% extra names in advance as backup.", "<strong>Signing and slot locking:</strong> Sign contracts and confirm script direction and timing with every creator.", "Execution and Review", "<strong>Confirm details:</strong> After samples are received, confirm scripts and shooting requirements with creators.", "<strong>Pre-review and publishing:</strong> Review first drafts and publish final videos at the agreed time after approval.", "Recap and Value Growth", "<strong>Collect data:</strong> After publishing, collect links, boosted videos, and 7-14 day core data.", "<strong>Amplify value:</strong> Build long-term partnerships with high-conversion creators.", "<strong>Summarize and iterate:</strong> Complete the closing report, summarize learnings, and guide the next-stage strategy.", "Creator Seeding Growth", "Ready to build your creator seeding system?", "Tell us your product stage, target market, and growth needs. Millim will configure strategy, resources, and execution around your brand goals.", "BOOK A FREE CALL"],
+  zh: ["Millim | 达人一体化解决方案", "达人解决方案", "达人一体化解决方案", "从达人筛选、内容创意、多平台分发到数据复盘，提供“策略+资源+执行”一体化解决方案，助力品牌0到1冷启动及长效增长。", "品牌痛点与 Millim 解决方案", "用品牌思维、高势能资源和专项团队补齐达人种草链路", "品牌思维", "高势能资源", "专项团队", "品牌痛点：因于带货种草思维，难以借助品牌化推广手段提升影响力", "品牌痛点：因于资源壁垒，难与海外顶流IP达成破圈合作", "品牌痛点：非专项团队对接致推进卡顿，落地执行与预期严重脱钩", "品牌思维", "主创汇集国际4A和出海营销人才，有丰富的整合营销项目经验，可根据品牌需求定制品效合一的推广策略。", "高势能资源", "手握北美一线明星、艺术家、IP资源，并已积累落地实施的经验，能借力高势能资源反哺品牌力。", "专项团队", "按照项目需求配置专项团队，规避由于多项目进行造成的延误、沟通错位等情况。", "服务能力", "达人资源全域覆盖，全链路专业服务", "10w+全球KOL资源，覆盖北美、欧洲、东南亚等全球市场，精准匹配美妆、母婴、3C等垂类达人，含明星/KOL/KOC全矩阵资源。", "达人资源全域覆盖", "10w+全球KOL资源，覆盖北美、欧洲、东南亚等全球市场，精准匹配美妆、母婴、3C等垂类达人，含明星/KOL/KOC全矩阵资源", "全链路专业服务", "从达人筛选、内容创意、多平台分发到数据复盘，提供“策略+资源+执行”一体化解决方案，助力品牌0到1冷启动及长效增长", "本地化深度运营", "结合区域文化定制内容策略（如欧美剧情化种草、东南亚场景开箱），联动短视频、直播、PR事件打造全域爆点，单项目曝光破亿", "创新基因+敏捷响应", "兼具4A级策略深度与初创公司灵活性，极速落地明星联名、节日大促等高复杂度项目；擅长跨时区沟通，7/24在线响应。", "效率对比", "达人交付效率与服务深度对比", "指标", "达人交付率", "达人履约率", "达人list提报用时", "达人list适配度", "达人签约用时", "达人响应用时", "定制化达人创意", "1个工作日", "5个工作日", "2个工作日", "7个工作日", "12小时内", "72小时", "有", "无", "达人服务SOP", "策略与筹备、名单确认、执行与审核、复盘与增值", "策略与筹备", "<strong>明确策略：</strong>确认产品阶段目标与达人类型。", "<strong>Brief共创：</strong>与品牌方对齐核心卖点与内容方向。", "名单确认", "<strong>批量触达：</strong>根据达人画像进行多平台触达。", "<strong>动态提报与筛选：</strong>分批提报，根据反馈动态调整提报方向。", "<strong>Backup名单储备：</strong>提前储备25%名单作为backup。", "<strong>签约锁档：</strong>签订合同，并与每位达人确认脚本方向与档期。", "执行与审核", "<strong>确认细节：</strong>样品签收后，与达人最终确认脚本与拍摄要求。", "<strong>预审发布：</strong>实行视频初稿预审，终稿审核通过后按约定时间发布。", "复盘与增值", "<strong>回收数据：</strong>发布后回收链接、加热视频及7-14日核心数据。", "<strong>放大价值：</strong>与高转化达人建立长期合作。", "<strong>总结迭代：</strong>完成结案报告，总结经验并指导下一阶段策略。", "达人种草增长", "准备搭建你的达人种草体系了吗？", "告诉我们你的产品阶段、目标市场和增长需求，Millim 会围绕品牌目标配置策略、资源和执行方案。", "预约免费通话"],
+  es: ["Millim | Solución integral para creadores", "Solución para creadores", "Solución integral para creadores", "Desde selección de creadores, ideas de contenido, distribución multiplataforma hasta revisión de datos, ofrecemos una solución integrada de estrategia + recursos + ejecución para arranques de marca y crecimiento sostenido.", "Dolores de marca y soluciones Millim", "Completa la cadena de seeding con pensamiento de marca, recursos de alto potencial y equipo dedicado", "Pensamiento de marca", "Recursos de alto potencial", "Equipo dedicado", "Dolor de marca: lógica de seeding centrada en venta que dificulta elevar influencia con promoción de marca.", "Dolor de marca: las barreras de recursos dificultan colaborar con IPs top en el extranjero.", "Dolor de marca: equipos no dedicados ralentizan la ejecución y alejan la entrega de lo esperado.", "Pensamiento de marca", "Nuestro equipo reúne talento de 4A internacional y marketing overseas, con experiencia para diseñar estrategias de marca y performance.", "Recursos de alto potencial", "Contamos con celebridades, artistas e IPs de primer nivel en Norteamérica y experiencia de ejecución para reforzar la marca.", "Equipo dedicado", "Configuramos equipos dedicados por proyecto para evitar retrasos y desalineación de comunicación.", "Capacidad de servicio", "Recursos creator de cobertura completa y servicio profesional end-to-end", "100k+ recursos KOL globales en Norteamérica, Europa, Sudeste Asiático y más mercados, con match preciso por verticales como belleza, bebé y 3C, incluyendo celebridades, KOL y KOC.", "Recursos creator de cobertura completa", "100k+ recursos KOL globales con cobertura en mercados clave y matrices de celebridades/KOL/KOC.", "Servicio profesional end-to-end", "De selección de creadores a contenido, distribución y revisión de datos, entregamos estrategia + recursos + ejecución.", "Operación localizada profunda", "Adaptamos la estrategia por cultura regional y conectamos short video, live y PR para crear picos de alcance full-funnel.", "ADN innovador + respuesta ágil", "Profundidad 4A con flexibilidad startup, entrega rápida para colaboraciones complejas y respuesta 7/24 entre zonas horarias.", "Benchmark de eficiencia", "Comparación de eficiencia de entrega y profundidad de servicio", "Indicador", "Tasa de entrega creator", "Tasa de cumplimiento creator", "Tiempo para proponer lista", "Precisión de match de lista", "Tiempo de firma creator", "Tiempo de respuesta creator", "Ideas creator personalizadas", "1 día hábil", "5 días hábiles", "2 días hábiles", "7 días hábiles", "en 12 horas", "72 horas", "Sí", "No", "SOP de servicio creator", "Estrategia y preparación, confirmación de lista, ejecución y revisión, recap y valor", "Estrategia y preparación", "<strong>Clarificar estrategia:</strong> Confirmar objetivos por etapa de producto y tipos de creator.", "<strong>Co-crear brief:</strong> Alinear puntos clave y dirección de contenido con la marca.", "Confirmación de lista", "<strong>Contacto por lotes:</strong> Contactar creators en varias plataformas según el perfil.", "<strong>Propuesta y filtro dinámicos:</strong> Enviar por lotes y ajustar según feedback.", "<strong>Lista backup:</strong> Preparar 25% de nombres extra como backup.", "<strong>Firma y bloqueo de agenda:</strong> Firmar contratos y confirmar guion y fechas con cada creator.", "Ejecución y revisión", "<strong>Confirmar detalles:</strong> Tras recibir muestras, confirmar guion y requisitos de grabación.", "<strong>Pre-revisión y publicación:</strong> Revisar borradores y publicar final aprobado en el horario acordado.", "Recap y valor", "<strong>Recoger datos:</strong> Tras publicar, recoger links, videos impulsados y datos core de 7-14 días.", "<strong>Amplificar valor:</strong> Construir cooperación a largo plazo con creators de alta conversión.", "<strong>Resumir e iterar:</strong> Completar informe final y guiar la siguiente estrategia.", "Crecimiento con creator seeding", "¿Listo para construir tu sistema de creator seeding?", "Cuéntanos etapa de producto, mercado objetivo y necesidades de crecimiento. Millim configurará estrategia, recursos y ejecución.", "RESERVAR LLAMADA"],
+  ja: ["Millim | 統合型クリエイターソリューション", "クリエイターソリューション", "統合型クリエイターソリューション", "クリエイター選定、コンテンツ企画、複数プラットフォーム配信、データ振り返りまで、戦略 + リソース + 実行の一体型ソリューションでブランドの立ち上げと継続成長を支援します。", "ブランド課題と Millim の解決策", "ブランド思考、高いポテンシャルのリソース、専任チームでシーディングの流れを補完", "ブランド思考", "高ポテンシャルリソース", "専任チーム", "ブランド課題：販売寄りのシーディング思考に偏り、ブランド施策で影響力を高めにくい。", "ブランド課題：リソースの壁により、海外トップIPとの協業が難しい。", "ブランド課題：専任でないチーム対応により進行が滞り、実行と期待がずれる。", "ブランド思考", "国際4Aと海外マーケティング人材を中心に、ブランドと成果を両立する戦略を設計します。", "高ポテンシャルリソース", "北米の一線級セレブ、アーティスト、IPリソースと実行経験でブランド力に還元します。", "専任チーム", "プロジェクト要件に応じて専任チームを組み、遅延やコミュニケーションずれを避けます。", "サービス能力", "全域クリエイターリソースとフルチェーン専門サービス", "10万+のグローバルKOLリソースで北米、欧州、東南アジアなどをカバーし、美容、ベビー、3Cなどの垂直領域に精密マッチングします。", "全域クリエイターリソース", "10万+のグローバルKOLリソースとセレブ/KOL/KOCのマトリクスで主要市場をカバーします。", "フルチェーン専門サービス", "選定、企画、配信、データ振り返りまで、戦略 + リソース + 実行を一体で提供します。", "ローカライズ深度運用", "地域文化に合わせた内容設計で、短尺動画、ライブ、PRを連動し全域で話題化します。", "革新性 + 機敏な対応", "4A級の戦略深度とスタートアップの柔軟性で、複雑な案件にも7/24で迅速対応します。", "効率比較", "クリエイター納品効率とサービス深度の比較", "指標", "クリエイター納品率", "クリエイター履行率", "リスト提案時間", "リスト適合度", "契約所要時間", "返信所要時間", "カスタムクリエイティブ", "1営業日", "5営業日", "2営業日", "7営業日", "12時間以内", "72時間", "あり", "なし", "クリエイターサービスSOP", "戦略準備、リスト確認、実行と審査、振り返りと価値化", "戦略と準備", "<strong>戦略を明確化：</strong>商品段階の目標とクリエイタータイプを確認。", "<strong>Brief共創：</strong>ブランドと主要訴求点、内容方向をすり合わせ。", "リスト確認", "<strong>一括アプローチ：</strong>クリエイター像に基づき複数平台で接触。", "<strong>動的提案と選別：</strong>分割提案し、フィードバックで方向を調整。", "<strong>Backupリスト：</strong>25%分の候補を事前に確保。", "<strong>契約と枠確保：</strong>契約し、各クリエイターと脚本方向と日程を確認。", "実行と審査", "<strong>詳細確認：</strong>サンプル受領後、脚本と撮影要件を最終確認。", "<strong>事前審査と公開：</strong>初稿を審査し、最終稿承認後に予定時刻で公開。", "振り返りと価値化", "<strong>データ回収：</strong>公開後リンク、加熱動画、7-14日の主要データを回収。", "<strong>価値拡大：</strong>高転換クリエイターと長期協業を構築。", "<strong>総括と改善：</strong>完了レポートを作成し、次段階の戦略を導く。", "クリエイターシーディング成長", "クリエイターシーディング体制を構築しますか？", "商品段階、対象市場、成長ニーズを共有してください。Millimが戦略、リソース、実行を設計します。", "無料相談を予約"],
+};
+
+Object.assign(creatorSolutionDetailRows, {
+  de: ["Millim | Integrierte Creator-Lösung", "Creator-Lösung", "Integrierte Creator-Lösung", "Von Creator-Auswahl, Content-Ideen und Multi-Plattform-Verteilung bis zur Datenauswertung liefern wir Strategie + Ressourcen + Umsetzung für Markenstart und nachhaltiges Wachstum.", "Markenprobleme und Millim-Lösungen", "Die Creator-Seeding-Kette mit Markenlogik, starken Ressourcen und dediziertem Team schließen", "Markendenken", "Starke Ressourcen", "Dediziertes Team", "Markenproblem: Zu starke Sales-Seeding-Logik erschwert den Aufbau von Markeneinfluss.", "Markenproblem: Ressourcenbarrieren erschweren Kooperationen mit führenden IPs im Ausland.", "Markenproblem: Nicht dedizierte Teams bremsen die Umsetzung und entfernen Ergebnisse von Erwartungen.", "Markendenken", "Unser Kernteam vereint internationale 4A- und Overseas-Marketing-Erfahrung für marken- und performanceorientierte Strategien.", "Starke Ressourcen", "Wir verfügen über erstklassige nordamerikanische Celebrities, Artists und IP-Ressourcen sowie Umsetzungserfahrung.", "Dediziertes Team", "Wir stellen projektbezogene Teams zusammen, um Verzögerungen und Kommunikationsverluste zu vermeiden.", "Servicefähigkeit", "Creator-Ressourcen mit Vollabdeckung und professioneller Full-Chain-Service", "100k+ globale KOL-Ressourcen in Nordamerika, Europa, Südostasien und weiteren Märkten, präzise passend für Beauty, Baby, 3C und mehr.", "Creator-Ressourcen mit Vollabdeckung", "100k+ globale KOL-Ressourcen mit Celebrity/KOL/KOC-Matrix für wichtige Märkte.", "Professioneller Full-Chain-Service", "Auswahl, Content, Verteilung und Datenreview als integrierte Strategie + Ressourcen + Umsetzung.", "Lokalisierte Tiefenoperation", "Content-Strategien nach regionaler Kultur, verbunden mit Short Video, Live und PR für Full-Funnel-Spitzen.", "Innovations-DNA + agile Reaktion", "4A-Strategietiefe mit Startup-Flexibilität, schnelle Umsetzung komplexer Projekte und 7/24-Reaktion über Zeitzonen.", "Effizienzvergleich", "Vergleich von Creator-Lieferung und Servicetiefe", "Kennzahl", "Creator-Lieferquote", "Creator-Erfüllungsquote", "Zeit für Creator-Liste", "Passgenauigkeit der Liste", "Zeit bis Vertragsabschluss", "Creator-Reaktionszeit", "Individuelle Creator-Ideen", "1 Arbeitstag", "5 Arbeitstage", "2 Arbeitstage", "7 Arbeitstage", "innerhalb von 12 Stunden", "72 Stunden", "Ja", "Nein", "Creator-Service-SOP", "Strategie und Vorbereitung, Listenbestätigung, Umsetzung und Prüfung, Review und Wertsteigerung", "Strategie und Vorbereitung", "<strong>Strategie klären:</strong> Produktphasen-Ziele und Creator-Typen bestätigen.", "<strong>Brief gemeinsam erstellen:</strong> Kernbotschaften und Content-Richtung mit der Marke abstimmen.", "Listenbestätigung", "<strong>Outreach in Batches:</strong> Creator über Plattformen nach Profil ansprechen.", "<strong>Dynamische Vorschläge und Auswahl:</strong> In Batches vorlegen und nach Feedback anpassen.", "<strong>Backup-Liste:</strong> 25% zusätzliche Namen vorab vorbereiten.", "<strong>Vertrag und Slot sichern:</strong> Verträge abschließen und Skript sowie Timing mit jedem Creator bestätigen.", "Umsetzung und Prüfung", "<strong>Details bestätigen:</strong> Nach Mustereingang Skript und Drehvorgaben final abstimmen.", "<strong>Vorprüfung und Veröffentlichung:</strong> Erstfassung prüfen und finale Videos nach Freigabe planmäßig veröffentlichen.", "Review und Wertsteigerung", "<strong>Daten sammeln:</strong> Nach Veröffentlichung Links, geboostete Videos und 7-14-Tage-Kerndaten sammeln.", "<strong>Wert steigern:</strong> Langfristige Zusammenarbeit mit hoch konvertierenden Creators aufbauen.", "<strong>Zusammenfassen und iterieren:</strong> Abschlussbericht erstellen und nächste Strategie ableiten.", "Creator-Seeding-Wachstum", "Bereit für Ihr Creator-Seeding-System?", "Teilen Sie Produktphase, Zielmarkt und Wachstumsbedarf. Millim konfiguriert Strategie, Ressourcen und Umsetzung.", "CALL BUCHEN"],
+  pt: ["Millim | Solução integrada para criadores", "Solução para criadores", "Solução integrada para criadores", "Da seleção de criadores, ideias de conteúdo e distribuição multiplataforma à revisão de dados, entregamos estratégia + recursos + execução para cold start e crescimento contínuo.", "Dores da marca e soluções Millim", "Completar a cadeia de seeding com pensamento de marca, recursos de alta potência e equipe dedicada", "Pensamento de marca", "Recursos de alta potência", "Equipe dedicada", "Dor da marca: a lógica de seeding focada em venda dificulta elevar influência com promoção de marca.", "Dor da marca: barreiras de recursos dificultam parceria com IPs globais de topo.", "Dor da marca: equipes não dedicadas travam a execução e afastam a entrega da expectativa.", "Pensamento de marca", "Nosso time une talentos 4A internacionais e marketing overseas para estratégias de marca e performance.", "Recursos de alta potência", "Temos celebridades, artistas e IPs de primeira linha na América do Norte, com experiência prática de execução.", "Equipe dedicada", "Montamos equipes dedicadas por projeto para evitar atrasos e desalinhamento de comunicação.", "Capacidade de serviço", "Recursos creator de cobertura total e serviço profissional full-chain", "100k+ recursos KOL globais cobrindo América do Norte, Europa, Sudeste Asiático e outros mercados, com match preciso em beleza, bebê, 3C e mais.", "Recursos creator de cobertura total", "100k+ recursos KOL globais com matriz de celebridades/KOL/KOC nos principais mercados.", "Serviço profissional full-chain", "Seleção, conteúdo, distribuição e revisão de dados em uma solução de estratégia + recursos + execução.", "Operação localizada profunda", "Estratégia de conteúdo por cultura regional, conectando short video, live e PR para explosões full-funnel.", "DNA inovador + resposta ágil", "Profundidade 4A com flexibilidade startup, entrega rápida em projetos complexos e resposta 7/24.", "Benchmark de eficiência", "Comparação de eficiência de entrega e profundidade de serviço", "Indicador", "Taxa de entrega creator", "Taxa de cumprimento creator", "Tempo para proposta de lista", "Precisão de match da lista", "Tempo de assinatura", "Tempo de resposta creator", "Ideias creator personalizadas", "1 dia útil", "5 dias úteis", "2 dias úteis", "7 dias úteis", "em 12 horas", "72 horas", "Sim", "Não", "SOP de serviço creator", "Estratégia e preparação, confirmação de lista, execução e revisão, recap e valor", "Estratégia e preparação", "<strong>Clarificar estratégia:</strong> Confirmar metas da fase do produto e tipos de creator.", "<strong>Co-criar brief:</strong> Alinhar pontos de venda e direção de conteúdo com a marca.", "Confirmação de lista", "<strong>Contato em lote:</strong> Acionar creators em várias plataformas conforme o perfil.", "<strong>Proposta e filtro dinâmicos:</strong> Enviar em lotes e ajustar com feedback.", "<strong>Lista backup:</strong> Preparar 25% nomes extras como backup.", "<strong>Assinatura e agenda:</strong> Assinar contratos e confirmar roteiro e datas com cada creator.", "Execução e revisão", "<strong>Confirmar detalhes:</strong> Após receber amostras, confirmar roteiro e requisitos de gravação.", "<strong>Pré-revisão e publicação:</strong> Revisar rascunhos e publicar o final aprovado no horário combinado.", "Recap e valor", "<strong>Coletar dados:</strong> Após publicar, coletar links, vídeos impulsionados e dados-chave de 7-14 dias.", "<strong>Ampliar valor:</strong> Construir parcerias longas com creators de alta conversão.", "<strong>Resumir e iterar:</strong> Finalizar relatório, resumir aprendizados e guiar a próxima estratégia.", "Crescimento com creator seeding", "Pronto para construir seu sistema de creator seeding?", "Conte a fase do produto, mercado-alvo e necessidades de crescimento. A Millim configura estratégia, recursos e execução.", "AGENDAR CHAMADA"],
+  ko: ["Millim | 통합 크리에이터 솔루션", "크리에이터 솔루션", "통합 크리에이터 솔루션", "크리에이터 선별, 콘텐츠 아이디어, 멀티 플랫폼 배포, 데이터 리뷰까지 전략 + 리소스 + 실행 통합 솔루션으로 브랜드 콜드 스타트와 장기 성장을 돕습니다.", "브랜드 문제와 Millim 솔루션", "브랜드 사고, 고잠재 리소스, 전담 팀으로 크리에이터 시딩 체인을 보완", "브랜드 사고", "고잠재 리소스", "전담 팀", "브랜드 문제: 판매 중심 시딩 사고에 머물러 브랜드형 프로모션으로 영향력을 키우기 어렵습니다.", "브랜드 문제: 리소스 장벽으로 해외 톱 IP와의 협업이 어렵습니다.", "브랜드 문제: 비전담 팀 대응으로 진행이 지연되고 실행이 기대와 멀어집니다.", "브랜드 사고", "국제 4A와 해외 마케팅 인재가 브랜드와 성과를 함께 고려한 전략을 설계합니다.", "고잠재 리소스", "북미 일선 셀러브리티, 아티스트, IP 리소스와 실행 경험으로 브랜드 가치를 강화합니다.", "전담 팀", "프로젝트별 전담 팀을 구성해 지연과 커뮤니케이션 오류를 줄입니다.", "서비스 역량", "전역 크리에이터 리소스와 풀체인 전문 서비스", "10만+ 글로벌 KOL 리소스로 북미, 유럽, 동남아 등 시장을 커버하고 뷰티, 육아, 3C 등 카테고리에 정밀 매칭합니다.", "전역 크리에이터 리소스", "10만+ 글로벌 KOL 리소스와 셀러브리티/KOL/KOC 매트릭스로 주요 시장을 커버합니다.", "풀체인 전문 서비스", "선별, 콘텐츠, 배포, 데이터 리뷰까지 전략 + 리소스 + 실행을 통합 제공합니다.", "현지화 심층 운영", "지역 문화에 맞춘 콘텐츠 전략으로 숏폼, 라이브, PR을 연결해 전체 퍼널 화제를 만듭니다.", "혁신 DNA + 민첩한 대응", "4A급 전략 깊이와 스타트업 유연성으로 복잡한 프로젝트를 빠르게 실행하고 7/24 대응합니다.", "효율 비교", "크리에이터 납품 효율과 서비스 깊이 비교", "지표", "크리에이터 납품률", "크리에이터 이행률", "리스트 제안 시간", "리스트 적합도", "계약 소요 시간", "응답 소요 시간", "맞춤 크리에이티브", "영업일 1일", "영업일 5일", "영업일 2일", "영업일 7일", "12시간 이내", "72시간", "있음", "없음", "크리에이터 서비스 SOP", "전략 준비, 리스트 확인, 실행과 검수, 리뷰와 가치 증대", "전략과 준비", "<strong>전략 명확화:</strong> 제품 단계 목표와 크리에이터 유형을 확인합니다.", "<strong>Brief 공동 제작:</strong> 브랜드와 핵심 셀링 포인트 및 콘텐츠 방향을 맞춥니다.", "리스트 확인", "<strong>일괄 접촉:</strong> 크리에이터 프로필에 따라 여러 플랫폼에서 접촉합니다.", "<strong>동적 제안과 선별:</strong> 배치별 제안 후 피드백에 따라 방향을 조정합니다.", "<strong>Backup 리스트:</strong> 후보의 25%를 백업으로 미리 준비합니다.", "<strong>계약과 일정 확정:</strong> 계약을 체결하고 각 크리에이터와 스크립트 방향 및 일정을 확인합니다.", "실행과 검수", "<strong>세부 확인:</strong> 샘플 수령 후 스크립트와 촬영 요구사항을 최종 확인합니다.", "<strong>사전 검수와 게시:</strong> 초안을 검수하고 최종 승인 후 약속 시간에 게시합니다.", "리뷰와 가치 증대", "<strong>데이터 회수:</strong> 게시 후 링크, 부스팅 영상, 7-14일 핵심 데이터를 수집합니다.", "<strong>가치 확대:</strong> 전환율 높은 크리에이터와 장기 협업을 구축합니다.", "<strong>요약과 개선:</strong> 종료 보고서를 완성하고 다음 단계 전략을 안내합니다.", "크리에이터 시딩 성장", "크리에이터 시딩 시스템을 구축할 준비가 되셨나요?", "제품 단계, 목표 시장, 성장 니즈를 알려주시면 Millim이 전략, 리소스, 실행안을 구성합니다.", "무료 상담 예약"],
+});
+
+Object.assign(creatorSolutionDetailRows, {
+  ar: ["Millim | حل متكامل للمبدعين", "حل المبدعين", "حل متكامل للمبدعين", "من اختيار المبدعين وأفكار المحتوى والتوزيع عبر المنصات إلى مراجعة البيانات، نقدم حلا متكاملا من الاستراتيجية + الموارد + التنفيذ لبداية العلامة ونموها المستمر.", "مشكلات العلامة وحلول Millim", "إكمال مسار بذر المبدعين بتفكير العلامة والموارد القوية وفريق مخصص", "تفكير العلامة", "موارد قوية", "فريق مخصص", "مشكلة العلامة: الاعتماد على منطق بيع مباشر يجعل بناء التأثير عبر العلامة أصعب.", "مشكلة العلامة: حواجز الموارد تصعب التعاون مع أهم IPs في الخارج.", "مشكلة العلامة: الفرق غير المخصصة تبطئ التنفيذ وتبعد النتائج عن التوقعات.", "تفكير العلامة", "يجمع فريقنا خبرة 4A دولية وتسويق خارجي لبناء استراتيجية تجمع العلامة والأداء.", "موارد قوية", "لدينا مشاهير وفنانون وموارد IP من الصف الأول في أمريكا الشمالية مع خبرة تنفيذ عملية.", "فريق مخصص", "نكوّن فرق مشروع مخصصة لتجنب التأخير وفجوات التواصل.", "قدرة الخدمة", "موارد مبدعين شاملة وخدمة احترافية كاملة المسار", "أكثر من 100 ألف مورد KOL عالمي في أمريكا الشمالية وأوروبا وجنوب شرق آسيا وأسواق أخرى مع مطابقة دقيقة لفئات الجمال والأطفال و3C وغيرها.", "موارد مبدعين شاملة", "أكثر من 100 ألف KOL عالمي مع مصفوفة مشاهير/KOL/KOC للأسواق الرئيسية.", "خدمة كاملة المسار", "اختيار ومحتوى وتوزيع ومراجعة بيانات ضمن استراتيجية + موارد + تنفيذ.", "تشغيل محلي عميق", "نخصص المحتوى حسب الثقافة المحلية ونربط الفيديو القصير والبث وPR لصنع انفجار كامل المسار.", "ابتكار + استجابة مرنة", "عمق استراتيجي بمستوى 4A مع مرونة الشركات الناشئة وتنفيذ سريع واستجابة 7/24.", "مقارنة الكفاءة", "مقارنة كفاءة التسليم وعمق الخدمة", "المؤشر", "نسبة تسليم المبدعين", "نسبة التزام المبدعين", "زمن تقديم قائمة المبدعين", "دقة مطابقة القائمة", "زمن توقيع المبدع", "زمن استجابة المبدع", "أفكار مخصصة للمبدعين", "يوم عمل واحد", "5 أيام عمل", "يومان عمل", "7 أيام عمل", "خلال 12 ساعة", "72 ساعة", "نعم", "لا", "SOP خدمة المبدعين", "استراتيجية وتحضير، تأكيد القائمة، تنفيذ ومراجعة، تلخيص وقيمة", "استراتيجية وتحضير", "<strong>توضيح الاستراتيجية:</strong> تأكيد أهداف مرحلة المنتج وأنواع المبدعين.", "<strong>تشارك brief:</strong> مواءمة نقاط البيع واتجاه المحتوى مع العلامة.", "تأكيد القائمة", "<strong>تواصل جماعي:</strong> الوصول إلى المبدعين عبر المنصات حسب ملفاتهم.", "<strong>تقديم وفرز ديناميكي:</strong> الإرسال على دفعات والتعديل حسب الملاحظات.", "<strong>قائمة احتياطية:</strong> تجهيز 25% أسماء إضافية مسبقا.", "<strong>توقيع وحجز مواعيد:</strong> توقيع العقود وتأكيد السكربت والتوقيت مع كل مبدع.", "تنفيذ ومراجعة", "<strong>تأكيد التفاصيل:</strong> بعد استلام العينات، تأكيد السكربت ومتطلبات التصوير.", "<strong>مراجعة مسبقة ونشر:</strong> مراجعة المسودات ونشر النسخة النهائية بعد الموافقة.", "تلخيص وقيمة", "<strong>جمع البيانات:</strong> بعد النشر، جمع الروابط والفيديوهات المدعومة وبيانات 7-14 يوما.", "<strong>تكبير القيمة:</strong> بناء تعاون طويل مع المبدعين عالي التحويل.", "<strong>تلخيص وتحسين:</strong> إكمال التقرير النهائي وتوجيه استراتيجية المرحلة التالية.", "نمو بذر المبدعين", "هل أنت جاهز لبناء نظام بذر المبدعين؟", "أخبرنا بمرحلة المنتج والسوق المستهدف واحتياجات النمو. ستجهز Millim الاستراتيجية والموارد والتنفيذ.", "احجز مكالمة مجانية"],
+  it: ["Millim | Soluzione creator integrata", "Soluzione creator", "Soluzione creator integrata", "Dalla selezione creator alle idee contenuto, distribuzione multi-piattaforma e review dati, offriamo strategia + risorse + execution per cold start e crescita continuativa.", "Pain point del brand e soluzioni Millim", "Completare la catena di creator seeding con pensiero brand, risorse ad alto potenziale e team dedicato", "Pensiero brand", "Risorse ad alto potenziale", "Team dedicato", "Pain point: una logica di seeding troppo sales rende difficile aumentare influenza con promozione di marca.", "Pain point: barriere di risorse rendono difficile collaborare con top IP overseas.", "Pain point: team non dedicati rallentano l'esecuzione e allontanano il delivery dalle aspettative.", "Pensiero brand", "Il nostro team unisce esperienza 4A internazionale e overseas marketing per strategie brand + performance.", "Risorse ad alto potenziale", "Abbiamo celebrity, artisti e IP nordamericani di prima fascia con esperienza di esecuzione.", "Team dedicato", "Configuriamo team dedicati per progetto per evitare ritardi e disallineamenti.", "Capacità di servizio", "Risorse creator a copertura completa e servizio professionale full-chain", "100k+ risorse KOL globali in Nord America, Europa, Sud-est asiatico e altri mercati, con match preciso per beauty, baby, 3C e altre verticali.", "Risorse creator a copertura completa", "100k+ KOL globali con matrice celebrity/KOL/KOC nei mercati chiave.", "Servizio professionale full-chain", "Selezione, contenuto, distribuzione e review dati in una soluzione strategia + risorse + execution.", "Operazioni localizzate profonde", "Strategia contenuti per cultura regionale, con short video, live e PR per picchi full-funnel.", "DNA innovativo + risposta agile", "Profondità strategica 4A con flessibilità startup, execution rapida e risposta 7/24.", "Benchmark efficienza", "Confronto tra efficienza di delivery e profondità servizio", "Indicatore", "Tasso delivery creator", "Tasso fulfillment creator", "Tempo proposta lista", "Accuratezza match lista", "Tempo firma creator", "Tempo risposta creator", "Idee creator personalizzate", "1 giorno lavorativo", "5 giorni lavorativi", "2 giorni lavorativi", "7 giorni lavorativi", "entro 12 ore", "72 ore", "Sì", "No", "SOP servizio creator", "Strategia e preparazione, conferma lista, execution e review, recap e valore", "Strategia e preparazione", "<strong>Chiarire la strategia:</strong> Confermare obiettivi di fase prodotto e tipi di creator.", "<strong>Co-creare il brief:</strong> Allineare selling point e direzione contenuto con il brand.", "Conferma lista", "<strong>Outreach batch:</strong> Contattare creator su più piattaforme secondo i profili.", "<strong>Proposta e filtro dinamici:</strong> Inviare a lotti e regolare con feedback.", "<strong>Lista backup:</strong> Preparare in anticipo il 25% di nomi extra.", "<strong>Firma e slot:</strong> Firmare contratti e confermare script e timing con ogni creator.", "Execution e review", "<strong>Confermare dettagli:</strong> Dopo i campioni, confermare script e requisiti di ripresa.", "<strong>Pre-review e pubblicazione:</strong> Revisionare le bozze e pubblicare il finale approvato.", "Recap e valore", "<strong>Raccogliere dati:</strong> Dopo la pubblicazione, raccogliere link, video boostati e dati core 7-14 giorni.", "<strong>Amplificare valore:</strong> Costruire partnership lunghe con creator ad alta conversione.", "<strong>Riassumere e iterare:</strong> Chiudere il report e guidare la prossima strategia.", "Crescita creator seeding", "Pronto a costruire il tuo sistema creator seeding?", "Raccontaci fase prodotto, mercato target e bisogni di crescita. Millim configurerà strategia, risorse ed execution.", "PRENOTA UNA CALL"],
+  fr: ["Millim | Solution créateurs intégrée", "Solution créateurs", "Solution créateurs intégrée", "De la sélection créateurs aux idées de contenu, distribution multi-plateforme et revue data, nous fournissons stratégie + ressources + exécution pour le lancement et la croissance durable.", "Pain points de marque et solutions Millim", "Compléter la chaîne creator seeding avec pensée marque, ressources fortes et équipe dédiée", "Pensée marque", "Ressources fortes", "Équipe dédiée", "Pain point : une logique seeding trop orientée vente limite l'influence par la promotion de marque.", "Pain point : les barrières de ressources compliquent les collaborations avec les meilleurs IP overseas.", "Pain point : les équipes non dédiées ralentissent l'exécution et créent un écart avec les attentes.", "Pensée marque", "Notre équipe réunit expérience 4A internationale et marketing overseas pour des stratégies marque + performance.", "Ressources fortes", "Nous disposons de célébrités, artistes et IP nord-américains de premier plan avec expérience d'exécution.", "Équipe dédiée", "Nous configurons des équipes dédiées par projet pour éviter retards et écarts de communication.", "Capacité de service", "Ressources créateurs couvrantes et service professionnel full-chain", "100k+ ressources KOL globales en Amérique du Nord, Europe, Asie du Sud-Est et autres marchés, avec matching précis beauté, bébé, 3C et plus.", "Ressources créateurs couvrantes", "100k+ KOL globaux avec matrice célébrités/KOL/KOC sur les marchés clés.", "Service professionnel full-chain", "Sélection, contenu, distribution et revue data dans une solution stratégie + ressources + exécution.", "Opérations localisées profondes", "Stratégies de contenu par culture régionale, reliant short video, live et PR pour des pics full-funnel.", "ADN innovation + réponse agile", "Profondeur 4A avec flexibilité startup, livraison rapide de projets complexes et réponse 7/24.", "Benchmark efficacité", "Comparaison efficacité de livraison et profondeur service", "Indicateur", "Taux de livraison créateur", "Taux de fulfillment créateur", "Temps de proposition liste", "Précision du matching liste", "Temps de signature créateur", "Temps de réponse créateur", "Idées créateur personnalisées", "1 jour ouvré", "5 jours ouvrés", "2 jours ouvrés", "7 jours ouvrés", "sous 12 heures", "72 heures", "Oui", "Non", "SOP service créateurs", "Stratégie et préparation, confirmation liste, exécution et revue, recap et valeur", "Stratégie et préparation", "<strong>Clarifier la stratégie :</strong> Confirmer objectifs de phase produit et types de créateurs.", "<strong>Co-créer le brief :</strong> Aligner points clés et direction contenu avec la marque.", "Confirmation liste", "<strong>Outreach par lots :</strong> Contacter les créateurs multi-plateforme selon les profils.", "<strong>Proposition et filtre dynamiques :</strong> Soumettre par lots et ajuster selon feedback.", "<strong>Liste backup :</strong> Préparer 25% de noms supplémentaires.", "<strong>Signature et créneaux :</strong> Signer contrats et confirmer script et timing avec chaque créateur.", "Exécution et revue", "<strong>Confirmer les détails :</strong> Après réception des échantillons, confirmer script et exigences de tournage.", "<strong>Pré-review et publication :</strong> Revoir les drafts et publier le final approuvé à l'heure convenue.", "Recap et valeur", "<strong>Collecter les données :</strong> Après publication, collecter liens, vidéos boostées et données clés 7-14 jours.", "<strong>Amplifier la valeur :</strong> Construire des partenariats longs avec les créateurs à forte conversion.", "<strong>Résumer et itérer :</strong> Finaliser le rapport et guider la stratégie suivante.", "Croissance creator seeding", "Prêt à construire votre système creator seeding ?", "Partagez phase produit, marché cible et besoins de croissance. Millim configurera stratégie, ressources et exécution.", "RÉSERVER UN APPEL"],
+});
+
+Object.assign(creatorSolutionDetailRows, {
+  vi: ["Millim | Giải pháp creator tích hợp", "Giải pháp creator", "Giải pháp creator tích hợp", "Từ chọn creator, ý tưởng nội dung, phân phối đa nền tảng đến review dữ liệu, chúng tôi cung cấp giải pháp chiến lược + nguồn lực + thực thi cho cold start và tăng trưởng dài hạn.", "Điểm đau thương hiệu và giải pháp Millim", "Hoàn thiện chuỗi creator seeding bằng tư duy thương hiệu, nguồn lực mạnh và đội chuyên trách", "Tư duy thương hiệu", "Nguồn lực mạnh", "Đội chuyên trách", "Điểm đau: tư duy seeding thiên về bán hàng khiến thương hiệu khó tăng ảnh hưởng bằng hoạt động branding.", "Điểm đau: rào cản nguồn lực khiến khó hợp tác với IP hàng đầu ở nước ngoài.", "Điểm đau: đội không chuyên trách làm tiến độ chậm và kết quả lệch kỳ vọng.", "Tư duy thương hiệu", "Đội ngũ cốt lõi có kinh nghiệm 4A quốc tế và overseas marketing để thiết kế chiến lược brand + performance.", "Nguồn lực mạnh", "Chúng tôi có celebrity, artist và IP hạng nhất tại Bắc Mỹ cùng kinh nghiệm triển khai thực tế.", "Đội chuyên trách", "Chúng tôi cấu hình đội chuyên trách theo dự án để tránh chậm trễ và lệch giao tiếp.", "Năng lực dịch vụ", "Nguồn lực creator phủ rộng và dịch vụ chuyên nghiệp full-chain", "100k+ nguồn lực KOL toàn cầu tại Bắc Mỹ, châu Âu, Đông Nam Á và nhiều thị trường, match chính xác beauty, mẹ bé, 3C và hơn nữa.", "Nguồn lực creator phủ rộng", "100k+ KOL toàn cầu với ma trận celebrity/KOL/KOC cho các thị trường trọng điểm.", "Dịch vụ chuyên nghiệp full-chain", "Từ chọn creator, nội dung, phân phối đến review dữ liệu trong một giải pháp chiến lược + nguồn lực + thực thi.", "Vận hành bản địa sâu", "Tùy chỉnh nội dung theo văn hóa khu vực, kết nối short video, live và PR để tạo bùng nổ full-funnel.", "DNA đổi mới + phản ứng nhanh", "Chiều sâu chiến lược 4A với sự linh hoạt startup, triển khai nhanh dự án phức tạp và phản hồi 7/24.", "So sánh hiệu quả", "So sánh hiệu quả giao hàng creator và độ sâu dịch vụ", "Chỉ số", "Tỷ lệ giao hàng creator", "Tỷ lệ fulfill creator", "Thời gian đề xuất list", "Độ khớp của list", "Thời gian ký creator", "Thời gian phản hồi creator", "Ý tưởng creator tùy chỉnh", "1 ngày làm việc", "5 ngày làm việc", "2 ngày làm việc", "7 ngày làm việc", "trong 12 giờ", "72 giờ", "Có", "Không", "SOP dịch vụ creator", "Chiến lược và chuẩn bị, xác nhận list, thực thi và review, recap và tăng giá trị", "Chiến lược và chuẩn bị", "<strong>Làm rõ chiến lược:</strong> Xác nhận mục tiêu theo giai đoạn sản phẩm và loại creator.", "<strong>Đồng tạo brief:</strong> Đồng bộ selling point và hướng nội dung với brand.", "Xác nhận list", "<strong>Tiếp cận theo lô:</strong> Liên hệ creator đa nền tảng theo chân dung.", "<strong>Đề xuất và lọc động:</strong> Gửi theo lô và điều chỉnh theo feedback.", "<strong>List backup:</strong> Chuẩn bị trước 25% tên bổ sung làm backup.", "<strong>Ký và giữ lịch:</strong> Ký hợp đồng và xác nhận hướng script cùng lịch với từng creator.", "Thực thi và review", "<strong>Xác nhận chi tiết:</strong> Sau khi nhận mẫu, xác nhận script và yêu cầu quay.", "<strong>Pre-review và đăng:</strong> Review bản nháp và đăng bản cuối đã duyệt đúng thời gian.", "Recap và tăng giá trị", "<strong>Thu dữ liệu:</strong> Sau đăng, thu link, video boost và dữ liệu lõi 7-14 ngày.", "<strong>Khuếch đại giá trị:</strong> Xây hợp tác dài hạn với creator chuyển đổi cao.", "<strong>Tổng kết và lặp lại:</strong> Hoàn tất báo cáo và hướng dẫn chiến lược giai đoạn sau.", "Tăng trưởng creator seeding", "Sẵn sàng xây hệ thống creator seeding?", "Cho chúng tôi biết giai đoạn sản phẩm, thị trường mục tiêu và nhu cầu tăng trưởng. Millim sẽ cấu hình chiến lược, nguồn lực và thực thi.", "ĐẶT CUỘC GỌI"],
+  th: ["Millim | โซลูชันครีเอเตอร์แบบครบวงจร", "โซลูชันครีเอเตอร์", "โซลูชันครีเอเตอร์แบบครบวงจร", "ตั้งแต่คัดเลือกครีเอเตอร์ ไอเดียคอนเทนต์ การกระจายหลายแพลตฟอร์ม ไปจนถึงรีวิวข้อมูล เรามอบกลยุทธ์ + ทรัพยากร + การดำเนินงานเพื่อเริ่มต้นแบรนด์และเติบโตต่อเนื่อง", "ปัญหาแบรนด์และโซลูชัน Millim", "เติมเต็มเส้นทาง creator seeding ด้วยแนวคิดแบรนด์ ทรัพยากรศักยภาพสูง และทีมเฉพาะ", "แนวคิดแบรนด์", "ทรัพยากรศักยภาพสูง", "ทีมเฉพาะ", "ปัญหาแบรนด์: การยึด seeding เพื่อขายมากเกินไปทำให้เพิ่มอิทธิพลผ่าน branding ได้ยาก", "ปัญหาแบรนด์: กำแพงทรัพยากรทำให้ร่วมงานกับ IP ชั้นนำต่างประเทศได้ยาก", "ปัญหาแบรนด์: ทีมที่ไม่เฉพาะทำให้งานช้าและผลลัพธ์คลาดจากความคาดหวัง", "แนวคิดแบรนด์", "ทีมหลักรวมประสบการณ์ 4A สากลและ overseas marketing เพื่อวางกลยุทธ์ brand + performance", "ทรัพยากรศักยภาพสูง", "เรามี celebrity, artist และ IP ระดับหนึ่งในอเมริกาเหนือ พร้อมประสบการณ์ลงมือจริง", "ทีมเฉพาะ", "เราจัดทีมเฉพาะตามโปรเจกต์เพื่อลดความล่าช้าและการสื่อสารผิดทิศ", "ความสามารถบริการ", "ทรัพยากร creator ครอบคลุมและบริการมืออาชีพครบวงจร", "100k+ KOL ทั่วโลก ครอบคลุมอเมริกาเหนือ ยุโรป เอเชียตะวันออกเฉียงใต้ และตลาดอื่น พร้อมจับคู่ beauty, baby, 3C และหมวดอื่น", "ทรัพยากร creator ครอบคลุม", "100k+ KOL ทั่วโลกพร้อมเมทริกซ์ celebrity/KOL/KOC สำหรับตลาดหลัก", "บริการมืออาชีพครบวงจร", "คัดเลือก เนื้อหา กระจาย และรีวิวข้อมูลในกลยุทธ์ + ทรัพยากร + การดำเนินงาน", "ปฏิบัติการท้องถิ่นเชิงลึก", "ปรับคอนเทนต์ตามวัฒนธรรมภูมิภาค เชื่อม short video, live และ PR เพื่อสร้างกระแส full-funnel", "DNA นวัตกรรม + ตอบสนองไว", "ความลึกแบบ 4A พร้อมความยืดหยุ่น startup ส่งมอบเร็วและตอบกลับ 7/24", "เปรียบเทียบประสิทธิภาพ", "เปรียบเทียบประสิทธิภาพการส่งมอบและความลึกบริการ", "ตัวชี้วัด", "อัตราส่งมอบ creator", "อัตราปฏิบัติตาม creator", "เวลาส่งรายชื่อ creator", "ความแม่นยำรายชื่อ", "เวลาลงนาม creator", "เวลาตอบกลับ creator", "ไอเดีย creator แบบกำหนดเอง", "1 วันทำการ", "5 วันทำการ", "2 วันทำการ", "7 วันทำการ", "ภายใน 12 ชั่วโมง", "72 ชั่วโมง", "มี", "ไม่มี", "SOP บริการ creator", "กลยุทธ์และเตรียมการ ยืนยันรายชื่อ ดำเนินงานและตรวจทาน สรุปและเพิ่มมูลค่า", "กลยุทธ์และเตรียมการ", "<strong>ชี้ชัดกลยุทธ์:</strong> ยืนยันเป้าหมายตามช่วงสินค้าและประเภท creator", "<strong>ร่วมสร้าง brief:</strong> จัดแนว selling point และทิศทางคอนเทนต์กับแบรนด์", "ยืนยันรายชื่อ", "<strong>ติดต่อเป็นชุด:</strong> เข้าถึง creator หลายแพลตฟอร์มตามโปรไฟล์", "<strong>เสนอและคัดกรองแบบไดนามิก:</strong> ส่งเป็นชุดและปรับตาม feedback", "<strong>รายชื่อ backup:</strong> เตรียมรายชื่อเพิ่ม 25% ล่วงหน้า", "<strong>ลงนามและล็อกเวลา:</strong> เซ็นสัญญาและยืนยัน script กับตารางของแต่ละ creator", "ดำเนินงานและตรวจทาน", "<strong>ยืนยันรายละเอียด:</strong> หลังรับตัวอย่าง ยืนยัน script และข้อกำหนดการถ่าย", "<strong>ตรวจล่วงหน้าและเผยแพร่:</strong> ตรวจ draft และเผยแพร่ฉบับ final หลังอนุมัติ", "สรุปและเพิ่มมูลค่า", "<strong>เก็บข้อมูล:</strong> หลังเผยแพร่ เก็บลิงก์ วิดีโอ boost และข้อมูลหลัก 7-14 วัน", "<strong>ขยายมูลค่า:</strong> สร้างความร่วมมือระยะยาวกับ creator ที่ conversion สูง", "<strong>สรุปและปรับปรุง:</strong> ทำรายงานปิดงานและนำทางกลยุทธ์ถัดไป", "การเติบโตจาก creator seeding", "พร้อมสร้างระบบ creator seeding ของคุณหรือยัง?", "บอกช่วงสินค้า ตลาดเป้าหมาย และเป้าหมายเติบโต Millim จะจัดกลยุทธ์ ทรัพยากร และการดำเนินงานให้", "จองการโทรฟรี"],
+  ms: ["Millim | Penyelesaian creator bersepadu", "Penyelesaian creator", "Penyelesaian creator bersepadu", "Daripada pemilihan creator, idea kandungan, agihan pelbagai platform hingga semakan data, kami menyediakan strategi + sumber + pelaksanaan untuk cold start dan pertumbuhan berterusan.", "Masalah jenama dan penyelesaian Millim", "Lengkapkan rantaian creator seeding dengan pemikiran jenama, sumber berpotensi tinggi dan pasukan khusus", "Pemikiran jenama", "Sumber berpotensi tinggi", "Pasukan khusus", "Masalah jenama: logik seeding berorientasi jualan menyukarkan peningkatan pengaruh melalui promosi jenama.", "Masalah jenama: halangan sumber menyukarkan kerjasama dengan IP teratas luar negara.", "Masalah jenama: pasukan tidak khusus memperlahankan pelaksanaan dan menjauhkan hasil daripada jangkaan.", "Pemikiran jenama", "Pasukan teras kami menggabungkan pengalaman 4A antarabangsa dan overseas marketing untuk strategi brand + performance.", "Sumber berpotensi tinggi", "Kami mempunyai celebrity, artist dan IP utama Amerika Utara serta pengalaman pelaksanaan.", "Pasukan khusus", "Kami membentuk pasukan khusus mengikut projek untuk mengelak kelewatan dan jurang komunikasi.", "Keupayaan servis", "Sumber creator liputan penuh dan servis profesional full-chain", "100k+ sumber KOL global merangkumi Amerika Utara, Eropah, Asia Tenggara dan pasaran lain, dengan padanan tepat untuk beauty, baby, 3C dan lain-lain.", "Sumber creator liputan penuh", "100k+ KOL global dengan matriks celebrity/KOL/KOC untuk pasaran utama.", "Servis profesional full-chain", "Pemilihan, kandungan, agihan dan semakan data dalam strategi + sumber + pelaksanaan.", "Operasi lokal mendalam", "Strategi kandungan mengikut budaya rantau, menghubungkan short video, live dan PR untuk letupan full-funnel.", "DNA inovasi + respons tangkas", "Kedalaman strategi 4A dengan fleksibiliti startup, pelaksanaan pantas dan respons 7/24.", "Penanda aras kecekapan", "Perbandingan kecekapan penghantaran dan kedalaman servis", "Metrik", "Kadar penghantaran creator", "Kadar pemenuhan creator", "Masa cadangan senarai", "Ketepatan padanan senarai", "Masa tandatangan creator", "Masa respons creator", "Idea creator tersuai", "1 hari bekerja", "5 hari bekerja", "2 hari bekerja", "7 hari bekerja", "dalam 12 jam", "72 jam", "Ya", "Tidak", "SOP servis creator", "Strategi dan persediaan, pengesahan senarai, pelaksanaan dan semakan, recap dan nilai", "Strategi dan persediaan", "<strong>Jelaskan strategi:</strong> Sahkan matlamat fasa produk dan jenis creator.", "<strong>Cipta brief bersama:</strong> Selaraskan selling point dan arah kandungan dengan jenama.", "Pengesahan senarai", "<strong>Outreach berkelompok:</strong> Hubungi creator merentas platform mengikut profil.", "<strong>Cadangan dan tapis dinamik:</strong> Hantar berkelompok dan laras mengikut maklum balas.", "<strong>Senarai backup:</strong> Sediakan 25% nama tambahan sebagai backup.", "<strong>Tandatangan dan kunci slot:</strong> Tandatangani kontrak dan sahkan skrip serta masa dengan setiap creator.", "Pelaksanaan dan semakan", "<strong>Sahkan butiran:</strong> Selepas sampel diterima, sahkan skrip dan keperluan penggambaran.", "<strong>Pra-semak dan terbit:</strong> Semak draf dan terbitkan versi akhir selepas diluluskan.", "Recap dan nilai", "<strong>Kutip data:</strong> Selepas terbit, kutip pautan, video boost dan data utama 7-14 hari.", "<strong>Besarkan nilai:</strong> Bina kerjasama jangka panjang dengan creator konversi tinggi.", "<strong>Ringkas dan iterasi:</strong> Lengkapkan laporan akhir dan pandu strategi seterusnya.", "Pertumbuhan creator seeding", "Bersedia membina sistem creator seeding anda?", "Kongsikan fasa produk, pasaran sasaran dan keperluan pertumbuhan. Millim akan susun strategi, sumber dan pelaksanaan.", "TEMPAH PANGGILAN"],
+  id: ["Millim | Solusi kreator terpadu", "Solusi kreator", "Solusi kreator terpadu", "Dari seleksi kreator, ide konten, distribusi multi-platform hingga review data, kami menyediakan strategi + sumber daya + eksekusi untuk cold start dan pertumbuhan berkelanjutan.", "Pain point brand dan solusi Millim", "Lengkapi rantai creator seeding dengan pemikiran brand, sumber daya kuat, dan tim khusus", "Pemikiran brand", "Sumber daya kuat", "Tim khusus", "Pain point brand: logika seeding yang terlalu sales membuat pengaruh brand sulit naik lewat promosi branding.", "Pain point brand: hambatan sumber daya membuat kolaborasi dengan IP top overseas sulit.", "Pain point brand: tim yang tidak khusus memperlambat eksekusi dan menjauhkan hasil dari ekspektasi.", "Pemikiran brand", "Tim inti kami menggabungkan pengalaman 4A internasional dan overseas marketing untuk strategi brand + performance.", "Sumber daya kuat", "Kami memiliki celebrity, artist, dan IP papan atas Amerika Utara dengan pengalaman eksekusi nyata.", "Tim khusus", "Kami membentuk tim khusus per proyek untuk menghindari delay dan miskomunikasi.", "Kapabilitas layanan", "Sumber daya kreator menyeluruh dan layanan profesional full-chain", "100k+ sumber daya KOL global mencakup Amerika Utara, Eropa, Asia Tenggara dan pasar lain, dengan matching presisi untuk beauty, baby, 3C, dan lainnya.", "Sumber daya kreator menyeluruh", "100k+ KOL global dengan matriks celebrity/KOL/KOC untuk pasar utama.", "Layanan profesional full-chain", "Seleksi, konten, distribusi, dan review data dalam strategi + sumber daya + eksekusi.", "Operasi lokal mendalam", "Strategi konten sesuai budaya regional, menghubungkan short video, live, dan PR untuk ledakan full-funnel.", "DNA inovasi + respons gesit", "Kedalaman strategi 4A dengan fleksibilitas startup, eksekusi cepat, dan respons 7/24.", "Benchmark efisiensi", "Perbandingan efisiensi delivery dan kedalaman layanan", "Metrik", "Tingkat delivery kreator", "Tingkat fulfillment kreator", "Waktu pengajuan list", "Akurasi matching list", "Waktu signing kreator", "Waktu respons kreator", "Ide kreator kustom", "1 hari kerja", "5 hari kerja", "2 hari kerja", "7 hari kerja", "dalam 12 jam", "72 jam", "Ada", "Tidak ada", "SOP layanan kreator", "Strategi dan persiapan, konfirmasi list, eksekusi dan review, recap dan nilai tambah", "Strategi dan persiapan", "<strong>Perjelas strategi:</strong> Konfirmasi target tahap produk dan tipe kreator.", "<strong>Co-create brief:</strong> Selaraskan selling point dan arah konten dengan brand.", "Konfirmasi list", "<strong>Outreach batch:</strong> Hubungi kreator lintas platform berdasarkan profil.", "<strong>Pengajuan dan filter dinamis:</strong> Kirim bertahap dan sesuaikan menurut feedback.", "<strong>List backup:</strong> Siapkan 25% nama tambahan sebagai backup.", "<strong>Signing dan lock slot:</strong> Tanda tangani kontrak dan konfirmasi script serta jadwal dengan tiap kreator.", "Eksekusi dan review", "<strong>Konfirmasi detail:</strong> Setelah sampel diterima, konfirmasi script dan kebutuhan shooting.", "<strong>Pre-review dan publikasi:</strong> Review draft dan publish final setelah disetujui.", "Recap dan nilai tambah", "<strong>Kumpulkan data:</strong> Setelah publish, kumpulkan link, video boost, dan data inti 7-14 hari.", "<strong>Perbesar nilai:</strong> Bangun kerja sama jangka panjang dengan kreator konversi tinggi.", "<strong>Rangkum dan iterasi:</strong> Selesaikan report akhir dan arahkan strategi tahap berikutnya.", "Pertumbuhan creator seeding", "Siap membangun sistem creator seeding Anda?", "Ceritakan tahap produk, target pasar, dan kebutuhan growth. Millim akan menyusun strategi, sumber daya, dan eksekusi.", "JADWALKAN PANGGILAN"],
+});
+
+Object.entries(creatorSolutionDetailRows).forEach(([lang, values]) => {
+  if (!translations[lang]) return;
+  translations[lang].creatorSolution = mergeLanguage(translations[lang].creatorSolution || {}, creatorSolutionDetailKeys.reduce((labels, key, index) => {
+    labels[key] = values[index];
+    return labels;
+  }, {}));
+});
+
+Object.keys(translations).forEach((lang) => {
+  translations[lang].tiktokAdsSolution = mergeLanguage(translations[lang].tiktokAdsSolution || {}, {
+    metaTitle: "Millim | TikTok 广告全链路解决方案",
+  });
+});
+
+const tiktokAdsSolutionDetailRows = {
+  en: {
+    metaTitle: "Millim | Full-Funnel TikTok Ads Solution",
+    heroKicker: "TikTok Ads Solution",
+    heroTitleHtml: "Full-Funnel Incubation<br />and Expert Guidance",
+    heroCopy: "Build a complete operating system from TikTok Ads account setup, top-up, TTS tools, GMV Max creation, and performance creatives to asset conversion.",
+    overviewKicker: "Service Framework",
+    overviewTitle: "From accounts, tools, and creatives, help brands launch paid growth faster",
+    filter1: "Account & top-up",
+    filter2: "TTS tools",
+    filter3: "Performance creative",
+    feature1Title: "Full-funnel incubation",
+    feature1Copy: "SOP documents, FAQ support, and account diagnostics reduce launch friction.",
+    feature2Title: "Self-service account system",
+    feature2Copy: "Submit account opening and top-up requests with one back-office workflow.",
+    feature3Title: "TTS product tools",
+    feature3Copy: "Connect ERP and ads systems for shop management, data analysis, and GMV Max creation.",
+    feature4Title: "Performance creative",
+    feature4Copy: "Improve ROI and creative conversion with production, content reuse, and smart media testing.",
+    supportKicker: "Incubation Support",
+    supportTitle: "Full-funnel incubation with expert service guidance",
+    supportCopy: "Executable onboarding docs, answers, and diagnostics help teams complete account launch and ongoing optimization.",
+    supportBullet1: "Clear account onboarding flow for a smoother launch.",
+    supportBullet2: "Professional 1v1 operations support for in-flight issues.",
+    supportBullet3: "Regular account diagnostics with practical optimization direction.",
+    supportStep1Title: "Complete SOP documents",
+    supportStep1Copy: "Clear account onboarding steps for a low-friction start.",
+    supportStep2Title: "FAQ summary and answers",
+    supportStep2Copy: "Professional 1v1 support to solve delivery issues quickly.",
+    supportStep3Title: "Team hierarchy system",
+    supportStep3Copy: "Regular diagnostics provide reference suggestions and optimization direction.",
+    accountKicker: "Account System",
+    accountTitle: "Self-service account and top-up system for efficient launch management",
+    accountCopy: "The back office supports account opening, top-up, and multi-account management so teams can start faster and keep tracking business data.",
+    accountStep1Title: "Self-service opening and top-up",
+    accountStep1Copy: "Submit account and top-up requests with one back-office workflow.",
+    accountStep2Title: "Full data dashboard",
+    accountStep2Copy: "Ad data syncs in real time for fast multi-account analysis.",
+    accountStep3Title: "Team hierarchy system",
+    accountStep3Copy: "Set sub-accounts by team structure for easier multi-team management.",
+    ttsKicker: "TTS Tools",
+    ttsTitle: "TTS technical product tools for efficiency",
+    ttsCopy: "Connect ERP and ad systems across shop operations and media actions, covering inventory, purchasing, TTS shop management, business analysis, and GMV Max creation.",
+    ttsStep1Title: "ERP system",
+    ttsStep1Copy: "Inventory, purchasing, TTS shop management, and business data analysis.",
+    ttsStep2Title: "Ad system",
+    ttsStep2Copy: "Batch GMV Max creation and efficient data analysis.",
+    creativeKicker: "Performance Creative",
+    creativeTitle: "Performance creatives that move content into conversion testing faster",
+    creativeCopy: "Industry experience, creative editing, data analysis, and media strategy connect production, content reuse, and ad optimization.",
+    creativeStep1Title: "Creative production",
+    creativeStep1Copy: "Creative planning and production teams work with KOC and model resources to build high-converting assets for the brand DNA.",
+    creativeStep2Title: "Maximize content value",
+    creativeStep2Copy: "Creative editing and multidimensional recombination turn one asset into many testing angles.",
+    creativeStep3Title: "Smart media engine",
+    creativeStep3Copy: "Data analysis and trend judgment dynamically optimize delivery strategy and creative direction.",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "Need to connect TikTok account launch, tools, and creatives into one growth system?",
+    ctaCopy: "Share your market, shop, and delivery goals. Millim will help map the execution path from account setup to creative conversion.",
+    ctaButton: "BOOK A FREE CALL",
+  },
+  zh: {
+    metaTitle: "Millim | TikTok 广告全链路解决方案",
+    heroKicker: "TikTok Ads Solution",
+    heroTitleHtml: "全链路孵化陪跑<br />专业服务指导",
+    heroCopy: "围绕 TikTok 广告开户、充值、TTS 工具、GMV Max 创编和效果素材，搭建从账户启动到素材转化的完整运营支持体系。",
+    overviewKicker: "Service Framework",
+    overviewTitle: "从账户、工具到素材，帮助品牌高效启动投放业务",
+    filter1: "开户充值",
+    filter2: "TTS 工具",
+    filter3: "效果素材",
+    feature1Title: "全链路孵化陪跑",
+    feature1Copy: "完善 SOP 对接文档、常见问题汇总解答和账户投放诊断，降低启动成本。",
+    feature2Title: "自助开户充值系统",
+    feature2Copy: "自助提交开户和充值，后台一站式操作，便捷管理业务进度。",
+    feature3Title: "TTS 技术产品工具",
+    feature3Copy: "连接 ERP 与广告系统，支持店铺管理、经营数据分析和 GMV Max 创编提效。",
+    feature4Title: "效果素材",
+    feature4Copy: "从素材智造、内容价值最大化到智能投流引擎，提升 ROI 与素材转化效率。",
+    supportKicker: "Incubation Support",
+    supportTitle: "全链路孵化陪跑，专业服务指导",
+    supportCopy: "以可执行的对接文档、问题解答和投放诊断机制，帮助团队清晰完成账户启动和后续优化。",
+    supportBullet1: "清晰的账户对接设置全流程，启动无忧。",
+    supportBullet2: "专业运营 1v1 服务，快速解决投放中的问题。",
+    supportBullet3: "定期账户投放诊断，给到参考建议和优化方向。",
+    supportStep1Title: "完善的 SOP 对接文档",
+    supportStep1Copy: "清晰的账户对接设置全流程，启动无忧。",
+    supportStep2Title: "常见问题汇总解答",
+    supportStep2Copy: "专业运营 1v1 服务，快速解决投放中的问题。",
+    supportStep3Title: "便捷团队层级系统",
+    supportStep3Copy: "定期账户投放诊断，给到参考建议和优化方向。",
+    accountKicker: "Account System",
+    accountTitle: "自助开户充值系统，高效管理启动业务",
+    accountCopy: "后台支持自助开户、充值和多账户管理，让团队能够更快启动广告账户并持续查看业务数据。",
+    accountStep1Title: "自助开户充值",
+    accountStep1Copy: "自助提交开户充值，后台一站式操作，管理操作进度。",
+    accountStep2Title: "全面数据看板",
+    accountStep2Copy: "广告数据实时同步呈现，多账户数据快速查看分析。",
+    accountStep3Title: "便捷团队层级系统",
+    accountStep3Copy: "根据团队架构设置不同登录子账户，方便多团队管理。",
+    ttsKicker: "TTS Tools",
+    ttsTitle: "TTS 技术产品工具提效",
+    ttsCopy: "通过 ERP 系统和广告系统串联店铺经营与投放动作，覆盖仓储、采买、TTS 店铺管理、经营数据分析和 GMV Max 创编。",
+    ttsStep1Title: "ERP 系统",
+    ttsStep1Copy: "仓储、采买、TTS 店铺管理，经营数据分析。",
+    ttsStep2Title: "广告系统",
+    ttsStep2Copy: "一键批量 GMV Max 创编，高效数据分析。",
+    creativeKicker: "Performance Creative",
+    creativeTitle: "效果素材，让内容更快进入转化测试",
+    creativeCopy: "结合行业经验、创意剪辑、数据分析和投流策略，把素材生产、内容拆分和广告优化连成闭环。",
+    creativeStep1Title: "素材智造",
+    creativeStep1Copy: "集结创意策划与专业摄制团队，联动 KOC 和模特资源，定制契合品牌 DNA 的高转化素材。",
+    creativeStep2Title: "内容价值最大化",
+    creativeStep2Copy: "通过创意剪辑与多维度拆分重组，实现一鱼多吃，快速测试内容爆点。",
+    creativeStep3Title: "智能投流引擎",
+    creativeStep3Copy: "结合数据分析与趋势预判，动态优化投放策略，实时校准素材投放方向。",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "需要把 TikTok 广告启动、工具和素材连成一套增长系统？",
+    ctaCopy: "告诉我们你的市场、店铺和投放目标，Millim 将协助规划从账户到素材转化的执行路径。",
+    ctaButton: "预约免费通话",
+  },
+  es: {
+    metaTitle: "Millim | Solución integral TikTok Ads",
+    heroKicker: "Solución TikTok Ads",
+    heroTitleHtml: "Incubación integral<br />y guía profesional",
+    heroCopy: "Construimos un sistema completo para apertura de cuentas, recargas, herramientas TTS, creación GMV Max y creatividades de performance.",
+    overviewKicker: "Marco de servicio",
+    overviewTitle: "De cuentas, herramientas y creatividades, ayudamos a lanzar paid growth con más eficiencia",
+    filter1: "Cuenta y recarga",
+    filter2: "Herramientas TTS",
+    filter3: "Creatividades",
+    feature1Title: "Incubación integral",
+    feature1Copy: "SOP, FAQ y diagnóstico de cuentas reducen la fricción de arranque.",
+    feature2Title: "Sistema self-service",
+    feature2Copy: "Apertura y recarga con un flujo back-office integrado.",
+    feature3Title: "Herramientas TTS",
+    feature3Copy: "ERP y ads conectados para gestión de tienda, análisis y GMV Max.",
+    feature4Title: "Creatividades de performance",
+    feature4Copy: "Producción, reutilización de contenido y testing inteligente para mejorar ROI.",
+    supportKicker: "Soporte de incubación",
+    supportTitle: "Incubación integral con guía profesional",
+    supportCopy: "Documentos ejecutables, respuestas y diagnóstico ayudan al equipo a lanzar cuentas y optimizar.",
+    supportBullet1: "Flujo claro de onboarding de cuenta.",
+    supportBullet2: "Soporte operativo 1v1 para resolver problemas de entrega.",
+    supportBullet3: "Diagnóstico periódico con dirección de optimización.",
+    supportStep1Title: "Documentos SOP completos",
+    supportStep1Copy: "Pasos claros de onboarding para iniciar sin fricción.",
+    supportStep2Title: "FAQ y respuestas",
+    supportStep2Copy: "Soporte 1v1 para resolver problemas rápidamente.",
+    supportStep3Title: "Sistema jerárquico de equipo",
+    supportStep3Copy: "Diagnóstico periódico con sugerencias prácticas.",
+    accountKicker: "Sistema de cuentas",
+    accountTitle: "Sistema self-service de apertura y recarga para gestionar el arranque",
+    accountCopy: "El back office soporta apertura, recarga y multi-cuenta para lanzar más rápido y seguir datos.",
+    accountStep1Title: "Apertura y recarga self-service",
+    accountStep1Copy: "Solicitudes de cuenta y recarga en un solo flujo.",
+    accountStep2Title: "Dashboard completo",
+    accountStep2Copy: "Datos de ads sincronizados en tiempo real para análisis multi-cuenta.",
+    accountStep3Title: "Jerarquía de equipo",
+    accountStep3Copy: "Subcuentas por estructura de equipo para gestión más sencilla.",
+    ttsKicker: "Herramientas TTS",
+    ttsTitle: "Herramientas técnicas TTS para eficiencia",
+    ttsCopy: "Conecta ERP y ads para inventario, compras, gestión TTS, análisis operativo y GMV Max.",
+    ttsStep1Title: "Sistema ERP",
+    ttsStep1Copy: "Inventario, compras, gestión de tienda TTS y análisis.",
+    ttsStep2Title: "Sistema de ads",
+    ttsStep2Copy: "Creación masiva GMV Max y análisis eficiente.",
+    creativeKicker: "Creatividades de performance",
+    creativeTitle: "Creatividades que entran más rápido en pruebas de conversión",
+    creativeCopy: "Experiencia sectorial, edición, análisis y estrategia media conectan producción y optimización.",
+    creativeStep1Title: "Producción creativa",
+    creativeStep1Copy: "Equipos creativos y de producción crean assets de alta conversión con KOC y modelos.",
+    creativeStep2Title: "Maximizar valor de contenido",
+    creativeStep2Copy: "Edición y recombinación convierten un asset en múltiples ángulos de prueba.",
+    creativeStep3Title: "Motor media inteligente",
+    creativeStep3Copy: "Datos y tendencias optimizan estrategia y dirección creativa.",
+    ctaKicker: "Crecimiento TikTok",
+    ctaTitle: "¿Necesitas conectar cuentas, herramientas y creatividades en un sistema de crecimiento?",
+    ctaCopy: "Comparte mercado, tienda y objetivos. Millim mapeará la ruta de ejecución.",
+    ctaButton: "RESERVAR LLAMADA",
+  },
+  ja: {
+    metaTitle: "Millim | TikTok広告フルファネルソリューション",
+    heroKicker: "TikTok広告ソリューション",
+    heroTitleHtml: "フルファネル伴走支援<br />専門サービスガイド",
+    heroCopy: "TikTok広告のアカウント開設、チャージ、TTSツール、GMV Max作成、成果素材まで一貫した運用基盤を構築します。",
+    overviewKicker: "サービス構成",
+    overviewTitle: "アカウント、ツール、素材から広告開始を効率化",
+    filter1: "開設・チャージ",
+    filter2: "TTSツール",
+    filter3: "成果素材",
+    feature1Title: "フルファネル伴走",
+    feature1Copy: "SOP、FAQ、診断で立ち上げ負担を下げます。",
+    feature2Title: "セルフサービスアカウントシステム",
+    feature2Copy: "開設とチャージをバックオフィスで一括管理。",
+    feature3Title: "TTSプロダクトツール",
+    feature3Copy: "ERPと広告システムを接続し、店舗管理、分析、GMV Maxを支援。",
+    feature4Title: "成果素材",
+    feature4Copy: "制作、再編集、スマート配信でROIと転換効率を高めます。",
+    supportKicker: "伴走支援",
+    supportTitle: "フルファネル伴走と専門サービスガイド",
+    supportCopy: "実行できる資料、回答、診断でアカウント開始と継続最適化を支援します。",
+    supportBullet1: "明確なアカウント設定フロー。",
+    supportBullet2: "運用1v1で配信中の問題を素早く解決。",
+    supportBullet3: "定期診断で改善方向を提示。",
+    supportStep1Title: "完全なSOP資料",
+    supportStep1Copy: "明確なオンボーディングでスムーズに開始。",
+    supportStep2Title: "FAQまとめと回答",
+    supportStep2Copy: "1v1サポートで問題を迅速に解決。",
+    supportStep3Title: "チーム階層システム",
+    supportStep3Copy: "定期診断で改善提案を提供。",
+    accountKicker: "アカウントシステム",
+    accountTitle: "セルフ開設・チャージで開始業務を効率管理",
+    accountCopy: "開設、チャージ、複数アカウント管理を支援し、開始とデータ確認を速めます。",
+    accountStep1Title: "セルフ開設・チャージ",
+    accountStep1Copy: "バックオフィスで申請と進捗を一括管理。",
+    accountStep2Title: "総合データダッシュボード",
+    accountStep2Copy: "広告データをリアルタイム同期し、複数アカウントを分析。",
+    accountStep3Title: "チーム階層システム",
+    accountStep3Copy: "チーム構造ごとに子アカウントを設定。",
+    ttsKicker: "TTSツール",
+    ttsTitle: "TTS技術ツールで効率化",
+    ttsCopy: "ERPと広告をつなぎ、在庫、仕入れ、TTS店舗管理、分析、GMV Max作成をカバー。",
+    ttsStep1Title: "ERPシステム",
+    ttsStep1Copy: "在庫、仕入れ、TTS店舗管理、経営データ分析。",
+    ttsStep2Title: "広告システム",
+    ttsStep2Copy: "GMV Max一括作成と効率的なデータ分析。",
+    creativeKicker: "成果素材",
+    creativeTitle: "成果素材で転換テストへ素早く投入",
+    creativeCopy: "業界知見、編集、データ分析、配信戦略で制作から最適化まで接続。",
+    creativeStep1Title: "素材制作",
+    creativeStep1Copy: "企画・制作チームがKOCやモデルと高転換素材を制作。",
+    creativeStep2Title: "コンテンツ価値最大化",
+    creativeStep2Copy: "編集と再構成で複数のテスト角度を作ります。",
+    creativeStep3Title: "スマート配信エンジン",
+    creativeStep3Copy: "データとトレンドで配信戦略と素材方向を最適化。",
+    ctaKicker: "TikTok成長",
+    ctaTitle: "TikTok広告開始、ツール、素材を一つの成長システムにしますか？",
+    ctaCopy: "市場、店舗、配信目標を共有してください。実行導線を設計します。",
+    ctaButton: "無料相談を予約",
+  },
+  de: {
+    metaTitle: "Millim | Full-Funnel TikTok Ads Lösung",
+    heroKicker: "TikTok Ads Lösung",
+    heroTitleHtml: "Full-Funnel-Inkubation<br />und Expertenführung",
+    heroCopy: "Ein vollständiges System für TikTok Ads Kontoeröffnung, Top-up, TTS-Tools, GMV Max und Performance Creatives.",
+    overviewKicker: "Service Framework",
+    overviewTitle: "Von Account, Tools bis Creatives schneller in Paid Growth starten",
+    filter1: "Account & Top-up",
+    filter2: "TTS-Tools",
+    filter3: "Performance Creatives",
+    feature1Title: "Full-Funnel-Inkubation",
+    feature1Copy: "SOPs, FAQ und Diagnosen senken Startaufwand.",
+    feature2Title: "Self-Service-Kontosystem",
+    feature2Copy: "Kontoeröffnung und Top-up in einem Backoffice-Workflow.",
+    feature3Title: "TTS-Produkttools",
+    feature3Copy: "ERP und Ads für Shop-Management, Analyse und GMV Max verbinden.",
+    feature4Title: "Performance Creatives",
+    feature4Copy: "Produktion, Content-Reuse und Smart Testing verbessern ROI.",
+    supportKicker: "Inkubationssupport",
+    supportTitle: "Full-Funnel-Inkubation mit professioneller Führung",
+    supportCopy: "Umsetzbare Dokumente, Antworten und Diagnosen unterstützen Launch und Optimierung.",
+    supportBullet1: "Klarer Account-Onboarding-Prozess.",
+    supportBullet2: "Professioneller 1v1-Support bei laufenden Problemen.",
+    supportBullet3: "Regelmäßige Diagnosen mit Optimierungsrichtung.",
+    supportStep1Title: "Vollständige SOP-Dokumente",
+    supportStep1Copy: "Klare Schritte für einen reibungslosen Start.",
+    supportStep2Title: "FAQ und Antworten",
+    supportStep2Copy: "1v1-Support löst Probleme schnell.",
+    supportStep3Title: "Team-Hierarchiesystem",
+    supportStep3Copy: "Regelmäßige Diagnosen liefern Optimierungsvorschläge.",
+    accountKicker: "Kontosystem",
+    accountTitle: "Self-Service Konto- und Top-up-System für effizienten Launch",
+    accountCopy: "Backoffice unterstützt Kontoeröffnung, Top-up und Multi-Account-Management.",
+    accountStep1Title: "Self-Service-Eröffnung und Top-up",
+    accountStep1Copy: "Anträge und Fortschritt in einem Workflow verwalten.",
+    accountStep2Title: "Vollständiges Dashboard",
+    accountStep2Copy: "Ad-Daten in Echtzeit für schnelle Multi-Account-Analyse.",
+    accountStep3Title: "Team-Hierarchiesystem",
+    accountStep3Copy: "Unterkonten nach Teamstruktur verwalten.",
+    ttsKicker: "TTS-Tools",
+    ttsTitle: "TTS-Produkttools für Effizienz",
+    ttsCopy: "ERP und Ads verbinden Shop-Betrieb, Inventar, Einkauf, Analyse und GMV Max.",
+    ttsStep1Title: "ERP-System",
+    ttsStep1Copy: "Inventar, Einkauf, TTS-Shop-Management und Analyse.",
+    ttsStep2Title: "Ads-System",
+    ttsStep2Copy: "Batch-GMV-Max-Erstellung und effiziente Datenanalyse.",
+    creativeKicker: "Performance Creatives",
+    creativeTitle: "Creatives schneller in Conversion-Tests bringen",
+    creativeCopy: "Branchenwissen, Editing, Datenanalyse und Media-Strategie verbinden Produktion und Optimierung.",
+    creativeStep1Title: "Creative-Produktion",
+    creativeStep1Copy: "Planung und Produktion mit KOC- und Model-Ressourcen für starke Assets.",
+    creativeStep2Title: "Content-Wert maximieren",
+    creativeStep2Copy: "Editing und Rekombination erzeugen viele Testwinkel.",
+    creativeStep3Title: "Smart-Media-Engine",
+    creativeStep3Copy: "Daten und Trends optimieren Strategie und Creative-Richtung.",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "Account-Launch, Tools und Creatives in ein Growth-System verbinden?",
+    ctaCopy: "Teile Markt, Shop und Ziele. Millim plant den Execution Path.",
+    ctaButton: "KOSTENLOSES GESPRÄCH",
+  },
+  pt: {
+    metaTitle: "Millim | Solução TikTok Ads full-funnel",
+    heroKicker: "Solução TikTok Ads",
+    heroTitleHtml: "Incubação full-funnel<br />e orientação profissional",
+    heroCopy: "Sistema completo para abertura de conta, recarga, ferramentas TTS, criação GMV Max e criativos de performance.",
+    overviewKicker: "Framework de serviço",
+    overviewTitle: "De contas, ferramentas e criativos para iniciar paid growth com eficiência",
+    filter1: "Conta e recarga",
+    filter2: "Ferramentas TTS",
+    filter3: "Criativos",
+    feature1Title: "Incubação full-funnel",
+    feature1Copy: "SOP, FAQ e diagnóstico reduzem atrito de lançamento.",
+    feature2Title: "Sistema self-service",
+    feature2Copy: "Abertura e recarga com fluxo único no back office.",
+    feature3Title: "Ferramentas TTS",
+    feature3Copy: "ERP e ads conectados para loja, análise e GMV Max.",
+    feature4Title: "Criativos de performance",
+    feature4Copy: "Produção, reaproveitamento e testes inteligentes para melhorar ROI.",
+    supportKicker: "Suporte de incubação",
+    supportTitle: "Incubação full-funnel com orientação profissional",
+    supportCopy: "Documentos, respostas e diagnóstico ajudam equipes a lançar e otimizar contas.",
+    supportBullet1: "Fluxo claro de onboarding de conta.",
+    supportBullet2: "Suporte operacional 1v1 para problemas em execução.",
+    supportBullet3: "Diagnóstico periódico com direção de otimização.",
+    supportStep1Title: "Documentos SOP completos",
+    supportStep1Copy: "Passos claros para começar com menos atrito.",
+    supportStep2Title: "FAQ e respostas",
+    supportStep2Copy: "Suporte 1v1 para resolver problemas rapidamente.",
+    supportStep3Title: "Sistema de hierarquia de equipe",
+    supportStep3Copy: "Diagnósticos regulares trazem sugestões práticas.",
+    accountKicker: "Sistema de contas",
+    accountTitle: "Sistema self-service de abertura e recarga para gerenciar o lançamento",
+    accountCopy: "Back office para abertura, recarga e múltiplas contas, acelerando início e análise.",
+    accountStep1Title: "Abertura e recarga self-service",
+    accountStep1Copy: "Solicitações e progresso em um só fluxo.",
+    accountStep2Title: "Dashboard completo",
+    accountStep2Copy: "Dados de ads em tempo real para análise multi-conta.",
+    accountStep3Title: "Hierarquia de equipe",
+    accountStep3Copy: "Subcontas por estrutura para gestão de várias equipes.",
+    ttsKicker: "Ferramentas TTS",
+    ttsTitle: "Ferramentas técnicas TTS para eficiência",
+    ttsCopy: "Conecte ERP e ads para estoque, compras, gestão TTS, análise e GMV Max.",
+    ttsStep1Title: "Sistema ERP",
+    ttsStep1Copy: "Estoque, compras, gestão de loja TTS e análise.",
+    ttsStep2Title: "Sistema de ads",
+    ttsStep2Copy: "Criação GMV Max em lote e análise eficiente.",
+    creativeKicker: "Criativos de performance",
+    creativeTitle: "Criativos que entram mais rápido em testes de conversão",
+    creativeCopy: "Experiência de mercado, edição, dados e estratégia conectam produção e otimização.",
+    creativeStep1Title: "Produção criativa",
+    creativeStep1Copy: "Planejamento e produção com KOC e modelos para assets de alta conversão.",
+    creativeStep2Title: "Maximizar valor do conteúdo",
+    creativeStep2Copy: "Edição e recombinação transformam um asset em múltiplos ângulos.",
+    creativeStep3Title: "Motor de mídia inteligente",
+    creativeStep3Copy: "Dados e tendências otimizam estratégia e direção criativa.",
+    ctaKicker: "Crescimento TikTok",
+    ctaTitle: "Quer conectar contas, ferramentas e criativos em um sistema de crescimento?",
+    ctaCopy: "Compartilhe mercado, loja e metas. A Millim mapeará o caminho de execução.",
+    ctaButton: "AGENDAR CHAMADA",
+  },
+  ko: {
+    metaTitle: "Millim | TikTok 광고 풀퍼널 솔루션",
+    heroKicker: "TikTok 광고 솔루션",
+    heroTitleHtml: "풀퍼널 인큐베이션<br />전문 서비스 가이드",
+    heroCopy: "TikTok 광고 계정 개설, 충전, TTS 도구, GMV Max 제작, 퍼포먼스 소재까지 운영 체계를 구축합니다.",
+    overviewKicker: "서비스 프레임워크",
+    overviewTitle: "계정, 도구, 소재를 연결해 광고 비즈니스를 빠르게 시작",
+    filter1: "계정·충전",
+    filter2: "TTS 도구",
+    filter3: "퍼포먼스 소재",
+    feature1Title: "풀퍼널 인큐베이션",
+    feature1Copy: "SOP, FAQ, 계정 진단으로 시작 비용을 낮춥니다.",
+    feature2Title: "셀프서비스 계정 시스템",
+    feature2Copy: "계정 개설과 충전을 백오피스에서 통합 처리합니다.",
+    feature3Title: "TTS 제품 도구",
+    feature3Copy: "ERP와 광고 시스템을 연결해 쇼핑몰 관리, 분석, GMV Max를 지원합니다.",
+    feature4Title: "퍼포먼스 소재",
+    feature4Copy: "제작, 콘텐츠 재활용, 스마트 집행으로 ROI를 높입니다.",
+    supportKicker: "인큐베이션 지원",
+    supportTitle: "풀퍼널 인큐베이션과 전문 가이드",
+    supportCopy: "실행 가능한 문서, 답변, 진단으로 계정 시작과 최적화를 돕습니다.",
+    supportBullet1: "명확한 계정 온보딩 플로우.",
+    supportBullet2: "운영 1v1 지원으로 문제를 빠르게 해결.",
+    supportBullet3: "정기 진단과 최적화 방향 제공.",
+    supportStep1Title: "완성된 SOP 문서",
+    supportStep1Copy: "명확한 온보딩 단계로 시작을 쉽게 합니다.",
+    supportStep2Title: "FAQ 정리 및 답변",
+    supportStep2Copy: "1v1 지원으로 집행 문제를 빠르게 해결합니다.",
+    supportStep3Title: "팀 계층 시스템",
+    supportStep3Copy: "정기 진단으로 개선 제안을 제공합니다.",
+    accountKicker: "계정 시스템",
+    accountTitle: "셀프 계정 개설·충전 시스템으로 시작 업무를 효율 관리",
+    accountCopy: "계정 개설, 충전, 다중 계정 관리를 지원해 더 빠르게 시작하고 데이터를 확인합니다.",
+    accountStep1Title: "셀프 개설 및 충전",
+    accountStep1Copy: "백오피스에서 신청과 진행 상황을 관리합니다.",
+    accountStep2Title: "전체 데이터 대시보드",
+    accountStep2Copy: "광고 데이터 실시간 동기화와 다중 계정 분석.",
+    accountStep3Title: "팀 계층 시스템",
+    accountStep3Copy: "팀 구조별 하위 계정으로 관리 효율을 높입니다.",
+    ttsKicker: "TTS 도구",
+    ttsTitle: "TTS 기술 제품 도구로 효율 향상",
+    ttsCopy: "ERP와 광고 시스템을 연결해 재고, 구매, TTS 매장 관리, 분석, GMV Max를 지원합니다.",
+    ttsStep1Title: "ERP 시스템",
+    ttsStep1Copy: "재고, 구매, TTS 매장 관리, 경영 데이터 분석.",
+    ttsStep2Title: "광고 시스템",
+    ttsStep2Copy: "GMV Max 일괄 제작과 효율적인 데이터 분석.",
+    creativeKicker: "퍼포먼스 소재",
+    creativeTitle: "콘텐츠를 더 빠르게 전환 테스트로 연결",
+    creativeCopy: "업계 경험, 편집, 데이터 분석, 집행 전략을 연결합니다.",
+    creativeStep1Title: "소재 제작",
+    creativeStep1Copy: "기획·제작팀이 KOC와 모델 리소스로 고전환 소재를 만듭니다.",
+    creativeStep2Title: "콘텐츠 가치 극대화",
+    creativeStep2Copy: "편집과 재조합으로 다양한 테스트 각도를 만듭니다.",
+    creativeStep3Title: "스마트 미디어 엔진",
+    creativeStep3Copy: "데이터와 트렌드로 집행 전략과 소재 방향을 최적화합니다.",
+    ctaKicker: "TikTok 성장",
+    ctaTitle: "TikTok 광고 시작, 도구, 소재를 하나의 성장 시스템으로 연결할까요?",
+    ctaCopy: "시장, 매장, 집행 목표를 알려주시면 실행 경로를 설계합니다.",
+    ctaButton: "무료 상담 예약",
+  },
+  ar: {
+    metaTitle: "Millim | حل TikTok Ads كامل المسار",
+    heroKicker: "حل TikTok Ads",
+    heroTitleHtml: "احتضان كامل المسار<br />وإرشاد احترافي",
+    heroCopy: "نبني نظام تشغيل متكامل لفتح حسابات TikTok Ads والشحن وأدوات TTS وإنشاء GMV Max والمواد الإبداعية.",
+    overviewKicker: "إطار الخدمة",
+    overviewTitle: "من الحسابات والأدوات إلى المواد، نساعد العلامات على بدء الإعلان بكفاءة",
+    filter1: "الحساب والشحن",
+    filter2: "أدوات TTS",
+    filter3: "مواد الأداء",
+    feature1Title: "احتضان كامل المسار",
+    feature1Copy: "وثائق SOP والأسئلة الشائعة وتشخيص الحسابات تقلل صعوبة الإطلاق.",
+    feature2Title: "نظام حسابات ذاتي",
+    feature2Copy: "فتح الحساب والشحن عبر سير عمل خلفي واحد.",
+    feature3Title: "أدوات TTS",
+    feature3Copy: "ربط ERP والإعلانات لإدارة المتجر والتحليل وGMV Max.",
+    feature4Title: "مواد أداء",
+    feature4Copy: "إنتاج وإعادة استخدام واختبار ذكي لتحسين ROI.",
+    supportKicker: "دعم الاحتضان",
+    supportTitle: "احتضان كامل المسار مع إرشاد احترافي",
+    supportCopy: "وثائق قابلة للتنفيذ وإجابات وتشخيص تساعد الفرق على إطلاق الحسابات وتحسينها.",
+    supportBullet1: "مسار إعداد حساب واضح.",
+    supportBullet2: "دعم عمليات 1v1 لحل مشكلات التنفيذ.",
+    supportBullet3: "تشخيص دوري مع اتجاهات تحسين.",
+    supportStep1Title: "وثائق SOP كاملة",
+    supportStep1Copy: "خطوات إعداد واضحة لبداية سلسة.",
+    supportStep2Title: "أسئلة شائعة وإجابات",
+    supportStep2Copy: "دعم 1v1 لحل مشكلات التسليم بسرعة.",
+    supportStep3Title: "نظام مستويات الفريق",
+    supportStep3Copy: "تشخيص دوري يقدم اقتراحات عملية.",
+    accountKicker: "نظام الحسابات",
+    accountTitle: "نظام ذاتي لفتح الحساب والشحن لإدارة الإطلاق بكفاءة",
+    accountCopy: "يدعم المكتب الخلفي فتح الحسابات والشحن وإدارة الحسابات المتعددة لتسريع البداية ومتابعة البيانات.",
+    accountStep1Title: "فتح وشحن ذاتي",
+    accountStep1Copy: "طلبات الحساب والشحن في سير عمل واحد.",
+    accountStep2Title: "لوحة بيانات كاملة",
+    accountStep2Copy: "مزامنة بيانات الإعلانات لحظيا لتحليل سريع.",
+    accountStep3Title: "نظام مستويات الفريق",
+    accountStep3Copy: "حسابات فرعية حسب بنية الفريق لإدارة أسهل.",
+    ttsKicker: "أدوات TTS",
+    ttsTitle: "أدوات TTS التقنية لرفع الكفاءة",
+    ttsCopy: "ربط ERP والإعلانات عبر المخزون والشراء وإدارة متجر TTS والتحليل وGMV Max.",
+    ttsStep1Title: "نظام ERP",
+    ttsStep1Copy: "المخزون والشراء وإدارة متجر TTS وتحليل الأعمال.",
+    ttsStep2Title: "نظام الإعلانات",
+    ttsStep2Copy: "إنشاء GMV Max دفعة واحدة وتحليل بيانات فعال.",
+    creativeKicker: "مواد الأداء",
+    creativeTitle: "مواد تدخل اختبار التحويل بسرعة أكبر",
+    creativeCopy: "الخبرة والتحرير وتحليل البيانات واستراتيجية media تربط الإنتاج بالتحسين.",
+    creativeStep1Title: "إنتاج إبداعي",
+    creativeStep1Copy: "فرق التخطيط والإنتاج تعمل مع KOC والنماذج لبناء مواد عالية التحويل.",
+    creativeStep2Title: "تعظيم قيمة المحتوى",
+    creativeStep2Copy: "التحرير وإعادة التركيب يحولان الأصل الواحد إلى زوايا اختبار متعددة.",
+    creativeStep3Title: "محرك media ذكي",
+    creativeStep3Copy: "البيانات والاتجاهات تحسن استراتيجية التسليم واتجاه الإبداع.",
+    ctaKicker: "نمو TikTok",
+    ctaTitle: "هل تريد ربط إطلاق الحساب والأدوات والمواد في نظام نمو واحد؟",
+    ctaCopy: "شارك السوق والمتجر وأهداف التنفيذ، وسنرسم مسار التنفيذ.",
+    ctaButton: "احجز مكالمة مجانية",
+  },
+  it: {
+    metaTitle: "Millim | Soluzione TikTok Ads full-funnel",
+    heroKicker: "Soluzione TikTok Ads",
+    heroTitleHtml: "Incubazione full-funnel<br />e guida professionale",
+    heroCopy: "Costruiamo un sistema per account TikTok Ads, ricariche, strumenti TTS, creazione GMV Max e creative performance.",
+    overviewKicker: "Framework di servizio",
+    overviewTitle: "Da account, strumenti e creative per avviare paid growth più velocemente",
+    filter1: "Account e ricarica",
+    filter2: "Strumenti TTS",
+    filter3: "Creative performance",
+    feature1Title: "Incubazione full-funnel",
+    feature1Copy: "SOP, FAQ e diagnosi account riducono la frizione di lancio.",
+    feature2Title: "Sistema account self-service",
+    feature2Copy: "Apertura e ricarica in un unico workflow back-office.",
+    feature3Title: "Strumenti TTS",
+    feature3Copy: "ERP e ads connessi per gestione shop, analisi e GMV Max.",
+    feature4Title: "Creative performance",
+    feature4Copy: "Produzione, riuso contenuti e smart testing migliorano ROI.",
+    supportKicker: "Supporto incubazione",
+    supportTitle: "Incubazione full-funnel con guida professionale",
+    supportCopy: "Documenti, risposte e diagnosi aiutano il team a lanciare e ottimizzare.",
+    supportBullet1: "Flusso chiaro di onboarding account.",
+    supportBullet2: "Supporto operativo 1v1 per problemi live.",
+    supportBullet3: "Diagnosi periodiche con direzione di ottimizzazione.",
+    supportStep1Title: "Documenti SOP completi",
+    supportStep1Copy: "Passaggi chiari per iniziare senza attrito.",
+    supportStep2Title: "FAQ e risposte",
+    supportStep2Copy: "Supporto 1v1 per risolvere rapidamente.",
+    supportStep3Title: "Sistema gerarchico team",
+    supportStep3Copy: "Diagnosi periodiche con suggerimenti pratici.",
+    accountKicker: "Sistema account",
+    accountTitle: "Sistema self-service per apertura e ricarica",
+    accountCopy: "Back office per apertura, ricarica e multi-account, con monitoraggio dati continuo.",
+    accountStep1Title: "Apertura e ricarica self-service",
+    accountStep1Copy: "Richieste e avanzamento in un unico workflow.",
+    accountStep2Title: "Dashboard completa",
+    accountStep2Copy: "Dati ads sincronizzati in tempo reale per analisi multi-account.",
+    accountStep3Title: "Gerarchia team",
+    accountStep3Copy: "Sub-account per struttura team e gestione più semplice.",
+    ttsKicker: "Strumenti TTS",
+    ttsTitle: "Strumenti tecnici TTS per efficienza",
+    ttsCopy: "Connette ERP e ads per inventario, acquisti, gestione TTS, analisi e GMV Max.",
+    ttsStep1Title: "Sistema ERP",
+    ttsStep1Copy: "Inventario, acquisti, gestione shop TTS e analisi dati.",
+    ttsStep2Title: "Sistema ads",
+    ttsStep2Copy: "Creazione GMV Max in batch e analisi efficiente.",
+    creativeKicker: "Creative performance",
+    creativeTitle: "Creative pronte più rapidamente per test conversione",
+    creativeCopy: "Esperienza, editing, dati e strategia media collegano produzione e ottimizzazione.",
+    creativeStep1Title: "Produzione creativa",
+    creativeStep1Copy: "Team creativi e produttivi con KOC e modelli per asset ad alta conversione.",
+    creativeStep2Title: "Massimizzare valore contenuti",
+    creativeStep2Copy: "Editing e ricombinazione creano più angoli di test.",
+    creativeStep3Title: "Motore media smart",
+    creativeStep3Copy: "Dati e trend ottimizzano strategia e direzione creativa.",
+    ctaKicker: "Crescita TikTok",
+    ctaTitle: "Vuoi collegare account, strumenti e creative in un sistema growth?",
+    ctaCopy: "Condividi mercato, shop e obiettivi. Millim mapperà il percorso esecutivo.",
+    ctaButton: "PRENOTA UNA CALL",
+  },
+  fr: {
+    metaTitle: "Millim | Solution TikTok Ads full-funnel",
+    heroKicker: "Solution TikTok Ads",
+    heroTitleHtml: "Incubation full-funnel<br />et accompagnement expert",
+    heroCopy: "Nous construisons un système complet pour ouverture de compte, recharge, outils TTS, création GMV Max et créas performance.",
+    overviewKicker: "Cadre de service",
+    overviewTitle: "Des comptes, outils et créas pour lancer la croissance paid plus vite",
+    filter1: "Compte et recharge",
+    filter2: "Outils TTS",
+    filter3: "Créa performance",
+    feature1Title: "Incubation full-funnel",
+    feature1Copy: "SOP, FAQ et diagnostics réduisent la friction de lancement.",
+    feature2Title: "Système compte self-service",
+    feature2Copy: "Ouverture et recharge via un workflow back-office.",
+    feature3Title: "Outils produit TTS",
+    feature3Copy: "Connecter ERP et ads pour gestion shop, analyse et GMV Max.",
+    feature4Title: "Créa performance",
+    feature4Copy: "Production, réutilisation et tests intelligents améliorent le ROI.",
+    supportKicker: "Support incubation",
+    supportTitle: "Incubation full-funnel avec accompagnement expert",
+    supportCopy: "Documents, réponses et diagnostics aident les équipes à lancer et optimiser.",
+    supportBullet1: "Onboarding de compte clair.",
+    supportBullet2: "Support opérationnel 1v1 pour résoudre les problèmes.",
+    supportBullet3: "Diagnostics réguliers avec pistes d'optimisation.",
+    supportStep1Title: "Documents SOP complets",
+    supportStep1Copy: "Étapes claires pour démarrer sans friction.",
+    supportStep2Title: "FAQ et réponses",
+    supportStep2Copy: "Support 1v1 pour résoudre rapidement.",
+    supportStep3Title: "Système de hiérarchie d'équipe",
+    supportStep3Copy: "Diagnostics réguliers avec recommandations pratiques.",
+    accountKicker: "Système compte",
+    accountTitle: "Système self-service d'ouverture et recharge pour gérer le lancement",
+    accountCopy: "Le back office prend en charge ouverture, recharge et multi-comptes pour démarrer vite et suivre les données.",
+    accountStep1Title: "Ouverture et recharge self-service",
+    accountStep1Copy: "Demandes et suivi dans un seul workflow.",
+    accountStep2Title: "Dashboard complet",
+    accountStep2Copy: "Données ads synchronisées en temps réel pour analyse multi-compte.",
+    accountStep3Title: "Hiérarchie d'équipe",
+    accountStep3Copy: "Sous-comptes par structure d'équipe pour une gestion plus simple.",
+    ttsKicker: "Outils TTS",
+    ttsTitle: "Outils techniques TTS pour gagner en efficacité",
+    ttsCopy: "Connecter ERP et ads pour stock, achats, gestion TTS, analyse et GMV Max.",
+    ttsStep1Title: "Système ERP",
+    ttsStep1Copy: "Stock, achats, gestion de boutique TTS et analyse.",
+    ttsStep2Title: "Système ads",
+    ttsStep2Copy: "Création GMV Max en batch et analyse efficace.",
+    creativeKicker: "Créa performance",
+    creativeTitle: "Des créas qui passent plus vite en test conversion",
+    creativeCopy: "Expérience marché, montage, data et stratégie media relient production et optimisation.",
+    creativeStep1Title: "Production créative",
+    creativeStep1Copy: "Équipes créa et production avec KOC et modèles pour des assets à forte conversion.",
+    creativeStep2Title: "Maximiser la valeur du contenu",
+    creativeStep2Copy: "Montage et recombinaison créent plusieurs angles de test.",
+    creativeStep3Title: "Moteur media intelligent",
+    creativeStep3Copy: "Data et tendances optimisent stratégie et direction créative.",
+    ctaKicker: "Croissance TikTok",
+    ctaTitle: "Besoin de relier comptes, outils et créas dans un système de croissance ?",
+    ctaCopy: "Partagez marché, shop et objectifs. Millim construira le chemin d'exécution.",
+    ctaButton: "RÉSERVER UN APPEL",
+  },
+  vi: {
+    metaTitle: "Millim | Giải pháp TikTok Ads full-funnel",
+    heroKicker: "Giải pháp TikTok Ads",
+    heroTitleHtml: "Đồng hành full-funnel<br />và hướng dẫn chuyên nghiệp",
+    heroCopy: "Xây hệ thống từ mở tài khoản, nạp tiền, công cụ TTS, tạo GMV Max đến creative hiệu quả.",
+    overviewKicker: "Khung dịch vụ",
+    overviewTitle: "Từ tài khoản, công cụ đến creative, giúp brand khởi động paid growth nhanh hơn",
+    filter1: "Tài khoản & nạp tiền",
+    filter2: "Công cụ TTS",
+    filter3: "Creative hiệu quả",
+    feature1Title: "Đồng hành full-funnel",
+    feature1Copy: "SOP, FAQ và chẩn đoán tài khoản giảm ma sát khởi động.",
+    feature2Title: "Hệ thống tài khoản self-service",
+    feature2Copy: "Mở tài khoản và nạp tiền bằng một workflow back office.",
+    feature3Title: "Công cụ sản phẩm TTS",
+    feature3Copy: "Kết nối ERP và ads để quản lý shop, phân tích và GMV Max.",
+    feature4Title: "Creative hiệu quả",
+    feature4Copy: "Sản xuất, tái dùng nội dung và testing thông minh để tăng ROI.",
+    supportKicker: "Hỗ trợ khởi động",
+    supportTitle: "Đồng hành full-funnel với hướng dẫn chuyên nghiệp",
+    supportCopy: "Tài liệu thực thi, giải đáp và chẩn đoán giúp đội ngũ mở tài khoản và tối ưu.",
+    supportBullet1: "Quy trình onboarding tài khoản rõ ràng.",
+    supportBullet2: "Hỗ trợ vận hành 1v1 cho vấn đề đang chạy.",
+    supportBullet3: "Chẩn đoán định kỳ kèm hướng tối ưu.",
+    supportStep1Title: "Tài liệu SOP đầy đủ",
+    supportStep1Copy: "Các bước onboarding rõ ràng để bắt đầu mượt hơn.",
+    supportStep2Title: "FAQ và giải đáp",
+    supportStep2Copy: "Hỗ trợ 1v1 để xử lý vấn đề nhanh.",
+    supportStep3Title: "Hệ thống phân tầng team",
+    supportStep3Copy: "Chẩn đoán định kỳ với đề xuất thực tế.",
+    accountKicker: "Hệ thống tài khoản",
+    accountTitle: "Hệ thống mở tài khoản và nạp tiền self-service",
+    accountCopy: "Back office hỗ trợ mở, nạp tiền và quản lý nhiều tài khoản để khởi động nhanh và xem dữ liệu.",
+    accountStep1Title: "Mở và nạp tiền self-service",
+    accountStep1Copy: "Gửi yêu cầu và quản lý tiến độ trong một workflow.",
+    accountStep2Title: "Dashboard dữ liệu đầy đủ",
+    accountStep2Copy: "Đồng bộ dữ liệu ads realtime cho phân tích multi-account.",
+    accountStep3Title: "Phân tầng team",
+    accountStep3Copy: "Thiết lập sub-account theo cấu trúc team.",
+    ttsKicker: "Công cụ TTS",
+    ttsTitle: "Công cụ kỹ thuật TTS nâng hiệu suất",
+    ttsCopy: "Kết nối ERP và ads cho kho, mua hàng, quản lý TTS, phân tích và GMV Max.",
+    ttsStep1Title: "Hệ thống ERP",
+    ttsStep1Copy: "Kho, mua hàng, quản lý shop TTS và phân tích.",
+    ttsStep2Title: "Hệ thống ads",
+    ttsStep2Copy: "Tạo GMV Max hàng loạt và phân tích hiệu quả.",
+    creativeKicker: "Creative hiệu quả",
+    creativeTitle: "Creative vào test chuyển đổi nhanh hơn",
+    creativeCopy: "Kinh nghiệm ngành, editing, dữ liệu và media strategy kết nối sản xuất với tối ưu.",
+    creativeStep1Title: "Sản xuất creative",
+    creativeStep1Copy: "Team sáng tạo và sản xuất phối hợp KOC, model để tạo asset chuyển đổi cao.",
+    creativeStep2Title: "Tối đa hóa giá trị nội dung",
+    creativeStep2Copy: "Editing và tái tổ hợp tạo nhiều góc test.",
+    creativeStep3Title: "Động cơ media thông minh",
+    creativeStep3Copy: "Dữ liệu và xu hướng tối ưu chiến lược phân phối và hướng creative.",
+    ctaKicker: "Tăng trưởng TikTok",
+    ctaTitle: "Cần nối tài khoản, công cụ và creative thành một hệ thống growth?",
+    ctaCopy: "Chia sẻ thị trường, shop và mục tiêu. Millim sẽ map đường thực thi.",
+    ctaButton: "ĐẶT CUỘC GỌI",
+  },
+  th: {
+    metaTitle: "Millim | โซลูชัน TikTok Ads ครบวงจร",
+    heroKicker: "โซลูชัน TikTok Ads",
+    heroTitleHtml: "ดูแล full-funnel<br />พร้อมคำแนะนำมืออาชีพ",
+    heroCopy: "สร้างระบบตั้งแต่เปิดบัญชี เติมเงิน เครื่องมือ TTS สร้าง GMV Max ไปจนถึง creative เพื่อ conversion",
+    overviewKicker: "กรอบบริการ",
+    overviewTitle: "จากบัญชี เครื่องมือ และ creative ช่วยแบรนด์เริ่ม paid growth ได้เร็วขึ้น",
+    filter1: "บัญชีและเติมเงิน",
+    filter2: "เครื่องมือ TTS",
+    filter3: "Creative ผลลัพธ์",
+    feature1Title: "ดูแล full-funnel",
+    feature1Copy: "SOP, FAQ และวินิจฉัยบัญชีช่วยลดต้นทุนเริ่มต้น",
+    feature2Title: "ระบบบัญชี self-service",
+    feature2Copy: "เปิดบัญชีและเติมเงินผ่าน workflow เดียว",
+    feature3Title: "เครื่องมือ TTS",
+    feature3Copy: "เชื่อม ERP และ ads เพื่อจัดการร้าน วิเคราะห์ และ GMV Max",
+    feature4Title: "Creative ผลลัพธ์",
+    feature4Copy: "ผลิต ใช้ซ้ำ และทดสอบอย่างชาญฉลาดเพื่อเพิ่ม ROI",
+    supportKicker: "สนับสนุนการเริ่มต้น",
+    supportTitle: "ดูแล full-funnel พร้อมคำแนะนำมืออาชีพ",
+    supportCopy: "เอกสารที่ทำตามได้ คำตอบ และการวินิจฉัยช่วยทีมเปิดบัญชีและ optimize",
+    supportBullet1: "ขั้นตอน onboarding บัญชีชัดเจน",
+    supportBullet2: "ซัพพอร์ต 1v1 เพื่อแก้ปัญหาระหว่างรัน",
+    supportBullet3: "วินิจฉัยสม่ำเสมอพร้อมแนวทาง optimize",
+    supportStep1Title: "เอกสาร SOP ครบถ้วน",
+    supportStep1Copy: "ขั้นตอนชัดเจนเพื่อเริ่มต้นง่ายขึ้น",
+    supportStep2Title: "FAQ และคำตอบ",
+    supportStep2Copy: "ซัพพอร์ต 1v1 แก้ปัญหาได้เร็ว",
+    supportStep3Title: "ระบบลำดับชั้นทีม",
+    supportStep3Copy: "วินิจฉัยพร้อมคำแนะนำที่ทำได้จริง",
+    accountKicker: "ระบบบัญชี",
+    accountTitle: "ระบบเปิดบัญชีและเติมเงิน self-service เพื่อจัดการการเริ่มต้น",
+    accountCopy: "Back office รองรับเปิดบัญชี เติมเงิน และหลายบัญชี เพื่อเริ่มเร็วและดูข้อมูลต่อเนื่อง",
+    accountStep1Title: "เปิดบัญชีและเติมเงิน self-service",
+    accountStep1Copy: "ส่งคำขอและจัดการความคืบหน้าใน workflow เดียว",
+    accountStep2Title: "Dashboard ข้อมูลครบ",
+    accountStep2Copy: "ซิงก์ข้อมูล ads realtime สำหรับวิเคราะห์หลายบัญชี",
+    accountStep3Title: "ระบบลำดับชั้นทีม",
+    accountStep3Copy: "ตั้ง sub-account ตามโครงสร้างทีม",
+    ttsKicker: "เครื่องมือ TTS",
+    ttsTitle: "เครื่องมือเทคนิค TTS เพิ่มประสิทธิภาพ",
+    ttsCopy: "เชื่อม ERP และ ads สำหรับคลัง ซื้อสินค้า จัดการร้าน TTS วิเคราะห์ และ GMV Max",
+    ttsStep1Title: "ระบบ ERP",
+    ttsStep1Copy: "คลัง ซื้อสินค้า จัดการร้าน TTS และวิเคราะห์ธุรกิจ",
+    ttsStep2Title: "ระบบโฆษณา",
+    ttsStep2Copy: "สร้าง GMV Max จำนวนมากและวิเคราะห์ข้อมูลอย่างมีประสิทธิภาพ",
+    creativeKicker: "Creative ผลลัพธ์",
+    creativeTitle: "Creative เข้าสู่การทดสอบ conversion ได้เร็วขึ้น",
+    creativeCopy: "ประสบการณ์ อีดิท ข้อมูล และกลยุทธ์ media เชื่อมการผลิตกับ optimization",
+    creativeStep1Title: "ผลิต creative",
+    creativeStep1Copy: "ทีมครีเอทีฟและโปรดักชันร่วมกับ KOC และโมเดลเพื่อ asset ที่ convert สูง",
+    creativeStep2Title: "เพิ่มคุณค่าคอนเทนต์",
+    creativeStep2Copy: "อีดิทและจัดใหม่ให้ได้หลายมุมทดสอบ",
+    creativeStep3Title: "เครื่องยนต์ media อัจฉริยะ",
+    creativeStep3Copy: "ข้อมูลและเทรนด์ช่วย optimize กลยุทธ์และทิศทาง creative",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "ต้องการเชื่อมบัญชี เครื่องมือ และ creative เป็นระบบ growth เดียวไหม?",
+    ctaCopy: "แชร์ตลาด ร้านค้า และเป้าหมาย เราจะช่วยวางเส้นทาง execution",
+    ctaButton: "จองการโทรฟรี",
+  },
+  ms: {
+    metaTitle: "Millim | Penyelesaian TikTok Ads full-funnel",
+    heroKicker: "Penyelesaian TikTok Ads",
+    heroTitleHtml: "Inkübasi full-funnel<br />dan panduan profesional",
+    heroCopy: "Bina sistem lengkap untuk pembukaan akaun, top-up, alat TTS, penciptaan GMV Max dan creative prestasi.",
+    overviewKicker: "Rangka servis",
+    overviewTitle: "Daripada akaun, alat dan creative, bantu jenama mula paid growth lebih cepat",
+    filter1: "Akaun & top-up",
+    filter2: "Alat TTS",
+    filter3: "Creative prestasi",
+    feature1Title: "Inkübasi full-funnel",
+    feature1Copy: "Dokumen SOP, FAQ dan diagnosis akaun mengurangkan geseran mula.",
+    feature2Title: "Sistem akaun self-service",
+    feature2Copy: "Pembukaan akaun dan top-up dalam satu workflow back office.",
+    feature3Title: "Alat produk TTS",
+    feature3Copy: "Sambung ERP dan ads untuk pengurusan kedai, analisis dan GMV Max.",
+    feature4Title: "Creative prestasi",
+    feature4Copy: "Produksi, guna semula kandungan dan testing pintar meningkatkan ROI.",
+    supportKicker: "Sokongan inkübasi",
+    supportTitle: "Inkübasi full-funnel dengan panduan profesional",
+    supportCopy: "Dokumen, jawapan dan diagnosis membantu team melancar dan mengoptimumkan akaun.",
+    supportBullet1: "Aliran onboarding akaun yang jelas.",
+    supportBullet2: "Sokongan operasi 1v1 untuk isu semasa.",
+    supportBullet3: "Diagnosis berkala dengan arah optimasi.",
+    supportStep1Title: "Dokumen SOP lengkap",
+    supportStep1Copy: "Langkah onboarding jelas untuk mula lancar.",
+    supportStep2Title: "FAQ dan jawapan",
+    supportStep2Copy: "Sokongan 1v1 untuk selesaikan isu cepat.",
+    supportStep3Title: "Sistem hierarki team",
+    supportStep3Copy: "Diagnosis berkala memberi cadangan praktikal.",
+    accountKicker: "Sistem akaun",
+    accountTitle: "Sistem pembukaan dan top-up self-service untuk urus pelancaran",
+    accountCopy: "Back office menyokong pembukaan, top-up dan multi-akaun supaya team mula lebih cepat.",
+    accountStep1Title: "Pembukaan dan top-up self-service",
+    accountStep1Copy: "Hantar permintaan dan urus kemajuan dalam satu workflow.",
+    accountStep2Title: "Dashboard data lengkap",
+    accountStep2Copy: "Data ads disegerak realtime untuk analisis multi-akaun.",
+    accountStep3Title: "Hierarki team",
+    accountStep3Copy: "Tetapkan sub-akaun mengikut struktur team.",
+    ttsKicker: "Alat TTS",
+    ttsTitle: "Alat teknikal TTS untuk kecekapan",
+    ttsCopy: "Sambung ERP dan ads untuk inventori, pembelian, pengurusan TTS, analisis dan GMV Max.",
+    ttsStep1Title: "Sistem ERP",
+    ttsStep1Copy: "Inventori, pembelian, pengurusan kedai TTS dan analisis.",
+    ttsStep2Title: "Sistem ads",
+    ttsStep2Copy: "Penciptaan GMV Max pukal dan analisis cekap.",
+    creativeKicker: "Creative prestasi",
+    creativeTitle: "Creative masuk ke testing conversion lebih cepat",
+    creativeCopy: "Pengalaman industri, editing, data dan strategi media menyambung produksi dengan optimasi.",
+    creativeStep1Title: "Produksi kreatif",
+    creativeStep1Copy: "Team kreatif dan produksi dengan KOC serta model untuk asset conversion tinggi.",
+    creativeStep2Title: "Maksimumkan nilai kandungan",
+    creativeStep2Copy: "Editing dan gabungan semula menjana banyak sudut testing.",
+    creativeStep3Title: "Enjin media pintar",
+    creativeStep3Copy: "Data dan trend mengoptimumkan strategi serta arah creative.",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "Perlu sambung akaun, alat dan creative menjadi satu sistem growth?",
+    ctaCopy: "Kongsi pasaran, kedai dan matlamat. Millim akan susun laluan execution.",
+    ctaButton: "TEMPAH PANGGILAN",
+  },
+  id: {
+    metaTitle: "Millim | Solusi TikTok Ads full-funnel",
+    heroKicker: "Solusi TikTok Ads",
+    heroTitleHtml: "Pendampingan full-funnel<br />dan panduan profesional",
+    heroCopy: "Bangun sistem lengkap dari pembukaan akun, top-up, alat TTS, pembuatan GMV Max, hingga creative performance.",
+    overviewKicker: "Kerangka layanan",
+    overviewTitle: "Dari akun, alat, sampai creative, bantu brand mulai paid growth lebih cepat",
+    filter1: "Akun & top-up",
+    filter2: "Alat TTS",
+    filter3: "Creative performance",
+    feature1Title: "Pendampingan full-funnel",
+    feature1Copy: "SOP, FAQ, dan diagnosis akun mengurangi friksi saat mulai.",
+    feature2Title: "Sistem akun self-service",
+    feature2Copy: "Pembukaan akun dan top-up dalam satu workflow back office.",
+    feature3Title: "Alat produk TTS",
+    feature3Copy: "Hubungkan ERP dan ads untuk manajemen shop, analisis, dan GMV Max.",
+    feature4Title: "Creative performance",
+    feature4Copy: "Produksi, reuse konten, dan testing cerdas untuk meningkatkan ROI.",
+    supportKicker: "Dukungan inkubasi",
+    supportTitle: "Pendampingan full-funnel dengan panduan profesional",
+    supportCopy: "Dokumen, jawaban, dan diagnosis membantu tim membuka akun dan mengoptimalkan.",
+    supportBullet1: "Alur onboarding akun yang jelas.",
+    supportBullet2: "Dukungan operasi 1v1 untuk masalah berjalan.",
+    supportBullet3: "Diagnosis berkala dengan arah optimasi.",
+    supportStep1Title: "Dokumen SOP lengkap",
+    supportStep1Copy: "Langkah onboarding jelas untuk mulai lebih mudah.",
+    supportStep2Title: "FAQ dan jawaban",
+    supportStep2Copy: "Dukungan 1v1 untuk menyelesaikan masalah cepat.",
+    supportStep3Title: "Sistem hierarki tim",
+    supportStep3Copy: "Diagnosis berkala memberi rekomendasi praktis.",
+    accountKicker: "Sistem akun",
+    accountTitle: "Sistem pembukaan akun dan top-up self-service untuk mengelola launch",
+    accountCopy: "Back office mendukung pembukaan, top-up, dan multi-akun agar tim mulai lebih cepat.",
+    accountStep1Title: "Pembukaan dan top-up self-service",
+    accountStep1Copy: "Kirim permintaan dan kelola progres dalam satu workflow.",
+    accountStep2Title: "Dashboard data lengkap",
+    accountStep2Copy: "Data ads sinkron realtime untuk analisis multi-akun.",
+    accountStep3Title: "Hierarki tim",
+    accountStep3Copy: "Atur sub-akun sesuai struktur tim.",
+    ttsKicker: "Alat TTS",
+    ttsTitle: "Alat teknis TTS untuk efisiensi",
+    ttsCopy: "Hubungkan ERP dan ads untuk inventori, pembelian, manajemen TTS, analisis, dan GMV Max.",
+    ttsStep1Title: "Sistem ERP",
+    ttsStep1Copy: "Inventori, pembelian, manajemen shop TTS, dan analisis bisnis.",
+    ttsStep2Title: "Sistem ads",
+    ttsStep2Copy: "Pembuatan GMV Max massal dan analisis data efisien.",
+    creativeKicker: "Creative performance",
+    creativeTitle: "Creative masuk ke testing conversion lebih cepat",
+    creativeCopy: "Pengalaman industri, editing, data, dan strategi media menghubungkan produksi dengan optimasi.",
+    creativeStep1Title: "Produksi creative",
+    creativeStep1Copy: "Tim kreatif dan produksi dengan KOC serta model untuk asset konversi tinggi.",
+    creativeStep2Title: "Maksimalkan nilai konten",
+    creativeStep2Copy: "Editing dan rekombinasi membuat banyak angle testing.",
+    creativeStep3Title: "Mesin media cerdas",
+    creativeStep3Copy: "Data dan tren mengoptimalkan strategi delivery dan arah creative.",
+    ctaKicker: "TikTok Growth",
+    ctaTitle: "Perlu menghubungkan akun, alat, dan creative menjadi satu sistem growth?",
+    ctaCopy: "Bagikan pasar, shop, dan target delivery. Millim akan memetakan jalur eksekusi.",
+    ctaButton: "JADWALKAN PANGGILAN",
+  },
+};
+
+Object.entries(tiktokAdsSolutionDetailRows).forEach(([lang, labels]) => {
+  if (!translations[lang]) return;
+  translations[lang].tiktokAdsSolution = mergeLanguage(translations[lang].tiktokAdsSolution || {}, labels);
 });
 
 const blogPageExtraKeys = [
@@ -3365,6 +4427,88 @@ const simplifiedToTraditionalMap = {
   "待": "待",
   "更": "更",
   "新": "新",
+  "种": "種",
+  "个": "個",
+  "链": "鏈",
+  "势": "勢",
+  "补": "補",
+  "齐": "齊",
+  "带": "帶",
+  "货": "貨",
+  "借": "藉",
+  "难": "難",
+  "顶": "頂",
+  "专": "專",
+  "项": "項",
+  "顿": "頓",
+  "脱": "脫",
+  "际": "際",
+  "丰": "豐",
+  "积": "積",
+  "迟": "遲",
+  "错": "錯",
+  "况": "況",
+  "务": "務",
+  "盖": "蓋",
+  "欧": "歐",
+  "亚": "亞",
+  "妆": "妝",
+  "婴": "嬰",
+  "阵": "陣",
+  "剧": "劇",
+  "亿": "億",
+  "级": "級",
+  "杂": "雜",
+  "较": "較",
+  "签": "簽",
+  "订": "訂",
+  "认": "認",
+  "样": "樣",
+  "终": "終",
+  "过": "過",
+  "热": "熱",
+  "阶": "階",
+  "长": "長",
+  "区": "區",
+  "围": "圍",
+  "维": "維",
+  "资": "資",
+  "启": "啟",
+  "点": "點",
+  "经": "經",
+  "适": "適",
+  "华": "華",
+  "详": "詳",
+  "处": "處",
+  "门": "門",
+  "边": "邊",
+  "则": "則",
+  "员": "員",
+  "气": "氣",
+  "历": "歷",
+  "据": "據",
+  "验": "驗",
+  "问": "問",
+  "题": "題",
+  "滤": "濾",
+  "储": "儲",
+  "钟": "鐘",
+  "质": "質",
+  "联": "聯",
+  "馈": "饋",
+  "总": "總",
+  "导": "導",
+  "备": "備",
+  "该": "該",
+  "荐": "薦",
+  "优": "優",
+  "选": "選",
+  "择": "擇",
+  "业": "業",
+  "术": "術",
+  "对": "對",
+  "应": "應",
+  "万": "萬",
 };
 
 function toTraditionalChineseText(value) {
@@ -3696,7 +4840,7 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const navDropdown = document.querySelector(".nav-dropdown");
 const navDropdownToggle = document.querySelector(".nav-dropdown-toggle");
 const navLinks = document.querySelectorAll(".nav-link[data-nav]");
-const revealCards = document.querySelectorAll(".concept-grid article, .service-card, .about-card, .about-stat, .about-timeline-item, .case-card, .cases-outcome-list article, .content-card, .content-step-list article");
+const revealCards = document.querySelectorAll(".concept-grid article, .service-card, .step-grid article, .about-card, .about-stat, .about-timeline-item, .case-card, .cases-outcome-list article, .content-card, .content-step-list article, .creator-pain-card, .creator-capability-grid article, .creator-benchmark-table, .creator-sop-card, .tiktok-section-copy, .tiktok-feature-grid article, .tiktok-flow-card article, .tiktok-mini-flow article, .tiktok-visual-stack figure, .tiktok-support-visuals figure, .tiktok-account-visual figure, .tiktok-dashboard-grid figure, .tiktok-material-gallery figure");
 const bookingForm = document.querySelector(".booking-form");
 const multiSelect = document.querySelector("[data-multi-select]");
 const multiSelectToggle = document.querySelector(".multi-select-toggle");
@@ -3709,9 +4853,10 @@ const companyInput = bookingForm?.querySelector('input[name="company"]');
 const formStatus = bookingForm?.querySelector(".form-status");
 const submitButton = bookingForm?.querySelector(".submit-button");
 const blogFilters = document.querySelectorAll("[data-blog-filter]");
+const caseFilterButtons = document.querySelectorAll("[data-case-filter]");
+const caseCards = document.querySelectorAll(".case-card[data-case-category]");
 const blogCards = document.querySelectorAll(".blog-card[data-category]");
 const blogPagination = document.querySelector(".blog-pagination");
-const blogPageButtons = document.querySelectorAll("[data-blog-page]");
 const blogSearchForm = document.querySelector(".blog-search");
 const blogSearchInput = document.querySelector("[data-blog-search]");
 const blogEmpty = document.querySelector(".blog-empty");
@@ -3720,9 +4865,11 @@ const blogShareTriggers = Array.from(document.querySelectorAll(".blog-stat-share
   .map((icon) => icon.closest("span"))
   .filter(Boolean);
 let activeBlogFilter = "all";
+let activeCaseFilter = "all";
 let activeBlogPage = 1;
 let activeBlogQuery = "";
 let blogShareToastTimer;
+const BLOG_PAGE_SIZE = 10;
 const blogArticleRoot = document.querySelector("[data-blog-article]");
 const blogArticleShareButton = document.querySelector(".blog-article-share");
 const blogArticleLikeButton = document.querySelector("[data-article-like-button]");
@@ -3755,14 +4902,21 @@ const blogArticleMetaBySlug = {
   "campaign-review": { icon: "G", like: "117", view: "2.2k", comment: "14", cardIndex: 6 },
 };
 const caseArticleMetaBySlug = {
-  "beauty-launch-creators": { icon: "M", like: "128", view: "2.4k", comment: "18", cardIndex: 1, dateLong: "June 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
-  "paid-social-refresh": { icon: "A", like: "96", view: "1.9k", comment: "12", cardIndex: 2, dateLong: "May 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
-  "live-commerce-system": { icon: "S", like: "112", view: "2.1k", comment: "16", cardIndex: 3, dateLong: "April 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
-  "creator-event-engine": { icon: "E", like: "144", view: "3.2k", comment: "24", cardIndex: 4, dateLong: "March 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
-  "market-entry-launch": { icon: "M", like: "87", view: "1.6k", comment: "9", cardIndex: 5, dateLong: "February 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
-  "always-on-growth": { icon: "G", like: "103", view: "2.0k", comment: "11", cardIndex: 6, dateLong: "January 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "papafeel-philippines-beauty": { icon: "P", like: "94", view: "4.3M+", comment: "0", cardIndex: 1, dateLong: "March 2025", featureImage: "./assets/cases-generated/papafeel-philippines-beauty/detail-hero.jpg" },
+  "cool-vita-payday-growth": { icon: "C", like: "112", view: "14M+", comment: "0", cardIndex: 2, dateLong: "June 2025", featureImage: "./assets/cases-generated/cool-vita-payday-growth/detail-hero.jpg" },
+  "susteas-promotion-breakthrough": { icon: "S", like: "128", view: "4.3M+", comment: "0", cardIndex: 3, dateLong: "October 2025", featureImage: "./assets/cases-generated/susteas-promotion-breakthrough/detail-hero.jpg" },
+  "jotoys-europe-launch": { icon: "J", like: "130", view: "1000", comment: "0", cardIndex: 1, dateLong: "March 25, 2026", featureImage: "./assets/cases-generated/jotoys-europe-launch/detail-hero.jpg" },
+  "amiro-market-entry": { icon: "A", like: "118", view: "5M+", comment: "0", cardIndex: 2, dateLong: "March 2026", featureImage: "./assets/cases-generated/amiro-market-entry/detail-hero.jpg" },
+  "botslab-hardware-breakthrough": { icon: "B", like: "106", view: "2M+", comment: "0", cardIndex: 3, dateLong: "Spring 2026", featureImage: "./assets/cases-generated/botslab-hardware-breakthrough/detail-hero.jpg" },
+  "ubras-funnel-growth": { icon: "U", like: "156", view: "3M+", comment: "0", cardIndex: 4, dateLong: "2025-2026", featureImage: "./assets/cases-generated/ubras-funnel-growth/detail-hero.jpg" },
+};
+const newsArticleMetaBySlug = {
+  "creator-partnership-events": { icon: "E", like: "72", view: "1.3k", comment: "6", cardIndex: 1, dateLong: "June 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "short-video-commerce": { icon: "P", like: "89", view: "1.8k", comment: "8", cardIndex: 2, dateLong: "June 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "expanding-services": { icon: "M", like: "64", view: "1.1k", comment: "5", cardIndex: 3, dateLong: "June 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
 };
 Object.assign(blogArticleMetaBySlug, caseArticleMetaBySlug);
+Object.assign(blogArticleMetaBySlug, newsArticleMetaBySlug);
 
 function getImportedBlogArticles() {
   return Array.isArray(window.MILLIM_IMPORTED_BLOG_ARTICLES) ? window.MILLIM_IMPORTED_BLOG_ARTICLES : [];
@@ -4545,6 +5699,541 @@ const caseArticleGenericCopy = {
     commentBox: "分享你對這個案例的看法。",
   },
 };
+const newsArticleGenericCopy = {
+  en: {
+    overviewTitle: "News overview",
+    signalTitle: "Why it matters",
+    actionTitle: "What teams can do next",
+    signalParagraph: "The update points to a practical shift in how creator commerce teams plan content, paid media, and market execution.",
+    actionBullets: ["Turn the signal into a campaign hypothesis.", "Review creator, media, and commerce workflows together.", "Use the next launch cycle to test measurable audience response."],
+    commentsTitle: "Comments 0",
+    commentBox: "Share your view on this update.",
+  },
+  zh: {
+    overviewTitle: "新闻概览",
+    signalTitle: "为什么重要",
+    actionTitle: "团队下一步可以做什么",
+    signalParagraph: "这条动态反映了达人商业团队在内容、付费媒体和市场执行上的实际变化。",
+    actionBullets: ["把信号转化为 campaign 假设。", "一起复盘达人、媒体和电商承接流程。", "在下一轮发布周期中测试可衡量的受众反馈。"],
+    commentsTitle: "评论 0",
+    commentBox: "分享你对这条动态的看法。",
+  },
+};
+
+const creatorCaseLabels = {
+  en: { overview: "Project overview", result: "Key data results", creators: "Creator examples", content: "Content highlight", data: "Video data" },
+  zh: { overview: "项目概述", result: "关键数据成果", creators: "达人案例", content: "内容亮点", data: "视频数据" },
+  zhHant: { overview: "專案概述", result: "關鍵數據成果", creators: "達人案例", content: "內容亮點", data: "影片數據" },
+  es: { overview: "Resumen del proyecto", result: "Resultados clave", creators: "Ejemplos de creadores", content: "Punto de contenido", data: "Datos de video" },
+  ja: { overview: "プロジェクト概要", result: "主要データ成果", creators: "クリエイター事例", content: "コンテンツの要点", data: "動画データ" },
+  de: { overview: "Projektüberblick", result: "Wichtige Ergebnisse", creators: "Creator-Beispiele", content: "Content-Fokus", data: "Videodaten" },
+  pt: { overview: "Visão do projeto", result: "Resultados-chave", creators: "Exemplos de criadores", content: "Destaque de conteúdo", data: "Dados de vídeo" },
+  ko: { overview: "프로젝트 개요", result: "핵심 데이터 성과", creators: "크리에이터 사례", content: "콘텐츠 핵심", data: "영상 데이터" },
+  ar: { overview: "نظرة عامة على المشروع", result: "نتائج البيانات الرئيسية", creators: "أمثلة المبدعين", content: "نقطة المحتوى", data: "بيانات الفيديو" },
+  it: { overview: "Panoramica progetto", result: "Risultati chiave", creators: "Esempi creator", content: "Focus contenuto", data: "Dati video" },
+  fr: { overview: "Aperçu du projet", result: "Résultats clés", creators: "Exemples créateurs", content: "Point contenu", data: "Données vidéo" },
+  vi: { overview: "Tổng quan dự án", result: "Kết quả dữ liệu chính", creators: "Ví dụ creator", content: "Điểm nhấn nội dung", data: "Dữ liệu video" },
+  th: { overview: "ภาพรวมโปรเจกต์", result: "ผลลัพธ์ข้อมูลสำคัญ", creators: "ตัวอย่างครีเอเตอร์", content: "จุดเด่นคอนเทนต์", data: "ข้อมูลวิดีโอ" },
+  ms: { overview: "Gambaran projek", result: "Hasil data utama", creators: "Contoh pencipta", content: "Sorotan kandungan", data: "Data video" },
+  id: { overview: "Ikhtisar proyek", result: "Hasil data utama", creators: "Contoh kreator", content: "Sorotan konten", data: "Data video" },
+};
+
+const creatorCaseIntlTemplates = {
+  es: { overview: (brand) => `Millim convirtió el lanzamiento de ${brand} en un sistema de contenido con creadores, escenas locales y datos accionables.`, summary: (brand) => `${brand} usó creadores locales para construir confianza, exposición y conversión en TikTok.`, spotlight: "El contenido convirtió producto, escena y prueba social en una ruta de crecimiento medible." },
+  ja: { overview: (brand) => `Millim は ${brand} のローンチを、現地クリエイター、利用シーン、実行データを結ぶコンテンツ運用へ再構成しました。`, summary: (brand) => `${brand} は現地クリエイターを通じて信頼、露出、TikTok 上の転換を高めました。`, spotlight: "コンテンツは商品、利用シーン、ソーシャルプルーフを測定可能な成長導線へ変えました。" },
+  de: { overview: (brand) => `Millim machte den ${brand}-Launch zu einem Creator-System aus lokalen Szenen, Content-Tests und messbaren Signalen.`, summary: (brand) => `${brand} nutzte lokale Creator, um Vertrauen, Reichweite und TikTok-Conversions aufzubauen.`, spotlight: "Der Content verband Produkt, Nutzungsszene und Social Proof zu einem messbaren Wachstumspfad." },
+  pt: { overview: (brand) => `A Millim transformou o lançamento da ${brand} em um sistema de criadores com cenas locais, conteúdo testável e dados claros.`, summary: (brand) => `${brand} usou criadores locais para construir confiança, exposição e conversão no TikTok.`, spotlight: "O conteúdo conectou produto, contexto de uso e prova social a uma rota de crescimento mensurável." },
+  ko: { overview: (brand) => `Millim은 ${brand} 론칭을 현지 크리에이터, 사용 장면, 성과 데이터를 연결한 콘텐츠 운영으로 만들었습니다.`, summary: (brand) => `${brand}는 현지 크리에이터를 통해 신뢰, 노출, TikTok 전환을 구축했습니다.`, spotlight: "콘텐츠는 제품, 사용 장면, 소셜 프루프를 측정 가능한 성장 경로로 연결했습니다." },
+  ar: { overview: (brand) => `حوّلت Millim إطلاق ${brand} إلى نظام محتوى يجمع المبدعين المحليين والمشاهد الواقعية والبيانات القابلة للتنفيذ.`, summary: (brand) => `استخدمت ${brand} المبدعين المحليين لبناء الثقة والانتشار والتحويل على TikTok.`, spotlight: "حوّل المحتوى المنتج والمشهد والدليل الاجتماعي إلى مسار نمو قابل للقياس." },
+  it: { overview: (brand) => `Millim ha trasformato il lancio di ${brand} in un sistema creator con scene locali, contenuti testabili e dati chiari.`, summary: (brand) => `${brand} ha usato creator locali per costruire fiducia, reach e conversione su TikTok.`, spotlight: "Il contenuto ha collegato prodotto, scenario e social proof a una crescita misurabile." },
+  fr: { overview: (brand) => `Millim a transformé le lancement de ${brand} en système créateurs avec scènes locales, contenus testables et données claires.`, summary: (brand) => `${brand} a utilisé des créateurs locaux pour construire confiance, exposition et conversion sur TikTok.`, spotlight: "Le contenu a relié produit, usage et preuve sociale dans un parcours de croissance mesurable." },
+  vi: { overview: (brand) => `Millim biến lần ra mắt của ${brand} thành hệ thống creator với bối cảnh địa phương, nội dung có thể test và dữ liệu rõ ràng.`, summary: (brand) => `${brand} dùng creator địa phương để xây dựng niềm tin, độ phủ và chuyển đổi trên TikTok.`, spotlight: "Nội dung kết nối sản phẩm, bối cảnh sử dụng và social proof thành tuyến tăng trưởng đo lường được." },
+  th: { overview: (brand) => `Millim เปลี่ยนการเปิดตัวของ ${brand} ให้เป็นระบบครีเอเตอร์ที่เชื่อมฉากท้องถิ่น คอนเทนต์ที่ทดสอบได้ และข้อมูลที่นำไปใช้ได้`, summary: (brand) => `${brand} ใช้ครีเอเตอร์ท้องถิ่นเพื่อสร้างความเชื่อมั่น การมองเห็น และ conversion บน TikTok`, spotlight: "คอนเทนต์เชื่อมสินค้า ฉากการใช้งาน และ social proof ให้เป็นเส้นทางการเติบโตที่วัดผลได้" },
+  ms: { overview: (brand) => `Millim menukar pelancaran ${brand} menjadi sistem pencipta dengan adegan tempatan, kandungan boleh diuji dan data jelas.`, summary: (brand) => `${brand} menggunakan pencipta tempatan untuk membina kepercayaan, pendedahan dan conversion di TikTok.`, spotlight: "Kandungan menghubungkan produk, situasi penggunaan dan social proof kepada laluan pertumbuhan yang boleh diukur." },
+  id: { overview: (brand) => `Millim mengubah peluncuran ${brand} menjadi sistem kreator dengan adegan lokal, konten yang bisa diuji, dan data yang jelas.`, summary: (brand) => `${brand} memakai kreator lokal untuk membangun kepercayaan, eksposur, dan konversi di TikTok.`, spotlight: "Konten menghubungkan produk, konteks penggunaan, dan social proof menjadi jalur pertumbuhan terukur." },
+};
+
+const creatorCaseArticlesBySlug = {
+  "papafeel-philippines-beauty": {
+    brand: "PAPA FEEL",
+    accent: "#f39b3d",
+    category: { en: "e-commerce", zh: "电商" },
+    title: { en: "PAPA FEEL & MILLIM Philippines Beauty Market Growth", zh: "PAPA FEEL & MILLIM 菲律宾美妆市场增长" },
+    subtitle: { en: "Philippines Beauty Market Growth", zh: "菲律宾美妆市场增长" },
+    dateLong: { en: "March 2025", zh: "2025年3月" },
+    featureImage: "./assets/cases-generated/papafeel-philippines-beauty/detail-hero.jpg",
+    gallery: [
+      "./assets/cases-generated/papafeel-philippines-beauty/poster-video-1.jpg",
+      "./assets/cases-generated/papafeel-philippines-beauty/poster-video-2.jpg",
+      "./assets/cases-generated/papafeel-philippines-beauty/poster-video-3.jpg",
+      "./assets/cases-generated/papafeel-philippines-beauty/poster-video-4.jpg",
+    ],
+    overview: {
+      en: "Millim helped PAPA FEEL compete in the Philippines beauty market by refining content strategy across eye cream and face cream categories. The team customized creator scripts around product use, skincare pain points, and trustworthy short-video proof, then used efficient execution to connect exposure with purchase behavior.",
+      zh: "Millim 整体助力 PAPA FEEL 抢占菲律宾美妆市场，针对眼霜与面霜多品类精准细化内容推广策略。团队为达人量身定制专属营销脚本，把产品使用、护肤痛点和可信短视频证明串联起来，以高效执行推动项目落地，助力品牌实现品效双赢。",
+    },
+    metrics: [
+      { label: { en: "Order rate", zh: "出单率" }, value: "100%" },
+      { label: { en: "Top creator orders", zh: "单人出单最高" }, value: "1K+" },
+      { label: { en: "Exposure", zh: "曝光" }, value: "4.3M+" },
+    ],
+    resultTitle: { en: "Key Data Results", zh: "关键数据成果" },
+    stageTitle: { en: "Excellent Videos", zh: "优秀视频" },
+    spotlight: {
+      en: "Beauty creators translated product benefits into local skincare scenes, making PAPA FEEL easier to trust and buy.",
+      zh: "通过本地美妆达人把产品功效转译成真实护肤场景，让 PAPA FEEL 更容易建立信任并带动转化。",
+    },
+    summary: {
+      en: ["Millim helped PAPA FEEL localize eye-cream and face-cream content for the Philippines beauty market.", "Creator scripts turned product benefits into short-video scenes built for trust and conversion.", "The campaign reached 4.3M+ exposure, 100% order rate, and 1K+ top single-creator orders."],
+      zh: ["Millim 帮助 PAPA FEEL 在菲律宾美妆市场本地化眼霜和面霜内容。", "达人脚本把产品功效转化为能建立信任和转化的短视频场景。", "项目实现 4.3M+ 曝光、100% 出单率和单人出单最高 1K+。"],
+    },
+    creators: [
+      {
+        handle: "@dionnprersonal",
+        image: "./assets/cases-generated/papafeel-philippines-beauty/poster-creator-1.jpg",
+        highlight: { en: "Creator content focused on skincare result scenes and direct product experience, helping the audience understand eye-cream and face-cream use quickly.", zh: "达人内容围绕护肤效果场景和直接产品体验展开，帮助用户快速理解眼霜与面霜的使用价值。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "4.3M+" }, { label: { en: "Engagement", zh: "互动率" }, value: "5%" }],
+      },
+      {
+        handle: "@itsmegrey_15",
+        image: "./assets/cases-generated/papafeel-philippines-beauty/poster-creator-2.jpg",
+        highlight: { en: "Localized beauty storytelling combined product demonstration with daily skincare needs to support purchase intent.", zh: "本地化美妆叙事把产品展示与日常护肤需求结合，强化购买意愿。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "150K+" }, { label: { en: "Engagement", zh: "互动率" }, value: "6%" }],
+      },
+    ],
+  },
+  "cool-vita-payday-growth": {
+    brand: "Cool-Vita",
+    accent: "#1fb5cf",
+    category: { en: "e-commerce", zh: "电商" },
+    title: { en: "Cool-Vita & MILLIM Southeast Asia PayDay Growth", zh: "Cool-Vita & MILLIM 东南亚 PayDay 增长" },
+    subtitle: { en: "Southeast Asia PayDay Growth", zh: "东南亚 PayDay 增长" },
+    dateLong: { en: "June 2025", zh: "2025年6月" },
+    featureImage: "./assets/cases-generated/cool-vita-payday-growth/detail-hero.jpg",
+    gallery: [
+      "./assets/cases-generated/cool-vita-payday-growth/poster-video-1.jpg",
+      "./assets/cases-generated/cool-vita-payday-growth/poster-video-2.jpg",
+      "./assets/cases-generated/cool-vita-payday-growth/poster-video-3.jpg",
+      "./assets/cases-generated/cool-vita-payday-growth/poster-video-4.jpg",
+    ],
+    overview: {
+      en: "During the Southeast Asia PayDay promotion window, Millim built a targeted creator strategy for Cool-Vita health products. The campaign used mother-baby, nutrition, beauty, and lifestyle creators to translate product benefits into relatable daily scenarios and create a seed-to-conversion loop.",
+      zh: "围绕东南亚 PayDay 大促周期，Millim 针对 Cool-Vita 健康产品制定多达人矩阵策略。项目联动母婴、营养师、美妆与生活方式达人，把产品营养卖点转化为真实日常场景，构建从种草到转化的闭环。",
+    },
+    metrics: [
+      { label: { en: "Exposure", zh: "曝光" }, value: "14M+" },
+      { label: { en: "Avg engagement", zh: "平均互动率" }, value: "8%+" },
+      { label: { en: "Order rate", zh: "出单率" }, value: "80%+" },
+    ],
+    resultTitle: { en: "Key Data Results", zh: "关键数据成果" },
+    stageTitle: { en: "Excellent Videos", zh: "优秀视频" },
+    spotlight: {
+      en: "A multi-persona creator mix made health product benefits easier to understand during the PayDay purchase window.",
+      zh: "用多类型达人矩阵放大 PayDay 购买窗口，让健康产品卖点更容易被理解和转化。",
+    },
+    summary: {
+      en: ["Millim built a PayDay creator strategy for Cool-Vita across health and nutrition scenarios.", "Mother-baby, nutrition, beauty, and lifestyle creators created a seed-to-conversion loop.", "The campaign delivered 14M+ exposure, 8%+ average engagement, and 80%+ order rate."],
+      zh: ["Millim 为 Cool-Vita 搭建围绕健康营养场景的 PayDay 达人策略。", "母婴、营养、美妆和生活方式达人共同形成种草到转化链路。", "项目实现 14M+ 曝光、8%+ 平均互动率和 80%+ 出单率。"],
+    },
+    creators: [
+      {
+        handle: "@jerryccev",
+        image: "./assets/cases-generated/cool-vita-payday-growth/poster-creator-1.jpg",
+        highlight: { en: "Creator content used easy product explanation and local lifestyle scenes to make supplements more approachable.", zh: "达人内容用轻量产品讲解和本地生活方式场景，让营养补充品更容易被接受。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "666K+" }, { label: { en: "Engagement", zh: "互动率" }, value: "6.86%" }],
+      },
+      {
+        handle: "@deffaruyuchanef",
+        image: "./assets/cases-generated/cool-vita-payday-growth/poster-creator-2.jpg",
+        highlight: { en: "Scenario-led content connected family health and daily supplement moments with PayDay conversion intent.", zh: "场景化内容把家庭健康与日常营养补充需求连接到 PayDay 转化心智。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "2M+" }, { label: { en: "Engagement", zh: "互动率" }, value: "4%" }],
+      },
+    ],
+  },
+  "susteas-promotion-breakthrough": {
+    brand: "SUSTEAS",
+    accent: "#7c65d8",
+    category: { en: "e-commerce", zh: "电商" },
+    title: { en: "SUSTEAS & MILLIM Promotion Breakthrough", zh: "SUSTEAS & MILLIM 大促突围" },
+    subtitle: { en: "Promotion Breakthrough", zh: "大促突围" },
+    dateLong: { en: "October 2025", zh: "2025年10月" },
+    featureImage: "./assets/cases-generated/susteas-promotion-breakthrough/detail-hero.jpg",
+    gallery: [
+      "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-1.jpg",
+      "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-2.jpg",
+      "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-3.jpg",
+      "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-4.jpg",
+    ],
+    overview: {
+      en: "For SUSTEAS' TikTok promotion breakthrough, Millim built a cross-creator matrix to reach different consumer groups and turn tea product scenes into measurable purchase interest. The campaign connected creator scale, content proof, and promotion timing to support both brand voice and creator sales.",
+      zh: "在 TikTok 大促节点的首轮营销攻坚战中，SUSTEAS 通过 Millim 搭建跨达人矩阵触达不同消费群体。项目把茶饮产品场景转化为可衡量的购买兴趣，并将达人规模、内容证明和大促节奏连接起来，实现品牌声量与达人销售的双向增长。",
+    },
+    metrics: [
+      { label: { en: "CPM", zh: "CPM" }, value: "<$4" },
+      { label: { en: "Creators", zh: "合作达人数" }, value: "10+" },
+      { label: { en: "Creator sales", zh: "达人销售额" }, value: "$35K+" },
+      { label: { en: "ROI", zh: "ROI" }, value: "3+" },
+    ],
+    posterStages: [
+      {
+        title: { en: "Promotion Key Data Results", zh: "夏促关键数据成果" },
+        noteTitle: { en: "Three-stage Matrix Achieved Strong Conversion", zh: "三阶矩阵实现极致转化" },
+        note: { en: "Millim customized a three-stage creator matrix for SUSTEAS around traffic seeding, waist-level stability, and tail-end conversion, rapidly expanding promotion traffic and market reach.", zh: "Millim 为 Susteas 量身定制了“头部引爆声量、腰部稳固转化、尾部渗透种草”的三阶达人合作矩阵，旨在短时间内实现流量爆发与市场扩张。" },
+        metrics: [
+          { label: { en: "CPM", zh: "CPM" }, value: "<$4" },
+          { label: { en: "Creators", zh: "合作达人数" }, value: "10+" },
+          { label: { en: "Creator sales", zh: "达人销售额" }, value: "$35K+" },
+          { label: { en: "ROI", zh: "ROI" }, value: "3+" },
+        ],
+        gallery: [
+          "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-1.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-2.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-3.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/poster-video-4.jpg",
+        ],
+        creators: [
+          {
+            handle: "@claudicigero_02",
+            image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-1.jpg",
+            highlight: { en: "Parent-child sharing scenes quickly caught attention, then clear product display and cooking advantages turned interest into purchase intent.", zh: "以亲子共餐场景切入精准戳中用途浪费痛点，通过层层递进的产品演示流畅展现外观、功能、操作及清洁优势，画面中诱人的食物色泽形成强烈视觉冲击，高效激发观众购买兴趣与种草意愿。" },
+            stats: [{ label: { en: "ROI", zh: "ROI" }, value: "11" }, { label: { en: "Plays", zh: "播放量" }, value: "1.6M" }, { label: { en: "Growth", zh: "超同期增幅" }, value: "194.7%" }, { label: { en: "Interactions", zh: "互动量" }, value: "15,789" }],
+          },
+          {
+            handle: "@vrogers17",
+            image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-2.jpg",
+            highlight: { en: "A waterfall-retention opening used cooking issues, feature display, and comparison shots to explain value and guide conversion.", zh: "以“淘汰旧款”的强情绪切入快速抓住观众注意力，通过细致的功能演示与配件拆解清晰传递无绳手持搅拌机4合1的核心卖点，搭配流畅的口播与精良画面，高效强化产品实用价值与使用体验，成功实现品牌种草与转化引导。" },
+            stats: [{ label: { en: "ROI", zh: "ROI" }, value: "5" }, { label: { en: "Plays", zh: "播放量" }, value: "900k+" }, { label: { en: "Growth", zh: "超同期增幅" }, value: "150%" }, { label: { en: "Interactions", zh: "互动量" }, value: "14,967" }],
+          },
+        ],
+      },
+      {
+        title: { en: "Black Friday Key Data Results", zh: "黑五关键数据成果" },
+        noteTitle: null,
+        note: { en: "Matrix launch for 11 core products.", zh: "针对11款核心产品进行矩阵式宣发" },
+        noteMode: "plain",
+        metrics: [
+          { label: { en: "Top single-creator orders", zh: "单个达人出单量最高" }, value: "1000+" },
+          { label: { en: "Paid videos", zh: "交付视频数" }, value: "200" },
+          { label: { en: "Top video exposure", zh: "单个视频曝光最高" }, value: "4.3M" },
+          { label: { en: "Avg CPM", zh: "平均CPM" }, value: "12" },
+        ],
+        gallery: [
+          "./assets/cases-generated/susteas-promotion-breakthrough/blackfriday-video-1.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/blackfriday-video-2.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/blackfriday-video-3.jpg",
+          "./assets/cases-generated/susteas-promotion-breakthrough/blackfriday-video-4.jpg",
+        ],
+        creators: [
+          {
+            handle: "@toporganize",
+            image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-3.jpg",
+            highlight: { en: "A high-value entry point addressed consumer budget pain points and demonstrated a no-freeze double-cup format with strong visual appeal.", zh: "以大牌平替的极高性价比切入精准戳中消费者预算痛点，通过双杯制作与无需预冻的功能演示流畅展现产品便捷性与差异化优势，画面中丝滑诱人的冰淇淋成品形成强烈视觉冲击，高效激发观众购买兴趣并精准锚定节日送礼意愿。" },
+            stats: [{ label: { en: "ROI", zh: "ROI" }, value: "50" }, { label: { en: "Exposure", zh: "曝光" }, value: "4.3M" }, { label: { en: "Interactions", zh: "互动量" }, value: "45,009" }],
+          },
+          {
+            handle: "@annadep_tts",
+            image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-4.jpg",
+            highlight: { en: "A kitchen-safety accident hook quickly captured attention, then family slicing story and limited offer strengthened product reliability.", zh: "以“告别厨房意外”的强安全诉求切入快速抓住观众注意力，通过亲历的切片创伤故事清晰传递产品“手刀分离”的核心安全卖点，搭配多场景切削演示与限时优惠口播，高效强化产品可靠性，成功实现从情感共鸣到销售转化的精准引导。" },
+            stats: [{ label: { en: "ROI", zh: "ROI" }, value: "12" }, { label: { en: "Plays", zh: "播放量" }, value: "900k+" }, { label: { en: "Interactions", zh: "互动量" }, value: "54,561" }],
+          },
+        ],
+      },
+    ],
+    spotlight: {
+      en: "The creator matrix helped SUSTEAS convert promotion traffic into product attention, sales proof, and reusable content assets.",
+      zh: "达人矩阵帮助 SUSTEAS 把大促流量转化为产品注意力、销售证明和可复用内容资产。",
+    },
+    summary: {
+      en: ["Millim supported SUSTEAS through a TikTok promotion campaign built around cross-creator reach.", "The creator matrix touched different consumer groups and converted product scenes into measurable interest.", "The project achieved CPM under $4, 10+ creators, $35K+ creator sales, and 3+ ROI."],
+      zh: ["Millim 帮助 SUSTEAS 以跨达人矩阵推进 TikTok 大促突围。", "达人矩阵触达不同消费群体，并把产品场景转化为可衡量兴趣。", "项目实现 CPM 低于 $4、10+ 合作达人、$35K+ 达人销售额和 3+ ROI。"],
+    },
+    creators: [
+      {
+        handle: "Promotion creator matrix",
+        image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-1.jpg",
+        highlight: { en: "Multiple creator types worked together to introduce SUSTEAS product scenarios and build early promotion traffic.", zh: "多类型达人共同介绍 SUSTEAS 产品场景，为大促前期积累内容声量。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "1.6M+" }, { label: { en: "Growth", zh: "增长" }, value: "194.7%" }, { label: { en: "Orders", zh: "订单" }, value: "15,789" }],
+      },
+      {
+        handle: "Sales conversion creators",
+        image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-2.jpg",
+        highlight: { en: "Creator videos connected product taste, use moments, and promotion offers to drive stronger conversion signals.", zh: "达人视频把口味、使用场景和大促利益点连接起来，推动更强转化信号。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "900K+" }, { label: { en: "Growth", zh: "增长" }, value: "150%" }, { label: { en: "Sales", zh: "销售额" }, value: "$14,967" }],
+      },
+      {
+        handle: "Top promotion videos",
+        image: "./assets/cases-generated/susteas-promotion-breakthrough/poster-creator-3.jpg",
+        highlight: { en: "High-performing videos extended the promotion tail and gave the brand reusable content material.", zh: "高表现视频延长大促内容尾流，并为品牌沉淀可复用素材。" },
+        stats: [{ label: { en: "Exposure", zh: "曝光" }, value: "4.3M" }, { label: { en: "Sales", zh: "销售额" }, value: "$45,009" }],
+      },
+    ],
+  },
+  "jotoys-europe-launch": {
+    brand: "JOTOYS",
+    accent: "#ff8a33",
+    category: { en: "E-Commerce", zh: "电商" },
+    title: { en: "JOTOYS & MILLIM Europe Launch Breakthrough", zh: "JOTOYS & MILLIM 欧洲新品首发" },
+    subtitle: { en: "Europe Launch Breakthrough", zh: "欧洲新品首发" },
+    dateLong: { en: "March 25, 2026", zh: "2026年3月25日" },
+    featureImage: "./assets/cases-generated/jotoys-europe-launch/detail-hero.jpg",
+    gallery: [
+      "./assets/cases-generated/jotoys-europe-launch/poster-video-1.jpg",
+      "./assets/cases-generated/jotoys-europe-launch/poster-video-2.jpg",
+      "./assets/cases-generated/jotoys-europe-launch/poster-video-3.jpg",
+      "./assets/cases-generated/jotoys-europe-launch/poster-video-4.jpg",
+    ],
+    overview: {
+      en: "In Q1 2026, Millim served as the operator for JOTOYS' first Europe campaign. Facing Germany's Kidult audience, the team localized creator selection and scene-based content around collectible designer toys, helping the brand quickly build awareness from zero and connect high-volume exposure with independent-store traffic.",
+      zh: "2026年Q1，Millim作为JOTOYS出海欧洲首个Campaign的操盘方，面对德国“Kidult”市场，为品牌核心潮流玩具与创意IP系列量身定制本地化红人策略。通过多元化达人精准选号与场景化内容策划，在短周期内帮助品牌实现欧洲市场从0到1的认知建立，并打通“高声量曝光+独立站精准引流”的双向增长链路。",
+    },
+    metrics: [
+      { label: { en: "Creators", zh: "合作达人数" }, value: "20+" },
+      { label: { en: "Peak engagement", zh: "最高互动率" }, value: "50.68%" },
+      { label: { en: "Top plays", zh: "最高播放量" }, value: "1M+" },
+    ],
+    resultTitle: { en: "Launch Key Data Results", zh: "新品首发关键数据成果" },
+    stageTitle: { en: "Excellent Videos", zh: "优秀视频" },
+    stageNote: { en: "Rapidly built launch voice and traffic loop through healing gifting scenes and immersive unboxing.", zh: "以治愈感、送礼心智与沉浸式开箱内容，完成欧洲冷启动破圈，新品首发快速建立声量与引流链路。" },
+    spotlight: { en: "Fast launch voice and traffic loop built through healing gifting scenes and immersive unboxing.", zh: "以治愈感、送礼心智与沉浸式开箱内容，完成欧洲冷启动破圈，新品首发快速建立声量与引流链路。" },
+    summary: {
+      en: ["Millim matched JOTOYS with localized European creators and short-video scenes.", "The campaign used gifting, unboxing, and collectible toy storytelling to build trust quickly.", "It delivered 20+ creators, 50.68% peak engagement, and 1M+ top video views."],
+      zh: ["Millim 为 JOTOYS 匹配欧洲本地达人和短视频场景内容。", "项目用送礼、开箱和潮玩收藏叙事快速建立产品信任。", "最终实现 20+ 合作达人、50.68% 最高互动率和 1M+ 最高播放量。"],
+    },
+    creators: [
+      {
+        handle: "@nurten0161",
+        image: "./assets/cases-generated/jotoys-europe-launch/poster-creator-1.jpg",
+        highlight: { en: "A cross-border gift story amplified the emotional value of the blind-box product and made the cute character easier to accept and share.", zh: "以“跨国礼物”的温情叙事开场，放大盲盒的社交与情感价值；用真实上身展示承接产品萌感，精准拿捏治愈感与送礼心智。" },
+        stats: [{ label: { en: "Plays", zh: "播放量" }, value: "1.1M+" }, { label: { en: "Shares", zh: "转发量" }, value: "850" }, { label: { en: "Interactions", zh: "互动总量" }, value: "3,364" }],
+      },
+      {
+        handle: "@mami_andme",
+        image: "./assets/cases-generated/jotoys-europe-launch/poster-creator-2.jpg",
+        highlight: { en: "Unboxing sounds and collage-style shots created a homey, collectible content moment that encouraged saving and sharing.", zh: "以撕拉包装声与拼贴镜头制造沉浸式开箱节奏，将玩偶融入咖啡、居家、通勤等真实片段，强化可收藏、可陪伴、可分享的内容记忆点。" },
+        stats: [{ label: { en: "Engagement", zh: "互动率" }, value: "5.48%" }, { label: { en: "Plays", zh: "播放量" }, value: "38k" }, { label: { en: "Likes", zh: "点赞量" }, value: "2,026" }],
+      },
+    ],
+  },
+  "amiro-market-entry": {
+    brand: "AMIRO",
+    accent: "#dd7581",
+    category: { en: "TEC Beauty", zh: "科技美妆" },
+    title: { en: "AMIRO & MILLIM Tec Beauty Market Entry", zh: "AMIRO & MILLIM 科技美妆出海" },
+    subtitle: { en: "Tec Beauty Market Entry", zh: "科技美妆出海" },
+    dateLong: { en: "March 2026", zh: "2026年3月" },
+    featureImage: "./assets/cases-generated/amiro-market-entry/detail-hero.jpg",
+    gallery: ["./assets/cases-generated/amiro-market-entry/poster-video-1.jpg", "./assets/cases-generated/amiro-market-entry/poster-video-2.jpg", "./assets/cases-generated/amiro-market-entry/poster-video-3.jpg", "./assets/cases-generated/amiro-market-entry/poster-video-4.jpg"],
+    overview: {
+      en: "During AMIRO's first Malaysia launch in Q1 2026, Millim helped the brand break through the cold-start challenge of high-ticket beauty tech. The strategy anchored content around visible skincare changes, scientific credibility, and local creator trust.",
+      zh: "在2026年Q1的马来西亚首发战役中，Millim作为核心推手，助力Amiro成功打响本地市场第一枪。面对中高价位美妆国货的出海冷启动挑战，团队将突围重心放在了高客单价产品的破圈能力上。Millim精准卡位新春急救节点，以“核心科技”为锚点夯实品牌的专业认知，在美妆红人矩阵与机制营销的双重加持下，成功攻克中高端市场转化壁垒。",
+    },
+    metrics: [
+      { label: { en: "Total exposure", zh: "总曝光量" }, value: "5M+" },
+      { label: { en: "Top plays", zh: "最高播放" }, value: "1M+" },
+      { label: { en: "Avg engagement", zh: "平均互动率" }, value: "10%" },
+    ],
+    resultTitle: { en: "Key Data Results", zh: "关键数据成果" },
+    stageTitle: { en: "Excellent Videos", zh: "优秀视频" },
+    stageNote: { en: "Premium beauty-tech voice and positioning built around core technology.", zh: "以核心科技为锚点夯实品牌的专业认知，高端科技美妆声量占位。" },
+    spotlight: { en: "Professional skincare credibility built through visible before-and-after scenes.", zh: "以核心科技为锚点夯实品牌专业认知，高端科技美妆声量占位。" },
+    summary: {
+      en: ["Millim positioned AMIRO around beauty-tech expertise and local creator trust.", "Creator videos visualized skincare changes and reduced the education barrier for a premium device.", "The launch generated 5M+ exposure, 1M+ peak plays, and a 10% average engagement rate."],
+      zh: ["Millim 将 AMIRO 定位在科技美妆专业认知和本地达人信任之间。", "达人视频通过护肤变化可视化降低高客单价产品教育门槛。", "项目实现 5M+ 总曝光、1M+ 最高播放和 10% 平均互动率。"],
+    },
+    creators: [
+      { handle: "@whitew0rms", image: "./assets/cases-generated/amiro-market-entry/poster-creator-1.jpg", highlight: { en: "A day-by-day skincare record made the product's effect visible and elevated a device into a professional care ritual.", zh: "采用了极具说服力的“打卡对比”结构，通过记录Day 1到Day 7的真实变化，将护肤过程可视化。亮点在于细节微距特写，配合“居家版医美”的概念，成功将一款眼霜提升到专业护理器械的高度。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "1M+" }, { label: { en: "CPM", zh: "CPM" }, value: "$5" }, { label: { en: "Interactions", zh: "互动总量" }, value: "200k+" }] },
+      { handle: "@daisyjieijie73.1", image: "./assets/cases-generated/amiro-market-entry/poster-creator-2.jpg", highlight: { en: "A mature-audience beauty angle used contrast and social sharing to strengthen trust and conversion intent.", zh: "以“53岁却像38岁”的年龄反差作为核心钩子，通过展示大量真实的社交媒体评论截图建立信任与好奇。在内容上，该素材将PDRN成分与红光技术等抽象概念具象化，直击眼部垮等即时提升效果。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "800k+" }, { label: { en: "Saves", zh: "收藏量" }, value: "10k+" }] },
+    ],
+  },
+  "botslab-hardware-breakthrough": {
+    brand: "BOSTLAB",
+    accent: "#2f7ecb",
+    category: { en: "Smart Hardware", zh: "智能硬件" },
+    title: { en: "BOSTLAB & MILLIM Smart Hardware Marketing Breakthrough", zh: "BOSTLAB & MILLIM 智能硬件营销破局" },
+    subtitle: { en: "Smart Hardware Marketing Breakthrough", zh: "智能硬件营销破局" },
+    dateLong: { en: "Spring 2026", zh: "2026年春季" },
+    featureImage: "./assets/cases-generated/botslab-hardware-breakthrough/detail-hero.jpg",
+    gallery: ["./assets/cases-generated/botslab-hardware-breakthrough/poster-video-1.jpg", "./assets/cases-generated/botslab-hardware-breakthrough/poster-video-2.jpg", "./assets/cases-generated/botslab-hardware-breakthrough/poster-video-3.jpg", "./assets/cases-generated/botslab-hardware-breakthrough/poster-video-4.jpg"],
+    overview: {
+      en: "For the 2026 US spring window, Millim took over BOSTLAB's integrated TikTok marketing penetration. The team used car, technology, and smart-home creators to show real-world installation and security scenarios, helping high-ticket smart hardware move from expertise to sales conversion.",
+      zh: "迎战2026年的美国春促节点，Millim全面承接了BOSTLAB在TikTok的整合营销渗透。针对中高客单价智能科技产品在TTS的转化壁垒，团队凭借硬核的内容操盘能力撕裂增长口。Millim以汽车、科技及智能家居类达人为轴心，高频输出高质量行车场景实测与深度安防测评内容，在强化品牌“行车安全与家庭安防”专业认知的同时，高效驱动高客单硬件的销售转化。",
+    },
+    metrics: [
+      { label: { en: "Total exposure", zh: "总曝光量" }, value: "2M+" },
+      { label: { en: "Top single creator sales", zh: "单人最高销售额" }, value: "$10k+" },
+      { label: { en: "Top plays", zh: "最高播放量" }, value: "800k+" },
+    ],
+    resultTitle: { en: "Key Data Results", zh: "关键数据成果" },
+    stageTitle: { en: "Excellent Videos", zh: "优秀视频" },
+    stageNote: { en: "Scenario testing and deep security review drove high-ticket smart hardware sales conversion.", zh: "以场景实测与深度安防测评强化专业认知，高客单智能硬件销售转化。" },
+    spotlight: { en: "High-ticket smart hardware conversion through scenario testing and deep security review.", zh: "以场景实测与深度安防测评强化专业认知，高客单智能硬件销售转化。" },
+    summary: {
+      en: ["Millim translated BOSTLAB's smart hardware benefits into real driving and home security scenes.", "Creator videos focused on installation, hands-on testing, and practical product proof.", "The case reached 2M+ exposure, $10K+ top single-creator sales, and 800K+ top video plays."],
+      zh: ["Millim 将 BOSTLAB 智能硬件卖点转译为真实行车和家庭安防场景。", "达人视频聚焦安装、实测和可理解的产品证明。", "项目实现 2M+ 总曝光、$10K+ 单人最高销售额和 800K+ 最高播放量。"],
+    },
+    creators: [
+      { handle: "@retrotechlab", image: "./assets/cases-generated/botslab-hardware-breakthrough/poster-creator-1.jpg", highlight: { en: "A tactile installation tutorial showed industrial design, hidden wiring, 360-degree monitoring, and real-time camera switching.", zh: "视频采用了极具质感的近景特写与快节奏剪辑，全方位展示了产品的工业设计美感。亮点在于其直观的“保姆级”安装教学，从点烟器取电到内饰走线的无缝演示，配合360度多路监控界面的实时切换，消除了用户对“多摄像头安装难”的顾虑。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "800k+" }, { label: { en: "Engagement", zh: "互动量" }, value: "20k+" }, { label: { en: "Conversion value", zh: "转化金额" }, value: "$7k+" }] },
+      { handle: "@trent.project.man", image: "./assets/cases-generated/botslab-hardware-breakthrough/poster-creator-2.jpg", highlight: { en: "A road-rage scenario immediately raised safety relevance and demonstrated magnetic installation, voice photo, app integration, and GPS tracking.", zh: "视频通过“路遇事故”的常见社会化场景切入，瞬间拉升用户安全焦虑并建立刚需关联。结构亮点在于“磁吸式拆装镜头”和“语音拍照”功能的实机演示，生动展现了产品的交互便利性。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "250k+" }, { label: { en: "Engagement", zh: "互动量" }, value: "1.3k+" }, { label: { en: "Conversion value", zh: "转化金额" }, value: "$10k+" }] },
+    ],
+  },
+  "ubras-funnel-growth": {
+    brand: "UBRAS",
+    accent: "#ff4f8f",
+    category: { en: "TikTok Full-Funnel Growth", zh: "全链路增长" },
+    title: { en: "UBRAS & MILLIM TikTok Full-Funnel Growth", zh: "UBRAS & MILLIM 全链路增长" },
+    subtitle: { en: "TikTok Full-Funnel Growth", zh: "全链路增长" },
+    dateLong: { en: "2025-2026", zh: "2025-2026" },
+    featureImage: "./assets/cases-generated/ubras-funnel-growth/detail-hero.jpg",
+    gallery: ["./assets/cases-generated/ubras-funnel-growth/poster-video-1.jpg", "./assets/cases-generated/ubras-funnel-growth/poster-video-2.jpg", "./assets/cases-generated/ubras-funnel-growth/poster-video-3.jpg", "./assets/cases-generated/ubras-funnel-growth/poster-video-4.jpg"],
+    overview: {
+      en: "As a leading Chinese women's underwear brand going global, UBRAS began TikTok full-funnel marketing with Millim in 2025. From Black Friday and Christmas to the 2026 Q1 growth window, Millim used creator seeding, real try-on scenes, and product comfort storytelling to connect exposure, ROI, CPM efficiency, and purchase conversion.",
+      zh: "作为国内领先的女性内衣品牌，UBRAS于2025年携手Millim展开TikTok全链路营销。从黑五圣诞、圣诞承接到2026 Q1长线维护，通过达人选号、真实试穿内容、舒适与弹性协同，实现从单品突围到全品线/新品推广的持续增长。",
+    },
+    metrics: [
+      { label: { en: "Black Friday exposure", zh: "黑五曝光量" }, value: "3M+" },
+      { label: { en: "Christmas creators", zh: "圣诞达人数" }, value: "1.5K+" },
+      { label: { en: "Q1 order rate", zh: "出单率" }, value: "80%+" },
+    ],
+    posterStages: [
+      {
+        title: { en: "Black Friday Key Results", zh: "黑五关键数据成果" },
+        note: { en: "Hero-product content drove efficient conversion before the promotion peak.", zh: "爆款内容驱动高效转化" },
+        metrics: [
+          { label: { en: "Top plays", zh: "最高播放量" }, value: "3M+" },
+          { label: { en: "Top ROI", zh: "最高ROI" }, value: "10+" },
+          { label: { en: "Top single-creator orders", zh: "单人最高销量" }, value: "1K+" },
+          { label: { en: "Lowest CPM", zh: "单人最低CPM" }, value: "$1.33" },
+        ],
+        gallery: [
+          "./assets/cases-generated/ubras-funnel-growth/poster-video-1.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/poster-video-2.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/poster-video-3.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/poster-video-4.jpg",
+        ],
+        creators: [
+          { handle: "@juliewise4", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-1.jpg", highlight: { en: "A value-led try-on story moved quickly across base layer, outerwear, and activewear scenes, turning one hero item into an all-day styling solution.", zh: "以高性价比为切入点，通过快速切换打底、外穿、运动等多个真实生活场景，将单品的功能性转化为全天候的穿搭方案，增强了产品的使用预期与购买动机。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "700K+" }, { label: { en: "ROI", zh: "ROI" }, value: "7+" }, { label: { en: "Orders", zh: "出单量" }, value: "400+" }] },
+          { handle: "@leah_txreal", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-2.jpg", highlight: { en: "A direct back-strap demonstration and large stretch movements made the seamless support benefit easy to understand and trust.", zh: "先直观展示背部勒痕的尴尬，再通过大幅度的拉伸动作体现极致弹性，最后以紧身衣下的无痕效果完成视觉闭环，利用强烈的感官反差建立功能说服力。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "3M+" }, { label: { en: "ROI", zh: "ROI" }, value: "10+" }, { label: { en: "Orders", zh: "出单量" }, value: "1K+" }] },
+        ],
+      },
+      {
+        title: { en: "Christmas Key Results", zh: "圣诞关键数据成果" },
+        note: { en: "Holiday scenes reused Black Friday creative assets and kept scaling.", zh: "节庆场景承接黑五素材资产并持续放量" },
+        metrics: [
+          { label: { en: "Top single-creator orders", zh: "单人最高销量" }, value: "1.5K+" },
+          { label: { en: "Top ROI", zh: "最高ROI" }, value: "17+" },
+          { label: { en: "Lowest CPM", zh: "单人最低CPM" }, value: "$0.70" },
+          { label: { en: "Avg GPM", zh: "平均GPM" }, value: "$50+" },
+        ],
+        gallery: [
+          "./assets/cases-generated/ubras-funnel-growth/christmas-video-1.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/christmas-video-2.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/christmas-video-3.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/christmas-video-4.jpg",
+        ],
+        creators: [
+          { handle: "@una_flor_cubana", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-3.jpg", highlight: { en: "A warning-style red headline grabbed attention, then used old-clothing discomfort and picture-in-picture contrast to visualize support and breathable fit.", zh: "视频采用“ADVERTENCIA（警告）”红色标题贴纸强力吸睛，通过“破坏旧衣物观感”的逆向逻辑引发好奇，并结合画中画对比、多角度展示和材质近距离特写，拆解支撑力、透气性和隐形效果。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "4M+" }, { label: { en: "ROI", zh: "ROI" }, value: "17+" }, { label: { en: "CPM", zh: "CPM" }, value: "$0.70" }] },
+          { handle: "@shop.isabella", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-4.jpg", highlight: { en: "A short No/Yes and Bad hook built instant contrast, turning wireless comfort and silky texture into a clear emotional selling point.", zh: "视频通过“No/Yes”和“Bad”等极简关键词开场，配合强烈视觉反差快速建立“美与丑”的认知；整体叙事以情绪化感叹词带动节奏，把无背扣设计、丝滑触感转化为直观的心理舒适感。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "600K+" }, { label: { en: "ROI", zh: "ROI" }, value: "7+" }, { label: { en: "CPM", zh: "CPM" }, value: "$1.49" }] },
+        ],
+      },
+      {
+        title: { en: "26Q1 Key Results", zh: "26Q1关键数据成果" },
+        note: { en: "From single-product breakout to multi-line and new-product matrix growth.", zh: "从单品爆发走向多品线/新品矩阵推广" },
+        metrics: [
+          { label: { en: "Order rate", zh: "出单率" }, value: "80%+" },
+          { label: { en: "Top ROI", zh: "最高ROI" }, value: "18+" },
+          { label: { en: "Lowest CPM", zh: "最低CPM" }, value: "$2.52" },
+        ],
+        gallery: [
+          "./assets/cases-generated/ubras-funnel-growth/q1-video-1.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/q1-video-2.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/q1-video-3.jpg",
+          "./assets/cases-generated/ubras-funnel-growth/q1-video-4.jpg",
+        ],
+        creators: [
+          { handle: "@angelacallisto123", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-5.jpg", highlight: { en: "High-frequency Before/After transitions strengthened the seamless effect and showed how Ubras texture, stitching, and color worked under light outerwear.", zh: "视频通过高频“Before/After”转场强化无痕视觉，并用“翻开内里”拍摄手法直观对比传统内衣钢圈、厚缝线与Ubras丝滑材质，同时展示不同肤色在浅色外衣下的隐形效果。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "2M+" }, { label: { en: "Orders", zh: "出单量" }, value: "500+" }, { label: { en: "ROI", zh: "ROI" }, value: "18+" }] },
+          { handle: "@absolutely.lisa", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-6.jpg", highlight: { en: "A real-user comment question opened the story, then bending, stretching, and jumping answered product doubts with physical proof.", zh: "以回答用户真实评论“是否会卷边”为切入点，通过弯腰、拉伸、跳动等大幅度动作进行“暴力测试”，用事实正面回击产品质疑，并针对“大胸不移位”增强信任感与互动粘性。" }, stats: [{ label: { en: "Plays", zh: "播放量" }, value: "400K+" }, { label: { en: "Engagement", zh: "互动量" }, value: "7K" }, { label: { en: "ROI", zh: "ROI" }, value: "8+" }] },
+        ],
+      },
+    ],
+    spotlight: { en: "Full-funnel creator content converted comfort, fit, and everyday scenarios into repeatable TikTok demand.", zh: "爆款内容驱动高效转化，节点营销持续放量，多品线长线进阶。" },
+    summary: {
+      en: ["Millim rebuilt UBRAS TikTok growth around Black Friday, Christmas, and Q1 creator windows.", "The content system emphasized try-on proof, comfort, fit, and everyday use scenes.", "The program connected 3M+ exposure, 17+ ROI moments, controlled CPM, and 80%+ Q1 order rate."],
+      zh: ["Millim 围绕黑五、圣诞和 Q1 达人窗口重建 UBRAS TikTok 增长链路。", "内容体系强调真实试穿、舒适体感、版型展示和日常使用场景。", "项目串联 3M+ 曝光、17+ ROI 节点、CPM 控制和 Q1 80%+ 出单率。"],
+    },
+    creators: [
+      { handle: "@dilweis4", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-1.jpg", highlight: { en: "A sports-to-everyday angle used try-on comparison to highlight comfort, stretch, and product fit.", zh: "以高性价比为切入点，通过快速切换打底、外穿、运动等多个真实生活场景，将单品的功能性转化为全天候穿搭方案，增强了产品的使用预期与购买动机。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "700k+" }, { label: { en: "ROI", zh: "ROI" }, value: "7+" }, { label: { en: "Orders", zh: "出单量" }, value: "400+" }] },
+      { handle: "@leah_tkreal", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-2.jpg", highlight: { en: "A lightweight real-try-on narrative reduced purchase anxiety and made fit easier to understand.", zh: "先直观展示背部肩带的结构，再通过大幅度的拉伸动作体现极致弹性，最后以实穿不下滑、支撑效果完成逻辑闭环，利用强烈的感官反馈建立功能说服力。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "3M+" }, { label: { en: "ROI", zh: "ROI" }, value: "10+" }, { label: { en: "Orders", zh: "出单量" }, value: "1K+" }] },
+      { handle: "@una_flor_cubana", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-3.jpg", highlight: { en: "A humorous warning-style opening pulled users into the product pain point and carried the Christmas campaign.", zh: "视频采用“ADVERTENCIA（警告）”红色标题抓住眼球，通过“你还穿不舒服文胸”的逆向提醒引发好奇，并结合画中画对比、多角度展示材料质感与穿搭造型支撑。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "4M+" }, { label: { en: "ROI", zh: "ROI" }, value: "17+" }, { label: { en: "CPM", zh: "CPM" }, value: "$0.70" }] },
+      { handle: "@shop.isabella", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-4.jpg", highlight: { en: "A No/Yes contrast framed the bra as a simple answer to comfort and styling anxiety.", zh: "视频通过“No/Yes”和“Bad”等极简关键词开场，配合强烈视觉反差快速建立“卖点手册”认知，整体表现以情绪化痛点教育带动转化。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "600K+" }, { label: { en: "ROI", zh: "ROI" }, value: "7+" }, { label: { en: "CPM", zh: "CPM" }, value: "$1.49" }] },
+      { handle: "@angelacallisto123", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-5.jpg", highlight: { en: "Before/After framing showed fit, support, and slimming effect for Q1 long-tail conversion.", zh: "视频通过高频Before/After转场强化无痕视觉，用前后对比制造穿法直观对比，帮助用户理解产品在肩线与版型上的差异。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "2M+" }, { label: { en: "Orders", zh: "出单量" }, value: "500+" }, { label: { en: "ROI", zh: "ROI" }, value: "18+" }] },
+      { handle: "@absolutely.lisa", image: "./assets/cases-generated/ubras-funnel-growth/poster-creator-6.jpg", highlight: { en: "A self-use recommendation made the product feel daily, credible, and easy to buy.", zh: "以消费者真实穿搭语气强调“柔软舒服”，利用人物、运动、通勤等多场景展示拉伸性与支撑效果，增强生活感与复购信任。" }, stats: [{ label: { en: "Exposure", zh: "播放量" }, value: "400K+" }, { label: { en: "Engagement", zh: "互动量" }, value: "7K" }, { label: { en: "ROI", zh: "ROI" }, value: "8+" }] },
+    ],
+  },
+};
+
+const creatorCaseDescriptorBySlug = {
+  "papafeel-philippines-beauty": {
+    en: "Philippines Beauty Market Growth", zh: "菲律宾美妆市场增长", zhHant: "菲律賓美妝市場增長", es: "Crecimiento beauty en Filipinas", ja: "フィリピン美容市場成長", de: "Beauty-Wachstum Philippinen", pt: "Crescimento beauty nas Filipinas", ko: "필리핀 뷰티 시장 성장", ar: "نمو سوق الجمال في الفلبين", it: "Crescita beauty nelle Filippine", fr: "Croissance beauté aux Philippines", vi: "Tăng trưởng beauty Philippines", th: "เติบโตบิวตี้ฟิลิปปินส์", ms: "Pertumbuhan beauty Filipina", id: "Pertumbuhan beauty Filipina",
+  },
+  "cool-vita-payday-growth": {
+    en: "Southeast Asia PayDay Growth", zh: "东南亚 PayDay 增长", zhHant: "東南亞 PayDay 增長", es: "Crecimiento PayDay SEA", ja: "東南アジアPayDay成長", de: "PayDay Growth Südostasien", pt: "Crescimento PayDay SEA", ko: "동남아 PayDay 성장", ar: "نمو PayDay في جنوب شرق آسيا", it: "Crescita PayDay SEA", fr: "Croissance PayDay SEA", vi: "Tăng trưởng PayDay Đông Nam Á", th: "เติบโต PayDay เอเชียตะวันออกเฉียงใต้", ms: "Pertumbuhan PayDay Asia Tenggara", id: "Pertumbuhan PayDay Asia Tenggara",
+  },
+  "susteas-promotion-breakthrough": {
+    en: "Promotion Breakthrough", zh: "大促突围", zhHant: "大促突圍", es: "Avance de promoción", ja: "販促突破", de: "Promotion Breakthrough", pt: "Avanço de promoção", ko: "프로모션 돌파", ar: "اختراق الترويج", it: "Svolta promozionale", fr: "Percée promotionnelle", vi: "Đột phá khuyến mãi", th: "ทะลุเกมโปรโมชัน", ms: "Terobosan promosi", id: "Terobosan promosi",
+  },
+  "jotoys-europe-launch": {
+    en: "Europe Launch Breakthrough", zh: "欧洲新品首发", zhHant: "歐洲新品首發", es: "Lanzamiento europeo", ja: "欧州ローンチ突破", de: "Europa-Launch", pt: "Lançamento europeu", ko: "유럽 론칭 성과", ar: "اختراق الإطلاق الأوروبي", it: "Lancio europeo", fr: "Lancement européen", vi: "Ra mắt châu Âu", th: "เปิดตัวยุโรป", ms: "Pelancaran Eropah", id: "Peluncuran Eropa",
+  },
+  "amiro-market-entry": {
+    en: "Tec Beauty Market Entry", zh: "科技美妆出海", zhHant: "科技美妝出海", es: "Entrada beauty tech", ja: "美容テック市場参入", de: "Beauty-Tech Markteintritt", pt: "Entrada beauty tech", ko: "뷰티 테크 시장 진입", ar: "دخول سوق الجمال التقني", it: "Ingresso beauty tech", fr: "Entrée beauty tech", vi: "Gia nhập beauty tech", th: "เข้าสู่ตลาดบิวตี้เทค", ms: "Kemasukan beauty tech", id: "Masuk pasar beauty tech",
+  },
+  "botslab-hardware-breakthrough": {
+    en: "Smart Hardware Marketing Breakthrough", zh: "智能硬件营销破局", zhHant: "智慧硬體行銷破局", es: "Avance en hardware inteligente", ja: "スマートハードウェア販促突破", de: "Smart-Hardware Marketing", pt: "Avanço em hardware inteligente", ko: "스마트 하드웨어 마케팅 돌파", ar: "اختراق تسويق الأجهزة الذكية", it: "Svolta smart hardware", fr: "Percée hardware intelligent", vi: "Đột phá phần cứng thông minh", th: "ทะลุเกมฮาร์ดแวร์อัจฉริยะ", ms: "Terobosan perkakasan pintar", id: "Terobosan hardware pintar",
+  },
+  "ubras-funnel-growth": {
+    en: "TikTok Full-Funnel Growth", zh: "全链路增长", zhHant: "全鏈路增長", es: "Crecimiento full-funnel en TikTok", ja: "TikTokフルファネル成長", de: "TikTok Full-Funnel Growth", pt: "Crescimento full-funnel no TikTok", ko: "TikTok 풀퍼널 성장", ar: "نمو TikTok كامل المسار", it: "Crescita TikTok full-funnel", fr: "Croissance TikTok full-funnel", vi: "Tăng trưởng TikTok full-funnel", th: "เติบโต TikTok full-funnel", ms: "Pertumbuhan TikTok full-funnel", id: "Pertumbuhan TikTok full-funnel",
+  },
+};
+
+const creatorCaseCardSlugs = ["jotoys-europe-launch", "amiro-market-entry", "botslab-hardware-breakthrough", "ubras-funnel-growth", "papafeel-philippines-beauty", "cool-vita-payday-growth", "susteas-promotion-breakthrough"];
+const creatorCaseCardMetricsBySlug = {
+  "jotoys-europe-launch": "E-Commerce",
+  "amiro-market-entry": "E-Commerce",
+  "botslab-hardware-breakthrough": "E-Commerce",
+  "ubras-funnel-growth": "E-Commerce",
+  "papafeel-philippines-beauty": "e-commerce",
+  "cool-vita-payday-growth": "e-commerce",
+  "susteas-promotion-breakthrough": "e-commerce",
+};
+
+function getCreatorCaseDescriptor(slug, lang) {
+  const descriptors = creatorCaseDescriptorBySlug[slug] || {};
+  return descriptors[lang] || descriptors.en || "";
+}
+
+function getCreatorCaseTitle(slug, caseData, lang) {
+  const descriptor = getCreatorCaseDescriptor(slug, lang);
+  return `${caseData.brand} & MILLIM ${descriptor}`.trim();
+}
+
+function getCreatorCaseTitleHtml(slug, caseData, lang) {
+  return `${escapeHtml(`${caseData.brand} & MILLIM`)}<br />${escapeHtml(getCreatorCaseDescriptor(slug, lang))}`;
+}
+
+Object.keys(translations).forEach((lang) => {
+  const casesCopy = translations[lang]?.cases;
+  if (!casesCopy) return;
+  creatorCaseCardSlugs.forEach((slug, index) => {
+    const caseData = creatorCaseArticlesBySlug[slug];
+    const intlCopy = getCreatorCaseIntlCopy(caseData, lang);
+    const summary = intlCopy?.summary || (caseData.summary?.[lang === "zhHant" ? "zh" : lang] || caseData.summary?.en || []);
+    const cardPrefix = `card${index + 1}`;
+    casesCopy[`${cardPrefix}Tag`] = getCreatorCaseValue(caseData.category, lang);
+    casesCopy[`${cardPrefix}Metric`] = creatorCaseCardMetricsBySlug[slug] || "E-Commerce";
+    casesCopy[`${cardPrefix}Title`] = getCreatorCaseTitleHtml(slug, caseData, lang);
+    casesCopy[`${cardPrefix}Copy`] = summary.join(" ");
+  });
+});
 
 function escapeHtml(value = "") {
   return String(value)
@@ -4557,7 +6246,7 @@ function escapeHtml(value = "") {
 
 function getBlogArticleSlug() {
   const params = new URLSearchParams(window.location.search);
-  return params.get("article") || params.get("case") || "creator-strategy";
+  return blogArticleRoot?.dataset.caseSlug || blogArticleRoot?.dataset.newsSlug || params.get("article") || params.get("case") || params.get("news") || "creator-strategy";
 }
 
 function getLocalizedArticleCopy(copySource, lang) {
@@ -4577,7 +6266,152 @@ function getBlogArticleDate(cardIndex, lang) {
   return dateCopy.en;
 }
 
-function renderArticleSections(sections = []) {
+function getCreatorCaseValue(value, lang) {
+  if (!value) return "";
+  if (lang === "zhHant") return toTraditionalChineseDictionary(value.zh || value.en || "");
+  return value[lang] || value.en || value.zh || "";
+}
+
+function getCreatorCaseLabels(lang) {
+  if (lang === "zhHant") return creatorCaseLabels.zhHant;
+  return creatorCaseLabels[lang] || creatorCaseLabels.en;
+}
+
+function getCreatorCaseIntlCopy(caseData, lang) {
+  if (lang === "zh" || lang === "zhHant" || lang === "en") return null;
+  const template = creatorCaseIntlTemplates[lang];
+  if (!template) return null;
+  return {
+    overview: template.overview(caseData.brand),
+    summary: [
+      template.summary(caseData.brand),
+      `${caseData.metrics.map((metric) => `${getCreatorCaseValue(metric.label, "en")} ${metric.value}`).join(" · ")}.`,
+      template.spotlight,
+    ],
+    spotlight: template.spotlight,
+  };
+}
+
+function getCreatorCaseStages(article) {
+  if (Array.isArray(article.posterStages) && article.posterStages.length) return article.posterStages;
+  return [
+    {
+      title: article.resultTitle || { en: "Key Results", zh: "关键数据成果" },
+      note: article.stageNote || null,
+      noteTitle: article.stageTitle || { en: "Excellent Videos", zh: "优秀视频" },
+      metrics: article.metrics || [],
+      gallery: article.gallery || [],
+      creators: article.creators || [],
+    },
+  ];
+}
+
+function renderCreatorCaseMetrics(metrics = [], lang = "en") {
+  return metrics
+    .map(
+      (metric) => `
+        <div class="creator-case-stat">
+          <span>${escapeHtml(getCreatorCaseValue(metric.label, lang))}</span>
+          <strong>${escapeHtml(metric.value)}</strong>
+        </div>
+      `,
+    )
+    .join("");
+}
+
+function renderCreatorCaseGallery(gallery = [], article, lang = "en") {
+  const title = getCreatorCaseValue(article.title, lang) || article.brand || "";
+  return gallery
+    .map((src) => `<img src="${escapeHtml(src)}" alt="${escapeHtml(title)}" loading="lazy" />`)
+    .join("");
+}
+
+function renderCreatorCaseCards(creators = [], article, lang = "en") {
+  const labels = getCreatorCaseLabels(lang);
+  return creators
+    .map((creator) => {
+      const creatorHighlight = creator.highlight?.[lang]
+        || (lang === "zhHant" ? toTraditionalChineseDictionary(creator.highlight?.zh || creator.highlight?.en || "") : "")
+        || (lang === "en" || lang === "zh" ? getCreatorCaseValue(creator.highlight, lang) : article.spotlight);
+      const stats = (creator.stats || [])
+        .map(
+          (stat) => `
+            <div>
+              <span>${escapeHtml(getCreatorCaseValue(stat.label, lang))}</span>
+              <strong>${escapeHtml(stat.value)}</strong>
+            </div>
+          `,
+        )
+        .join("");
+
+      return `
+        <article class="creator-case-card reveal-card">
+          <div class="creator-case-card-copy">
+            <span class="creator-case-chip">${escapeHtml(labels.content)}</span>
+            <p>${escapeHtml(creatorHighlight)}</p>
+            <span class="creator-case-chip">${escapeHtml(labels.data)}</span>
+            <div class="creator-case-mini-stats">${stats}</div>
+          </div>
+          <figure>
+            <figcaption>${escapeHtml(labels.creators)}: ${escapeHtml(creator.handle)}</figcaption>
+            <img src="${escapeHtml(creator.image)}" alt="${escapeHtml(creator.handle)}" loading="lazy" />
+          </figure>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function renderCreatorCaseStage(stage, article, lang = "en") {
+  const metrics = renderCreatorCaseMetrics(stage.metrics || [], lang);
+  const gallery = renderCreatorCaseGallery(stage.gallery || [], article, lang);
+  const creators = renderCreatorCaseCards(stage.creators || [], article, lang);
+  const note = getCreatorCaseValue(stage.note, lang);
+  const noteTitle = getCreatorCaseValue(stage.noteTitle, lang);
+  const title = getCreatorCaseValue(stage.title, lang);
+
+  return `
+    <section class="creator-case-stage">
+      <div class="creator-case-results">
+        <h2>${escapeHtml(title)}</h2>
+        <div class="creator-case-stats" style="--case-stat-count: ${(stage.metrics || []).length || 1}">${metrics}</div>
+        <div class="creator-case-gallery" style="--case-gallery-count: ${(stage.gallery || []).length || 1}">${gallery}</div>
+      </div>
+      ${(noteTitle || note) ? `
+        <div class="creator-case-stage-note${stage.noteMode === "plain" ? " is-plain" : ""}">
+          ${noteTitle ? `<h2>${escapeHtml(noteTitle)}</h2>` : ""}
+          ${note ? `<p>${escapeHtml(note)}</p>` : ""}
+        </div>
+      ` : ""}
+      ${creators ? `<div class="creator-case-examples">${creators}</div>` : ""}
+    </section>
+  `;
+}
+
+function renderCreatorCaseArticle(article, lang) {
+  const labels = getCreatorCaseLabels(lang);
+  const stages = getCreatorCaseStages(article)
+    .map((stage) => renderCreatorCaseStage(stage, article, lang))
+    .join("");
+  const summary = (article.summary || [])
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join("");
+
+  return `
+    <section class="creator-case-template" style="--case-accent: ${escapeHtml(article.accent || "#ff8a33")}">
+      <div class="creator-case-window">
+        <div class="creator-case-window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+        <h2>${escapeHtml(labels.overview)}</h2>
+        <p>${escapeHtml(article.overview)}</p>
+      </div>
+      ${stages}
+    </section>
+  `;
+}
+
+function renderArticleSections(sections = [], article = null, lang = "en") {
+  if (article?.template === "creator-case") return renderCreatorCaseArticle(article, lang);
+
   return sections
     .map((section) => {
       const paragraphs = (section.paragraphs || [])
@@ -4642,8 +6476,45 @@ function isCaseArticleSlug(slug) {
   return Boolean(caseArticleMetaBySlug[slug]);
 }
 
+function isNewsArticleSlug(slug) {
+  return Boolean(newsArticleMetaBySlug[slug]);
+}
+
 function buildCaseArticle(slug, lang) {
-  const meta = caseArticleMetaBySlug[slug] || caseArticleMetaBySlug["beauty-launch-creators"];
+  const caseData = creatorCaseArticlesBySlug[slug];
+  if (caseData) {
+    const intlCopy = getCreatorCaseIntlCopy(caseData, lang);
+    const title = getCreatorCaseTitle(slug, caseData, lang);
+    const overview = intlCopy?.overview || getCreatorCaseValue(caseData.overview, lang);
+    const spotlight = intlCopy?.spotlight || getCreatorCaseValue(caseData.spotlight, lang);
+    const summary = intlCopy?.summary || (caseData.summary?.[lang === "zhHant" ? "zh" : lang] || caseData.summary?.en || []);
+
+    return {
+      template: "creator-case",
+      title,
+      titleHtml: getCreatorCaseTitleHtml(slug, caseData, lang),
+      dateLong: getCreatorCaseValue(caseData.dateLong, lang),
+      commentsTitle: getLocalizedArticleCopy(caseArticleGenericCopy, lang).commentsTitle,
+      commentBox: getLocalizedArticleCopy(caseArticleGenericCopy, lang).commentBox,
+      featureImage: caseData.featureImage,
+      category: getCreatorCaseValue(caseData.category, lang),
+      accent: caseData.accent,
+      overview,
+      subtitle: getCreatorCaseDescriptor(slug, lang),
+      spotlight,
+      summary,
+      posterStages: caseData.posterStages,
+      resultTitle: caseData.resultTitle,
+      stageTitle: caseData.stageTitle,
+      stageNote: caseData.stageNote,
+      gallery: caseData.gallery,
+      metrics: caseData.metrics,
+      creators: caseData.creators,
+      sections: [],
+    };
+  }
+
+  const meta = caseArticleMetaBySlug[slug] || caseArticleMetaBySlug["jotoys-europe-launch"];
   const dictionary = translations[lang] || translations.en;
   const fallbackDictionary = translations.en;
   const generic = getLocalizedArticleCopy(caseArticleGenericCopy, lang);
@@ -4676,6 +6547,40 @@ function buildCaseArticle(slug, lang) {
       {
         title: generic.resultTitle,
         paragraphs: [`${generic.resultPrefix} ${metric}.`],
+      },
+    ],
+  };
+}
+
+function buildNewsArticle(slug, lang) {
+  const meta = newsArticleMetaBySlug[slug] || newsArticleMetaBySlug["creator-partnership-events"];
+  const dictionary = translations[lang] || translations.en;
+  const fallbackDictionary = translations.en;
+  const generic = getLocalizedArticleCopy(newsArticleGenericCopy, lang);
+  const cardPrefix = `card${meta.cardIndex}`;
+  const tag = dictionary.newsEvents?.[`${cardPrefix}Tag`] || fallbackDictionary.newsEvents?.[`${cardPrefix}Tag`] || "News";
+  const title = dictionary.newsEvents?.[`${cardPrefix}Title`] || fallbackDictionary.newsEvents?.[`${cardPrefix}Title`] || "Millim News";
+  const intro = dictionary.newsEvents?.[`${cardPrefix}Copy`] || fallbackDictionary.newsEvents?.[`${cardPrefix}Copy`] || generic.signalParagraph;
+
+  return {
+    title,
+    dateLong: meta.dateLong || getBlogArticleDate(meta.cardIndex, lang),
+    commentsTitle: generic.commentsTitle,
+    commentBox: generic.commentBox,
+    featureImage: meta.featureImage,
+    category: tag,
+    sections: [
+      {
+        title: generic.overviewTitle,
+        paragraphs: [intro],
+      },
+      {
+        title: generic.signalTitle,
+        paragraphs: [generic.signalParagraph],
+      },
+      {
+        title: generic.actionTitle,
+        bullets: generic.actionBullets,
       },
     ],
   };
@@ -4737,6 +6642,7 @@ function getImportedBlogArticleContent(slug, lang) {
 
 function getBlogArticleContent(slug, lang) {
   if (isCaseArticleSlug(slug)) return buildCaseArticle(slug, lang);
+  if (isNewsArticleSlug(slug)) return buildNewsArticle(slug, lang);
 
   const importedArticle = getImportedBlogArticleContent(slug, lang);
   if (importedArticle) return importedArticle;
@@ -5347,7 +7253,13 @@ function renderBlogArticle(lang = localStorage.getItem("millim-demo-language") |
     blogArticleViewIncremented = true;
   }
 
-  if (blogArticleFields.title) blogArticleFields.title.textContent = article.title;
+  if (blogArticleFields.title) {
+    if (article.titleHtml) {
+      blogArticleFields.title.innerHTML = article.titleHtml;
+    } else {
+      blogArticleFields.title.textContent = article.title;
+    }
+  }
   if (blogArticleFields.dateLong) blogArticleFields.dateLong.textContent = article.dateLong;
   if (blogArticleFields.icon) blogArticleFields.icon.textContent = meta.icon;
   if (blogArticleFields.featureImage) {
@@ -5357,7 +7269,7 @@ function renderBlogArticle(lang = localStorage.getItem("millim-demo-language") |
       blogArticleFields.featureImage.alt = article.title || "";
     }
   }
-  blogArticleFields.body.innerHTML = renderArticleSections(article.sections);
+  blogArticleFields.body.innerHTML = renderArticleSections(article.sections, article, lang);
   syncBlogArticleState(slug, article, lang);
   document.title = `${article.title} | Millim`;
 }
@@ -5511,6 +7423,7 @@ function applyLanguage(lang) {
   }
   renderBlogArticle(lang);
   syncBlogCardsFromArticles(lang);
+  renderCaseCards();
   localStorage.setItem("millim-demo-language", lang);
 }
 
@@ -5554,7 +7467,7 @@ languageMenu?.addEventListener("wheel", (event) => {
 }, { passive: false });
 
 function getBlogPageSize() {
-  return window.matchMedia("(max-width: 920px)").matches ? 3 : 4;
+  return BLOG_PAGE_SIZE;
 }
 
 function getFilteredBlogCards() {
@@ -5568,6 +7481,40 @@ function getFilteredBlogCards() {
 
 function getBlogTotalPages() {
   return Math.max(1, Math.ceil(getFilteredBlogCards().length / getBlogPageSize()));
+}
+
+function createBlogPageButton(action, label, className, ariaLabel = "") {
+  const button = document.createElement("button");
+  button.className = className;
+  button.type = "button";
+  button.dataset.blogPage = String(action);
+  button.textContent = label;
+  if (ariaLabel) button.setAttribute("aria-label", ariaLabel);
+  return button;
+}
+
+function renderBlogPagination(totalPages, filteredCount) {
+  if (!blogPagination) return;
+
+  blogPagination.replaceChildren();
+  blogPagination.hidden = filteredCount === 0;
+  if (blogPagination.hidden) return;
+
+  const prevButton = createBlogPageButton("prev", "‹", "blog-page-arrow", "Previous page");
+  prevButton.disabled = activeBlogPage === 1;
+  blogPagination.appendChild(prevButton);
+
+  Array.from({ length: totalPages }, (_, index) => index + 1).forEach((pageNumber) => {
+    const pageButton = createBlogPageButton(pageNumber, String(pageNumber), "blog-page-number");
+    const isActive = pageNumber === activeBlogPage;
+    pageButton.classList.toggle("active", isActive);
+    pageButton.setAttribute("aria-current", isActive ? "page" : "false");
+    blogPagination.appendChild(pageButton);
+  });
+
+  const nextButton = createBlogPageButton("next", "›", "blog-page-arrow", "Next page");
+  nextButton.disabled = activeBlogPage === totalPages;
+  blogPagination.appendChild(nextButton);
 }
 
 function renderBlogCards(animate = false) {
@@ -5596,30 +7543,7 @@ function renderBlogCards(animate = false) {
     }
   });
 
-  blogPageButtons.forEach((button) => {
-    const action = button.dataset.blogPage;
-    const pageNumber = Number(action);
-
-    if (!Number.isNaN(pageNumber)) {
-      const isActive = pageNumber === activeBlogPage;
-      button.hidden = filteredCards.length === 0 || pageNumber > totalPages;
-      button.classList.toggle("active", isActive);
-      button.setAttribute("aria-current", isActive ? "page" : "false");
-      return;
-    }
-
-    if (action === "prev") {
-      button.disabled = activeBlogPage === 1;
-    }
-
-    if (action === "next") {
-      button.disabled = activeBlogPage === totalPages;
-    }
-  });
-
-  if (blogPagination) {
-    blogPagination.hidden = filteredCards.length <= pageSize;
-  }
+  renderBlogPagination(totalPages, filteredCards.length);
 
   if (blogEmpty) {
     blogEmpty.hidden = filteredCards.length > 0;
@@ -5630,6 +7554,29 @@ function scrollBlogListToTop() {
   const target = document.querySelector(".blog-list-card") || document.querySelector(".blog-page") || document.querySelector("main");
   target?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
+
+function renderCaseCards() {
+  if (!caseCards.length) return;
+  caseCards.forEach((card) => {
+    const label = card.querySelector(".case-card-body strong")?.textContent || "";
+    const normalizedLabel = label.trim().toLowerCase();
+    const matchesFilter = activeCaseFilter === "all" || normalizedLabel === activeCaseFilter;
+    card.dataset.caseCategory = normalizedLabel;
+    card.hidden = !matchesFilter;
+  });
+}
+
+caseFilterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    activeCaseFilter = button.dataset.caseFilter || "all";
+    caseFilterButtons.forEach((filterButton) => {
+      const isActive = filterButton === button;
+      filterButton.classList.toggle("is-active", isActive);
+      filterButton.setAttribute("aria-pressed", String(isActive));
+    });
+    renderCaseCards();
+  });
+});
 
 blogFilters.forEach((button) => {
   button.addEventListener("click", () => {
@@ -5657,22 +7604,24 @@ blogSearchForm?.addEventListener("submit", (event) => {
   renderBlogCards(true);
 });
 
-blogPageButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const action = button.dataset.blogPage;
-    const totalPages = getBlogTotalPages();
+blogPagination?.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const button = target?.closest("[data-blog-page]");
+  if (!button || button.disabled) return;
 
-    if (action === "prev") {
-      activeBlogPage = Math.max(1, activeBlogPage - 1);
-    } else if (action === "next") {
-      activeBlogPage = Math.min(totalPages, activeBlogPage + 1);
-    } else {
-      activeBlogPage = Number(action) || 1;
-    }
+  const action = button.dataset.blogPage;
+  const totalPages = getBlogTotalPages();
 
-    renderBlogCards(true);
-    scrollBlogListToTop();
-  });
+  if (action === "prev") {
+    activeBlogPage = Math.max(1, activeBlogPage - 1);
+  } else if (action === "next") {
+    activeBlogPage = Math.min(totalPages, activeBlogPage + 1);
+  } else {
+    activeBlogPage = Number(action) || 1;
+  }
+
+  renderBlogCards(true);
+  scrollBlogListToTop();
 });
 
 function showBlogShareToast() {
@@ -5903,12 +7852,6 @@ blogArticleShareButton?.addEventListener("click", async () => {
     }
   }
 });
-
-function pageButtonHidden(pageNumber) {
-  const pageSize = getBlogPageSize();
-  const filteredCount = getFilteredBlogCards().length;
-  return pageNumber > Math.max(1, Math.ceil(filteredCount / pageSize));
-}
 
 window.addEventListener("resize", () => {
   renderBlogCards(false);

@@ -27,7 +27,7 @@
         <a class="nav-link" href="./cases.html" data-nav="cases" data-i18n="nav.cases">CASES</a>
         <a class="nav-link" href="./blog.html" data-nav="blog" data-i18n="nav.blog">BLOG</a>
         <a class="nav-link" href="./news.html" data-nav="newsEvents" data-i18n="nav.newsEvents">NEWS&amp;EVENTS</a>
-        <a class="nav-link nav-contact-active" href="#contact" data-nav="contact" data-i18n="nav.contact">CONTACT US</a>
+        <a class="nav-link nav-contact-active" href="./index.html#booking" data-nav="contact" data-i18n="nav.contact">CONTACT US</a>
       </nav>
       <div class="header-actions">
         <div class="language-switcher">
@@ -76,14 +76,14 @@
             <div class="cases-orbit-ring cases-orbit-ring-middle"></div>
             <div class="cases-orbit-ring cases-orbit-ring-inner"></div>
             <div class="cases-orbit-track cases-orbit-track-outer">
-              <div class="cases-orbit-slot orbit-card-outer-top"><div class="cases-orbit-card photo-card photo-card-commerce"><span>M</span></div></div>
-              <div class="cases-orbit-slot orbit-card-outer-right"><div class="cases-orbit-card icon-card icon-card-game">✦</div></div>
-              <div class="cases-orbit-slot orbit-card-outer-left"><div class="cases-orbit-card photo-card photo-card-retail"><span>G</span></div></div>
+              <div class="cases-orbit-slot orbit-card-outer-top orbit-card-momcozy"><div class="cases-orbit-card brand-logo-card brand-logo-momcozy"><img src="./assets/cases-orbit-logos/logo-momcozy-cutout.png" alt="" /></div></div>
+              <div class="cases-orbit-slot orbit-card-outer-right orbit-card-darry"><div class="cases-orbit-card brand-logo-card brand-logo-fill brand-logo-darry"><img src="./assets/cases-orbit-logos/logo-3.png" alt="" /></div></div>
+              <div class="cases-orbit-slot orbit-card-outer-left"><div class="cases-orbit-card brand-logo-card brand-logo-hebe"><img src="./assets/cases-orbit-logos/logo-5.png" alt="" /></div></div>
             </div>
             <div class="cases-orbit-track cases-orbit-track-middle">
-              <div class="cases-orbit-slot orbit-card-inner-top"><div class="cases-orbit-card icon-card icon-card-shop"></div></div>
-              <div class="cases-orbit-slot orbit-card-inner-right"><div class="cases-orbit-card photo-card photo-card-retail"><span>A</span></div></div>
-              <div class="cases-orbit-slot orbit-card-inner-left"><div class="cases-orbit-card icon-card icon-card-game">✦</div></div>
+              <div class="cases-orbit-slot orbit-card-inner-top"><div class="cases-orbit-card brand-logo-card brand-logo-fill brand-logo-lanbena"><img src="./assets/cases-orbit-logos/logo-6.png" alt="" /></div></div>
+              <div class="cases-orbit-slot orbit-card-inner-right"><div class="cases-orbit-card brand-logo-card brand-logo-fill brand-logo-coolvita"><img src="./assets/cases-orbit-logos/logo-7.png" alt="" /></div></div>
+              <div class="cases-orbit-slot orbit-card-inner-left orbit-card-netease"><div class="cases-orbit-card brand-logo-card brand-logo-fill brand-logo-netease"><img src="./assets/cases-orbit-logos/logo-netease-games.png" alt="" /></div></div>
             </div>
             <div class="cases-orbit-center">
               <img src="./assets/millim-icon-mark.png" alt="" />
@@ -103,86 +103,91 @@
         <div class="cases-heading-row">
           <div>
             <div class="section-kicker" data-i18n="cases.showcaseKicker">Success Stories</div>
-            <h2 data-i18n="cases.showcaseTitle">Selected work across commerce, content, and paid growth</h2>
+            <h2 data-i18n="cases.showcaseTitle">Selected work across commerce, app, and games</h2>
           </div>
           <div class="case-filter-pills" aria-label="Case filters">
-            <span data-i18n="cases.filterAll">All</span>
-            <span data-i18n="cases.filterCreator">Creator</span>
-            <span data-i18n="cases.filterAds">Ads</span>
-            <span data-i18n="cases.filterCommerce">Commerce</span>
+            <button type="button" class="is-active" data-case-filter="all" aria-pressed="true" data-i18n="cases.filterAll">ALL</button>
+            <button type="button" data-case-filter="e-commerce" aria-pressed="false" data-i18n="cases.filterCreator">E-Commerce</button>
+            <button type="button" data-case-filter="app" aria-pressed="false" data-i18n="cases.filterAds">app</button>
+            <button type="button" data-case-filter="game" aria-pressed="false" data-i18n="cases.filterCommerce">game</button>
           </div>
         </div>
         <div class="case-grid">
-          <article class="case-card">
+          <article class="case-card" data-case-category="e-commerce">
             <div class="case-visual">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card1Tag">Creator Commerce</span>
+              <img src="./assets/cases-generated/jotoys-europe-launch/hero.jpg" alt="" />
             </div>
             <div class="case-card-body">
-              <strong data-i18n="cases.card1Metric">3.8x ROAS</strong>
-              <h3 data-i18n="cases.card1Title">Beauty launch powered by short video creators</h3>
-              <p data-i18n="cases.card1Copy">Millim matched creator content with paid amplification to drive awareness, product education, and measurable store conversion.</p>
-              <a href="./case-detail.html?case=beauty-launch-creators" data-i18n="cases.cardCta">CHECK IT OUT</a>
+              <strong data-i18n="cases.card1Metric">E-Commerce</strong>
+              <h3 data-i18n-html="cases.card1Title">JOTOYS &amp; MILLIM<br />Europe Launch Breakthrough</h3>
+              <p data-i18n="cases.card1Copy">Millim helped JOTOYS build first-wave European awareness through localized creator unboxing, gifting scenes, and short-video seeding. The campaign connected healing product moments with high-volume exposure and store traffic. It delivered 20+ creators, a 50.68% peak engagement rate, and 1M+ top video views.</p>
+              <a href="./case-jotoys-europe-launch.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
             </div>
           </article>
-          <article class="case-card">
+          <article class="case-card" data-case-category="e-commerce">
             <div class="case-visual case-visual-alt">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card2Tag">TikTok Ads</span>
+              <img src="./assets/cases-generated/amiro-market-entry/hero.jpg" alt="" />
             </div>
             <div class="case-card-body">
-              <strong data-i18n="cases.card2Metric">42% CPA Drop</strong>
-              <h3 data-i18n="cases.card2Title">Paid social refresh for a fast-growing DTC brand</h3>
-              <p data-i18n="cases.card2Copy">A new creative testing system helped the brand refresh ads faster and move spend toward higher-performing content.</p>
-              <a href="./case-detail.html?case=paid-social-refresh" data-i18n="cases.cardCta">CHECK IT OUT</a>
+              <strong data-i18n="cases.card2Metric">E-Commerce</strong>
+              <h3 data-i18n-html="cases.card2Title">AMIRO &amp; MILLIM<br />Tec Beauty Market Entry</h3>
+              <p data-i18n="cases.card2Copy">Millim used localized beauty-tech storytelling to help AMIRO enter Malaysia with a clear premium positioning. Creator content visualized real skincare changes and product use cases for high-trust education. The program achieved 5M+ exposure, 1M+ peak plays, and a 10% average engagement rate.</p>
+              <a href="./case-amiro-market-entry.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
             </div>
           </article>
-          <article class="case-card">
+          <article class="case-card" data-case-category="e-commerce">
             <div class="case-visual case-visual-warm">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card3Tag">Live Commerce</span>
+              <img src="./assets/cases-generated/botslab-hardware-breakthrough/hero.jpg" alt="" />
             </div>
             <div class="case-card-body">
-              <strong data-i18n="cases.card3Metric">2.6x GMV</strong>
-              <h3 data-i18n="cases.card3Title">Live selling system for a lifestyle product line</h3>
-              <p data-i18n="cases.card3Copy">Daily live operations, creator scripting, and product bundles helped turn audience interest into repeatable sales moments.</p>
-              <a href="./case-detail.html?case=live-commerce-system" data-i18n="cases.cardCta">CHECK IT OUT</a>
+              <strong data-i18n="cases.card3Metric">E-Commerce</strong>
+              <h3 data-i18n-html="cases.card3Title">BOSTLAB &amp; MILLIM<br />Smart Hardware Marketing Breakthrough</h3>
+              <p data-i18n="cases.card3Copy">Millim rebuilt BOSTLAB's TikTok creator funnel around real car and home security scenarios. Hands-on creator testing made high-ticket hardware easier to understand and trust. The campaign reached 2M+ exposure, $10K+ single-creator sales, and 800K+ top video views.</p>
+              <a href="./case-botslab-hardware-breakthrough.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
             </div>
           </article>
-          <article class="case-card">
+          <article class="case-card" data-case-category="e-commerce">
             <div class="case-visual case-visual-dark">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card4Tag">Creator Event</span>
+              <img src="./assets/cases-generated/ubras-funnel-growth/hero.jpg" alt="" />
             </div>
             <div class="case-card-body">
-              <strong data-i18n="cases.card4Metric">120+ Assets</strong>
-              <h3 data-i18n="cases.card4Title">Offline creator day turned into a full content engine</h3>
-              <p data-i18n="cases.card4Copy">A one-day creator partnership event generated reusable content, social proof, and campaign materials for multiple channels.</p>
-              <a href="./case-detail.html?case=creator-event-engine" data-i18n="cases.cardCta">CHECK IT OUT</a>
+              <strong data-i18n="cases.card4Metric">E-Commerce</strong>
+              <h3 data-i18n-html="cases.card4Title">UBRAS &amp; MILLIM<br />TikTok Full-Funnel Growth</h3>
+              <p data-i18n="cases.card4Copy">Millim structured UBRAS campaigns around Black Friday, Christmas, and 26Q1 growth windows. Creator content translated product comfort, fit, and everyday scenarios into measurable TikTok demand. The case connected exposure, ROI, CPM control, and purchase conversion across multiple launch phases.</p>
+              <a href="./case-ubras-funnel-growth.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
             </div>
           </article>
-          <article class="case-card">
-            <div class="case-visual case-visual-alt">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card5Tag">Market Entry</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card5Metric">8 Weeks</strong>
-              <h3 data-i18n="cases.card5Title">New market launch from creator seeding to sales funnel</h3>
-              <p data-i18n="cases.card5Copy">Millim organized creator selection, content angles, media structure, and reporting for a market entry sprint.</p>
-              <a href="./case-detail.html?case=market-entry-launch" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
+          <article class="case-card" data-case-category="e-commerce">
             <div class="case-visual">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card6Tag">Always-on Growth</span>
+              <img src="./assets/cases-generated/papafeel-philippines-beauty/hero.jpg" alt="" />
             </div>
             <div class="case-card-body">
-              <strong data-i18n="cases.card6Metric">30% Revenue Lift</strong>
-              <h3 data-i18n="cases.card6Title">Monthly creator pipeline for scalable content supply</h3>
-              <p data-i18n="cases.card6Copy">An always-on creator workflow gave the brand a steady stream of content for organic, paid, and commerce use.</p>
-              <a href="./case-detail.html?case=always-on-growth" data-i18n="cases.cardCta">CHECK IT OUT</a>
+              <strong data-i18n="cases.card5Metric">e-commerce</strong>
+              <h3 data-i18n-html="cases.card5Title">PAPA FEEL &amp; MILLIM<br />Philippines Beauty Market Growth</h3>
+              <p data-i18n="cases.card5Copy">Millim helped PAPA FEEL localize eye-cream and face-cream content for the Philippines beauty market. Creator scripts turned product benefits into short-video scenes built for trust and conversion. The campaign reached 4.3M+ exposure, 100% order rate, and 1K+ top single-creator orders.</p>
+              <a href="./case-papafeel-philippines-beauty.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
+            </div>
+          </article>
+          <article class="case-card" data-case-category="e-commerce">
+            <div class="case-visual case-visual-alt">
+              <img src="./assets/cases-generated/cool-vita-payday-growth/hero.jpg" alt="" />
+            </div>
+            <div class="case-card-body">
+              <strong data-i18n="cases.card6Metric">e-commerce</strong>
+              <h3 data-i18n-html="cases.card6Title">Cool-Vita &amp; MILLIM<br />Southeast Asia PayDay Growth</h3>
+              <p data-i18n="cases.card6Copy">Millim built a PayDay creator strategy for Cool-Vita across health and nutrition scenarios. Mother-baby, nutrition, beauty, and lifestyle creators created a seed-to-conversion loop. The campaign delivered 14M+ exposure, 8%+ average engagement, and 80%+ order rate.</p>
+              <a href="./case-cool-vita-payday-growth.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
+            </div>
+          </article>
+          <article class="case-card" data-case-category="e-commerce">
+            <div class="case-visual case-visual-warm">
+              <img src="./assets/cases-generated/susteas-promotion-breakthrough/hero.jpg" alt="" />
+            </div>
+            <div class="case-card-body">
+              <strong data-i18n="cases.card7Metric">e-commerce</strong>
+              <h3 data-i18n-html="cases.card7Title">SUSTEAS &amp; MILLIM<br />Promotion Breakthrough</h3>
+              <p data-i18n="cases.card7Copy">Millim supported SUSTEAS through a TikTok promotion campaign built around cross-creator reach. The creator matrix touched different consumer groups and converted product scenes into measurable interest. The project achieved CPM under $4, 10+ creators, $35K+ creator sales, and 3+ ROI.</p>
+              <a href="./case-susteas-promotion-breakthrough.html" target="_blank" rel="noopener" data-i18n="cases.cardCta">CHECK IT OUT</a>
             </div>
           </article>
         </div>
@@ -239,7 +244,7 @@
           </section>
           <section class="footer-column">
             <h3 data-i18n="footer.linksTitle">LINKS</h3>
-            <a href="#contact">AstroCross</a>
+            <a href="http://www.astracross.com/" target="_blank" rel="noopener">AstroCross</a>
           </section>
           <section class="footer-column">
             <h3 data-i18n="footer.resourcesTitle">RESOURCES</h3>

@@ -9,6 +9,7 @@ dist/
 build/
 
 .playwright-cli/
+output/
 
 .env
 .env.*

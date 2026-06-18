@@ -338,7 +338,7 @@ def generate() -> None:
     out.alpha_composite(dots)
     add_land_sparkles(out, mask)
 
-    for lon, lat in [(-118.2437, 34.0522), (113.2644, 23.1291)]:
+    for lon, lat in [(-118.2437, 34.0522), (-0.1276, 51.5072), (113.2644, 23.1291)]:
         x, y = geo_project((lon, lat))
         draw_location_marker(out, x, y)
 
