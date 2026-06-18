@@ -7394,7 +7394,8 @@ function applyLanguage(lang) {
   const dictionary = translations[lang] || translations.en;
   const pageKey = document.body.dataset.page;
   document.documentElement.lang = dictionary.meta.lang;
-  document.title = pageKey && dictionary[pageKey]?.metaTitle ? dictionary[pageKey].metaTitle : dictionary.meta.title;
+  const isIndexTarget = window.location.pathname.endsWith("/index.html") && ["#top", "#booking"].includes(window.location.hash);
+  document.title = isIndexTarget ? "Millim|Home" : pageKey && dictionary[pageKey]?.metaTitle ? dictionary[pageKey].metaTitle : dictionary.meta.title;
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const value = getValue(dictionary, node.dataset.i18n);
