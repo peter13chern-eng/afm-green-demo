@@ -7390,12 +7390,24 @@ function hasRequiredFieldsReady() {
   );
 }
 
+function getDocumentTitle(dictionary, pageKey) {
+  const isHomePath = pageKey === "home" && (window.location.pathname === "/" || window.location.pathname.endsWith("/index.html"));
+  const homeTitleByHash = { "": "Millim", "#top": "Millim | Home", "#booking": "Millim | Booking" };
+  return isHomePath && Object.prototype.hasOwnProperty.call(homeTitleByHash, window.location.hash)
+    ? homeTitleByHash[window.location.hash]
+    : pageKey && dictionary[pageKey]?.metaTitle ? dictionary[pageKey].metaTitle : dictionary.meta.title;
+}
+
+function updateDocumentTitle(lang = localStorage.getItem("millim-demo-language") || "en") {
+  const dictionary = translations[lang] || translations.en;
+  document.title = getDocumentTitle(dictionary, document.body.dataset.page);
+}
+
 function applyLanguage(lang) {
   const dictionary = translations[lang] || translations.en;
   const pageKey = document.body.dataset.page;
   document.documentElement.lang = dictionary.meta.lang;
-  const isIndexTarget = window.location.pathname.endsWith("/index.html") && ["#top", "#booking"].includes(window.location.hash);
-  document.title = isIndexTarget ? "Millim|Home" : pageKey && dictionary[pageKey]?.metaTitle ? dictionary[pageKey].metaTitle : dictionary.meta.title;
+  document.title = getDocumentTitle(dictionary, pageKey);
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const value = getValue(dictionary, node.dataset.i18n);
@@ -7452,6 +7464,10 @@ languageButtons.forEach((button) => {
     applyLanguage(button.dataset.lang);
     setMenuOpen(true);
   });
+});
+
+window.addEventListener("hashchange", () => {
+  updateDocumentTitle();
 });
 
 languageMenu?.addEventListener("wheel", (event) => {
