@@ -400,6 +400,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.28);
   background: transparent;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .menu-toggle span {
@@ -408,6 +409,7 @@ img {
   height: 2px;
   margin: 4px auto;
   background: #fff;
+  transition: opacity 160ms ease, transform 160ms ease;
 }
 
 .hero {
@@ -4455,7 +4457,65 @@ html[lang="zh-Hant"] .tiktok-solution-hero h1 {
 
 @media (max-width: 920px) {
   .nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 18px;
+    left: 18px;
+    display: flex;
+    max-height: calc(100vh - 98px);
+    margin: 0;
+    padding: 12px;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    background: rgba(7, 10, 7, 0.97);
+    box-shadow: 0 22px 54px rgba(0, 0, 0, 0.32);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 160ms ease, transform 160ms ease;
+  }
+
+  .nav.mobile-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .nav-link {
+    width: 100%;
+    min-height: 44px;
+    justify-content: flex-start;
+    padding: 0 12px;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown.open::after,
+  .nav-dropdown-menu::before {
     display: none;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    display: none;
+    min-width: 0;
+    margin: 4px 0 6px;
+    border-color: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: none;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+  }
+
+  .nav-dropdown.open .nav-dropdown-menu {
+    display: grid;
   }
 
   .header-actions {
@@ -4464,6 +4524,18 @@ html[lang="zh-Hant"] .tiktok-solution-hero h1 {
 
   .menu-toggle {
     display: block;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
   }
 }
 
