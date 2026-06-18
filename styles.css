@@ -1655,14 +1655,14 @@ textarea:focus {
 
 .cases-orbit-track-outer {
   --track-inset: 8%;
-  --orbit-card-size: clamp(30px, 3.8vw, 44px);
+  --orbit-card-size: clamp(34px, 4.2vw, 52px);
   --orbit-speed: 34s;
   animation-delay: -3s;
 }
 
 .cases-orbit-track-middle {
   --track-inset: 18%;
-  --orbit-card-size: clamp(30px, 3.8vw, 44px);
+  --orbit-card-size: clamp(34px, 4.2vw, 52px);
   --orbit-speed: 34s;
   animation-delay: -3s;
 }
@@ -1675,39 +1675,34 @@ textarea:focus {
   animation-delay: -3s;
 }
 
-.orbit-card-top {
+.orbit-card-outer-top {
   top: 0;
   left: 50%;
 }
 
-.orbit-card-right {
-  top: 50%;
-  left: 100%;
+.orbit-card-outer-right {
+  top: 75%;
+  left: 93.3%;
 }
 
-.orbit-card-bottom {
+.orbit-card-outer-left {
+  top: 75%;
+  left: 6.7%;
+}
+
+.orbit-card-inner-top {
+  top: 25%;
+  left: 93.3%;
+}
+
+.orbit-card-inner-right {
   top: 100%;
   left: 50%;
 }
 
-.orbit-card-left {
-  top: 50%;
-  left: 0;
-}
-
-.orbit-card-inner-top {
-  top: 14.64%;
-  left: 85.36%;
-}
-
-.orbit-card-inner-right {
-  top: 85.36%;
-  left: 85.36%;
-}
-
 .orbit-card-inner-left {
-  top: 85.36%;
-  left: 14.64%;
+  top: 25%;
+  left: 6.7%;
 }
 
 .cases-orbit-card {
@@ -1720,7 +1715,7 @@ textarea:focus {
 .icon-card {
   overflow: hidden;
   border-radius: clamp(10px, 1vw, 14px);
-  font-size: clamp(13px, 1.5vw, 20px);
+  font-size: clamp(15px, 1.65vw, 23px);
   font-weight: 900;
 }
 
@@ -1779,7 +1774,7 @@ textarea:focus {
   display: grid;
   place-items: center;
   align-content: center;
-  gap: 8px;
+  gap: 5px;
   border-radius: 50%;
   color: #0f2517;
   text-align: center;
@@ -1791,21 +1786,26 @@ textarea:focus {
 }
 
 .cases-orbit-center img {
-  width: clamp(34px, 3.2vw, 46px);
+  width: clamp(26px, 2.5vw, 36px);
   height: auto;
   object-fit: contain;
 }
 
 .cases-orbit-center strong {
-  font-size: clamp(24px, 2.7vw, 38px);
-  line-height: 1;
+  max-width: 76%;
+  font-size: clamp(18px, 2vw, 28px);
+  line-height: 1.04;
+  overflow-wrap: anywhere;
 }
 
 .cases-orbit-center span {
+  display: block;
+  max-width: 76%;
   color: rgba(15, 37, 23, 0.68);
-  font-size: clamp(9px, 1.1vw, 14px);
+  font-size: clamp(8px, 0.82vw, 11px);
   font-weight: 800;
-  white-space: nowrap;
+  line-height: 1.18;
+  overflow-wrap: anywhere;
 }
 
 @keyframes cases-orbit-spin {

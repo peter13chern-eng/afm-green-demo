@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Millim | Cases</title>
+    <title>Millim | Case</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-page="cases">
+  <body data-page="blog" data-current-nav="cases">
+    <div class="blog-share-toast" data-blog-share-toast data-i18n="blog.copyToast" role="status" aria-live="polite">已经复制到剪贴板</div>
     <header class="site-header">
       <a class="brand" href="./index.html#top" aria-label="Millim home">
         <img src="./assets/millim-logo-sharp.png" alt="Millim" />
@@ -65,136 +66,70 @@
       </div>
     </header>
 
-    <main id="top" class="cases-page">
-      <section class="cases-hero">
-        <div class="cases-hero-mark" aria-hidden="true">
-          <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-        </div>
-        <div class="cases-hero-layout">
-          <div class="cases-orbit-visual" aria-hidden="true">
-            <div class="cases-orbit-ring cases-orbit-ring-outer"></div>
-            <div class="cases-orbit-ring cases-orbit-ring-middle"></div>
-            <div class="cases-orbit-ring cases-orbit-ring-inner"></div>
-            <div class="cases-orbit-track cases-orbit-track-outer">
-              <div class="cases-orbit-slot orbit-card-outer-top"><div class="cases-orbit-card photo-card photo-card-commerce"><span>M</span></div></div>
-              <div class="cases-orbit-slot orbit-card-outer-right"><div class="cases-orbit-card icon-card icon-card-game">✦</div></div>
-              <div class="cases-orbit-slot orbit-card-outer-left"><div class="cases-orbit-card photo-card photo-card-retail"><span>G</span></div></div>
+    <main id="top" class="blog-article-page" data-blog-article data-case-detail>
+      <section class="blog-article-shell">
+        <article class="blog-article-card">
+          <h1 data-article-title>How to choose creators when performance matters</h1>
+          <div class="blog-article-meta">
+            <time data-article-date-long>2026.06</time>
+            <div class="blog-article-stats" aria-label="Article stats">
+              <button class="blog-article-stat blog-article-like-button" type="button" data-article-like-button aria-label="Like article" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.59-3.68.56.56 0 0 0 .82 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.49 5.31a2 2 0 0 1-3 .02L5 15c-1.5-1.5-3-3.2-3-5.5Z"></path>
+                </svg>
+                <span data-article-like>128</span>
+              </button>
+              <span class="blog-article-stat">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0Z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span data-article-view>2.4k</span>
+              </span>
+              <button class="blog-article-stat blog-article-comment-button" type="button" data-article-comment-button aria-label="Jump to comments">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2.99 16.34a2 2 0 0 1 .1 1.17l-1.07 3.29a1 1 0 0 0 1.24 1.17l3.41-1a2 2 0 0 1 1.1.09 10 10 0 1 0-4.78-4.72Z"></path>
+                  <path d="M8 12h.01"></path>
+                  <path d="M12 12h.01"></path>
+                  <path d="M16 12h.01"></path>
+                </svg>
+                <span data-article-comment>18</span>
+              </button>
+              <button class="blog-article-share" type="button" aria-label="Copy article link">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2v13"></path>
+                  <path d="m16 6-4-4-4 4"></path>
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                </svg>
+              </button>
             </div>
-            <div class="cases-orbit-track cases-orbit-track-middle">
-              <div class="cases-orbit-slot orbit-card-inner-top"><div class="cases-orbit-card icon-card icon-card-shop"></div></div>
-              <div class="cases-orbit-slot orbit-card-inner-right"><div class="cases-orbit-card photo-card photo-card-retail"><span>A</span></div></div>
-              <div class="cases-orbit-slot orbit-card-inner-left"><div class="cases-orbit-card icon-card icon-card-game">✦</div></div>
-            </div>
-            <div class="cases-orbit-center">
+          </div>
+          <figure class="blog-article-feature-media" aria-hidden="true">
+            <img data-article-feature-image src="./assets/feishu-millim-bg.gif" alt="" />
+          </figure>
+          <div class="blog-article-cover" aria-hidden="true">
+            <div class="blog-article-cover-visual">
+              <span class="blog-article-cover-orb"></span>
+              <span class="blog-article-cover-ring"></span>
+              <span class="blog-article-cover-card"></span>
+              <span class="blog-article-cover-icon" data-article-icon>C</span>
               <img src="./assets/millim-icon-mark.png" alt="" />
-              <strong data-i18n="cases.orbitTitle">Case Studies</strong>
-              <span data-i18n-html="cases.orbitSubtitle">Brands/E-Commerce<br />Apps/Games</span>
             </div>
           </div>
-          <div class="cases-hero-inner">
-            <div class="section-kicker" data-i18n="cases.heroKicker">Case Studies</div>
-            <h1 data-i18n-html="cases.heroTitle">Growth Stories<br />Built With Creators</h1>
-            <p data-i18n="cases.heroCopy">Explore how Millim blends creator partnerships, paid media, content operations, and commerce strategy to help brands turn attention into sales.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="cases-showcase section-pad">
-        <div class="cases-heading-row">
-          <div>
-            <div class="section-kicker" data-i18n="cases.showcaseKicker">Success Stories</div>
-            <h2 data-i18n="cases.showcaseTitle">Selected work across commerce, content, and paid growth</h2>
-          </div>
-          <div class="case-filter-pills" aria-label="Case filters">
-            <span data-i18n="cases.filterAll">All</span>
-            <span data-i18n="cases.filterCreator">Creator</span>
-            <span data-i18n="cases.filterAds">Ads</span>
-            <span data-i18n="cases.filterCommerce">Commerce</span>
-          </div>
-        </div>
-        <div class="case-grid">
-          <article class="case-card">
-            <div class="case-visual">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card1Tag">Creator Commerce</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card1Metric">3.8x ROAS</strong>
-              <h3 data-i18n="cases.card1Title">Beauty launch powered by short video creators</h3>
-              <p data-i18n="cases.card1Copy">Millim matched creator content with paid amplification to drive awareness, product education, and measurable store conversion.</p>
-              <a href="./case-detail.html?case=beauty-launch-creators" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
-            <div class="case-visual case-visual-alt">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card2Tag">TikTok Ads</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card2Metric">42% CPA Drop</strong>
-              <h3 data-i18n="cases.card2Title">Paid social refresh for a fast-growing DTC brand</h3>
-              <p data-i18n="cases.card2Copy">A new creative testing system helped the brand refresh ads faster and move spend toward higher-performing content.</p>
-              <a href="./case-detail.html?case=paid-social-refresh" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
-            <div class="case-visual case-visual-warm">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card3Tag">Live Commerce</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card3Metric">2.6x GMV</strong>
-              <h3 data-i18n="cases.card3Title">Live selling system for a lifestyle product line</h3>
-              <p data-i18n="cases.card3Copy">Daily live operations, creator scripting, and product bundles helped turn audience interest into repeatable sales moments.</p>
-              <a href="./case-detail.html?case=live-commerce-system" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
-            <div class="case-visual case-visual-dark">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card4Tag">Creator Event</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card4Metric">120+ Assets</strong>
-              <h3 data-i18n="cases.card4Title">Offline creator day turned into a full content engine</h3>
-              <p data-i18n="cases.card4Copy">A one-day creator partnership event generated reusable content, social proof, and campaign materials for multiple channels.</p>
-              <a href="./case-detail.html?case=creator-event-engine" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
-            <div class="case-visual case-visual-alt">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card5Tag">Market Entry</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card5Metric">8 Weeks</strong>
-              <h3 data-i18n="cases.card5Title">New market launch from creator seeding to sales funnel</h3>
-              <p data-i18n="cases.card5Copy">Millim organized creator selection, content angles, media structure, and reporting for a market entry sprint.</p>
-              <a href="./case-detail.html?case=market-entry-launch" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-          <article class="case-card">
-            <div class="case-visual">
-              <img src="./assets/hero-3d-logo-watermark-cutout.png" alt="" />
-              <span data-i18n="cases.card6Tag">Always-on Growth</span>
-            </div>
-            <div class="case-card-body">
-              <strong data-i18n="cases.card6Metric">30% Revenue Lift</strong>
-              <h3 data-i18n="cases.card6Title">Monthly creator pipeline for scalable content supply</h3>
-              <p data-i18n="cases.card6Copy">An always-on creator workflow gave the brand a steady stream of content for organic, paid, and commerce use.</p>
-              <a href="./case-detail.html?case=always-on-growth" data-i18n="cases.cardCta">CHECK IT OUT</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="cases-cta-section">
-        <div>
-          <div class="section-kicker" data-i18n="cases.ctaKicker">Build Your Case</div>
-          <h2 data-i18n="cases.ctaTitle">Bring us your next market, launch, or campaign goal.</h2>
-          <p data-i18n="cases.ctaCopy">We will help map the creator, media, and commerce system that fits your brand stage.</p>
-        </div>
-        <a class="button primary" href="./index.html#booking" data-i18n="cases.ctaButton">BOOK A FREE CALL</a>
+          <article class="blog-article-body" data-article-body></article>
+          <section class="blog-article-comments" id="article-comments" data-article-comments-section>
+            <h2 data-article-comments-title>Comments 0</h2>
+            <form class="blog-article-comment-form" data-article-comment-form>
+              <div class="blog-article-comment-input-wrap">
+                <textarea class="blog-article-comment-box" data-article-comment-box data-article-comment-input rows="4" placeholder="Share your view on this growth topic."></textarea>
+                <button class="button primary blog-article-comment-submit" type="submit" data-article-comment-submit>Send</button>
+              </div>
+              <div class="blog-article-attachments" data-article-attachment-list aria-live="polite"></div>
+            </form>
+            <div class="blog-article-comment-list" data-article-comment-list></div>
+            <div class="blog-article-comment-pagination" data-article-comment-pagination aria-label="Comment pages"></div>
+          </section>
+        </article>
       </section>
     </main>
 
@@ -288,6 +223,7 @@
         <span data-i18n="footer.legalIcp">粤ICP备待定</span>
       </div>
     </footer>
+    <script src="./blog-imported-data.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

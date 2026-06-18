@@ -2936,21 +2936,21 @@ Object.entries(casesPageRows).forEach(([lang, values]) => {
 });
 
 const casesOrbitOverrides = {
-  en: { orbitTitle: "Case Studies", orbitSubtitle: "Brands/E-Commerce/Apps/Games" },
-  zh: { orbitTitle: "案例研究", orbitSubtitle: "品牌/电商/应用/游戏" },
-  zhHant: { orbitTitle: "案例研究", orbitSubtitle: "品牌/電商/應用/遊戲" },
-  es: { orbitTitle: "Casos de estudio", orbitSubtitle: "Marcas/E-commerce/Apps/Juegos" },
-  ja: { orbitTitle: "事例紹介", orbitSubtitle: "ブランド/EC/アプリ/ゲーム" },
-  de: { orbitTitle: "Fallstudien", orbitSubtitle: "Marken/E-Commerce/Apps/Games" },
-  pt: { orbitTitle: "Estudos de caso", orbitSubtitle: "Marcas/E-commerce/Apps/Jogos" },
-  ko: { orbitTitle: "사례 연구", orbitSubtitle: "브랜드/E-Commerce/앱/게임" },
-  ar: { orbitTitle: "دراسات حالة", orbitSubtitle: "علامات/تجارة إلكترونية/تطبيقات/ألعاب" },
-  it: { orbitTitle: "Case study", orbitSubtitle: "Brand/E-commerce/App/Giochi" },
-  fr: { orbitTitle: "Cas clients", orbitSubtitle: "Marques/E-commerce/Apps/Jeux" },
-  vi: { orbitTitle: "Case Study", orbitSubtitle: "Thương hiệu/TMĐT/Ứng dụng/Game" },
-  th: { orbitTitle: "กรณีศึกษา", orbitSubtitle: "แบรนด์/E-Commerce/แอป/เกม" },
-  ms: { orbitTitle: "Kajian kes", orbitSubtitle: "Jenama/E-commerce/Aplikasi/Game" },
-  id: { orbitTitle: "Studi Kasus", orbitSubtitle: "Brand/E-commerce/Aplikasi/Game" },
+  en: { orbitTitle: "Case Studies", orbitSubtitle: "Brands/E-Commerce<br />Apps/Games" },
+  zh: { orbitTitle: "案例研究", orbitSubtitle: "品牌/电商<br />应用/游戏" },
+  zhHant: { orbitTitle: "案例研究", orbitSubtitle: "品牌/電商<br />應用/遊戲" },
+  es: { orbitTitle: "Casos de estudio", orbitSubtitle: "Marcas/E-commerce<br />Apps/Juegos" },
+  ja: { orbitTitle: "事例紹介", orbitSubtitle: "ブランド/EC<br />アプリ/ゲーム" },
+  de: { orbitTitle: "Fallstudien", orbitSubtitle: "Marken/E-Commerce<br />Apps/Games" },
+  pt: { orbitTitle: "Estudos de caso", orbitSubtitle: "Marcas/E-commerce<br />Apps/Jogos" },
+  ko: { orbitTitle: "사례 연구", orbitSubtitle: "브랜드/E-Commerce<br />앱/게임" },
+  ar: { orbitTitle: "دراسات حالة", orbitSubtitle: "علامات/تجارة إلكترونية<br />تطبيقات/ألعاب" },
+  it: { orbitTitle: "Case study", orbitSubtitle: "Brand/E-commerce<br />App/Giochi" },
+  fr: { orbitTitle: "Cas clients", orbitSubtitle: "Marques/E-commerce<br />Apps/Jeux" },
+  vi: { orbitTitle: "Case Study", orbitSubtitle: "Thương hiệu/TMĐT<br />Ứng dụng/Game" },
+  th: { orbitTitle: "กรณีศึกษา", orbitSubtitle: "แบรนด์/E-Commerce<br />แอป/เกม" },
+  ms: { orbitTitle: "Kajian kes", orbitSubtitle: "Jenama/E-commerce<br />Aplikasi/Game" },
+  id: { orbitTitle: "Studi Kasus", orbitSubtitle: "Brand/E-commerce<br />Aplikasi/Game" },
 };
 
 Object.entries(casesOrbitOverrides).forEach(([lang, override]) => {
@@ -3754,6 +3754,15 @@ const blogArticleMetaBySlug = {
   "kol-asset-system": { icon: "K", like: "143", view: "2.8k", comment: "21", cardIndex: 5 },
   "campaign-review": { icon: "G", like: "117", view: "2.2k", comment: "14", cardIndex: 6 },
 };
+const caseArticleMetaBySlug = {
+  "beauty-launch-creators": { icon: "M", like: "128", view: "2.4k", comment: "18", cardIndex: 1, dateLong: "June 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "paid-social-refresh": { icon: "A", like: "96", view: "1.9k", comment: "12", cardIndex: 2, dateLong: "May 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "live-commerce-system": { icon: "S", like: "112", view: "2.1k", comment: "16", cardIndex: 3, dateLong: "April 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "creator-event-engine": { icon: "E", like: "144", view: "3.2k", comment: "24", cardIndex: 4, dateLong: "March 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "market-entry-launch": { icon: "M", like: "87", view: "1.6k", comment: "9", cardIndex: 5, dateLong: "February 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+  "always-on-growth": { icon: "G", like: "103", view: "2.0k", comment: "11", cardIndex: 6, dateLong: "January 2026", featureImage: "./assets/hero-3d-logo-watermark-cutout.png" },
+};
+Object.assign(blogArticleMetaBySlug, caseArticleMetaBySlug);
 
 function getImportedBlogArticles() {
   return Array.isArray(window.MILLIM_IMPORTED_BLOG_ARTICLES) ? window.MILLIM_IMPORTED_BLOG_ARTICLES : [];
@@ -4501,6 +4510,41 @@ const blogArticleGenericCopy = {
   ms: { sectionTitle: "Cara ia berfungsi", paragraph: "Artikel ini menjadikan topik sebagai pandangan operasi untuk pembelajaran media dan commerce yang boleh diulang.", checklistTitle: "Apa yang perlu disemak", bullets: ["Padanan audiens dan kualiti isyarat saluran.", "Sudut kandungan yang boleh diskala.", "Tindakan bajet, aset dan laporan."], commentsTitle: "Komen 0", commentBox: "Kongsi pandangan anda." },
   id: { sectionTitle: "Cara kerjanya dalam praktik", paragraph: "Artikel ini mengubah topik menjadi pandangan operasional untuk creator commerce dan pembelajaran media yang berulang.", checklistTitle: "Yang perlu ditinjau tim", bullets: ["Kesesuaian audiens dan kualitas sinyal kanal.", "Sudut konten yang dapat diskalakan.", "Aksi anggaran, aset, dan laporan."], commentsTitle: "Komentar 0", commentBox: "Bagikan pandangan Anda." },
 };
+const caseArticleGenericCopy = {
+  en: {
+    overviewTitle: "Case overview",
+    actionTitle: "What Millim changed",
+    focusTitle: "Operating focus",
+    resultTitle: "Result",
+    actionParagraph: "Millim connected creator planning, content review, paid media structure, and commerce follow-up into one operating workflow.",
+    focusBullets: ["Sharper creator and audience matching.", "Reusable short-video assets for paid and organic channels.", "Weekly review of spend, content signals, and commerce outcomes."],
+    resultPrefix: "The program delivered",
+    commentsTitle: "Comments 0",
+    commentBox: "Share your view on this case.",
+  },
+  zh: {
+    overviewTitle: "案例概览",
+    actionTitle: "Millim 做了什么",
+    focusTitle: "运营重点",
+    resultTitle: "结果",
+    actionParagraph: "Millim 将达人规划、内容复盘、付费媒体结构和电商承接整合成一套运营流程。",
+    focusBullets: ["更精准的达人与受众匹配。", "可复用的短视频素材供给。", "按周复盘消耗、内容信号和商业结果。"],
+    resultPrefix: "项目最终实现",
+    commentsTitle: "评论 0",
+    commentBox: "分享你对这个案例的看法。",
+  },
+  zhHant: {
+    overviewTitle: "案例概覽",
+    actionTitle: "Millim 做了什麼",
+    focusTitle: "營運重點",
+    resultTitle: "結果",
+    actionParagraph: "Millim 將達人規劃、內容複盤、付費媒體結構和電商承接整合成一套營運流程。",
+    focusBullets: ["更精準的達人與受眾匹配。", "可複用的短影片素材供給。", "按週複盤消耗、內容信號和商業結果。"],
+    resultPrefix: "專案最終實現",
+    commentsTitle: "評論 0",
+    commentBox: "分享你對這個案例的看法。",
+  },
+};
 
 function escapeHtml(value = "") {
   return String(value)
@@ -4512,7 +4556,8 @@ function escapeHtml(value = "") {
 }
 
 function getBlogArticleSlug() {
-  return new URLSearchParams(window.location.search).get("article") || "creator-strategy";
+  const params = new URLSearchParams(window.location.search);
+  return params.get("article") || params.get("case") || "creator-strategy";
 }
 
 function getLocalizedArticleCopy(copySource, lang) {
@@ -4593,6 +4638,49 @@ function buildGenericBlogArticle(slug, lang) {
   };
 }
 
+function isCaseArticleSlug(slug) {
+  return Boolean(caseArticleMetaBySlug[slug]);
+}
+
+function buildCaseArticle(slug, lang) {
+  const meta = caseArticleMetaBySlug[slug] || caseArticleMetaBySlug["beauty-launch-creators"];
+  const dictionary = translations[lang] || translations.en;
+  const fallbackDictionary = translations.en;
+  const generic = getLocalizedArticleCopy(caseArticleGenericCopy, lang);
+  const cardPrefix = `card${meta.cardIndex}`;
+  const tag = dictionary.cases?.[`${cardPrefix}Tag`] || fallbackDictionary.cases?.[`${cardPrefix}Tag`] || "Case Study";
+  const metric = dictionary.cases?.[`${cardPrefix}Metric`] || fallbackDictionary.cases?.[`${cardPrefix}Metric`] || "";
+  const title = dictionary.cases?.[`${cardPrefix}Title`] || fallbackDictionary.cases?.[`${cardPrefix}Title`] || "Millim Case Study";
+  const intro = dictionary.cases?.[`${cardPrefix}Copy`] || fallbackDictionary.cases?.[`${cardPrefix}Copy`] || generic.actionParagraph;
+
+  return {
+    title,
+    dateLong: getBlogArticleDate(meta.cardIndex, lang),
+    commentsTitle: generic.commentsTitle,
+    commentBox: generic.commentBox,
+    featureImage: meta.featureImage,
+    category: tag,
+    sections: [
+      {
+        title: generic.overviewTitle,
+        paragraphs: [intro],
+      },
+      {
+        title: generic.actionTitle,
+        paragraphs: [generic.actionParagraph],
+      },
+      {
+        title: generic.focusTitle,
+        bullets: generic.focusBullets,
+      },
+      {
+        title: generic.resultTitle,
+        paragraphs: [`${generic.resultPrefix} ${metric}.`],
+      },
+    ],
+  };
+}
+
 function getImportedBlogArticleContent(slug, lang) {
   const importedArticle = getImportedBlogArticle(slug);
   if (!importedArticle) return null;
@@ -4648,6 +4736,8 @@ function getImportedBlogArticleContent(slug, lang) {
 }
 
 function getBlogArticleContent(slug, lang) {
+  if (isCaseArticleSlug(slug)) return buildCaseArticle(slug, lang);
+
   const importedArticle = getImportedBlogArticleContent(slug, lang);
   if (importedArticle) return importedArticle;
 
