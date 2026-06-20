@@ -233,7 +233,13 @@
             Share a few details and the team will follow up with a TikTok growth plan tailored to brand, creator, or event goals.
           </p>
         </div>
-        <form class="booking-form" novalidate>
+        <form class="booking-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+          <input type="hidden" name="access_key" value="53263dc1-21b7-46fd-8153-89e2c5547637" />
+          <input type="hidden" name="subject" value="Millim website inquiry" />
+          <input type="hidden" name="from_name" value="Millim Website" />
+          <input type="hidden" name="Interested in" value="" />
+          <input type="hidden" name="redirect" value="https://millim.ltd/?booking=sent#booking" />
+          <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off" />
           <label class="required-field" data-field="name">
             <span class="field-label"><span data-i18n="form.name">Name</span></span>
             <input type="text" name="name" placeholder="Your name" data-i18n-placeholder="form.namePlaceholder" />
@@ -374,6 +380,6 @@
         <a href="#contact" data-i18n="footer.legalTerms">Terms And Conditions</a>
       </div>
     </footer>
-    <script src="./script.js?v=booking-web3forms-json-20260620"></script>
+    <script src="./script.js?v=booking-web3forms-post-20260620"></script>
   </body>
 </html>

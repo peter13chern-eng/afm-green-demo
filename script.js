@@ -4840,8 +4840,8 @@ const emailInput = bookingForm?.querySelector('input[name="email"]');
 const companyInput = bookingForm?.querySelector('input[name="company"]');
 const formStatus = bookingForm?.querySelector(".form-status");
 const submitButton = bookingForm?.querySelector(".submit-button");
-const web3FormsEndpoint = "https://api.web3forms.com/submit";
-const web3FormsAccessKey = "53263dc1-21b7-46fd-8153-89e2c5547637";
+const bookingInterestField = bookingForm?.querySelector('input[name="Interested in"]');
+const bookingRedirectField = bookingForm?.querySelector('input[name="redirect"]');
 const blogFilters = document.querySelectorAll("[data-blog-filter]");
 const caseFilterButtons = document.querySelectorAll("[data-case-filter]");
 const caseCards = document.querySelectorAll(".case-card[data-case-category]");
@@ -7943,53 +7943,25 @@ emailInput?.addEventListener("input", () => {
   }
 });
 
-bookingForm?.addEventListener("submit", async (event) => {
-  event.preventDefault();
-
+bookingForm?.addEventListener("submit", (event) => {
   submitButton?.classList.remove("is-success");
 
   if (!validateBookingForm()) {
+    event.preventDefault();
     return;
   }
 
-  const formData = new FormData(bookingForm);
   const selectedServices = Array.from(interestCheckboxes)
     .filter((input) => input.checked)
     .map((input) => input.closest(".multi-option").querySelector("span").textContent.trim());
 
-  formData.set("access_key", web3FormsAccessKey);
-  formData.set("subject", "Millim website inquiry");
-  formData.set("from_name", "Millim Website");
-  formData.set("Interested in", selectedServices.join(", ") || "Not selected");
-  formData.set("botcheck", "");
-  const payload = Object.fromEntries(formData.entries());
-  setStatus("Sending...");
-  if (submitButton) submitButton.disabled = true;
-
-  try {
-    const response = await fetch(web3FormsEndpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-    const result = await response.json().catch(() => ({}));
-
-    if (!response.ok || result.success === false) {
-      throw new Error(result.message || "Form submission failed.");
-    }
-
-    submitButton?.classList.add("is-success");
-    bookingForm.reset();
-    updateMultiSelectSummary();
-    setStatus("Sent successfully.");
-  } catch (error) {
-    setStatus("Unable to send. Please email market@millim.ltd directly.");
-  } finally {
-    if (submitButton) submitButton.disabled = false;
+  if (bookingInterestField) {
+    bookingInterestField.value = selectedServices.join(", ") || "Not selected";
   }
+  if (bookingRedirectField) {
+    bookingRedirectField.value = `${window.location.origin}${window.location.pathname}?booking=sent#booking`;
+  }
+  setStatus("Sending...");
 });
 
 document.addEventListener("click", (event) => {
@@ -8041,3 +8013,8 @@ blogFilters.forEach((button) => {
 renderBlogCards(false);
 syncCurrentNavigation();
 applyLanguage(localStorage.getItem("millim-demo-language") || "en");
+if (new URLSearchParams(window.location.search).get("booking") === "sent") {
+  setStatus("Sent successfully.");
+  submitButton?.classList.add("is-success");
+  window.history?.replaceState(null, "", `${window.location.origin}${window.location.pathname}#booking`);
+}
