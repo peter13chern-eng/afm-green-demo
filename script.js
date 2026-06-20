@@ -4840,6 +4840,8 @@ const emailInput = bookingForm?.querySelector('input[name="email"]');
 const companyInput = bookingForm?.querySelector('input[name="company"]');
 const formStatus = bookingForm?.querySelector(".form-status");
 const submitButton = bookingForm?.querySelector(".submit-button");
+const web3FormsEndpoint = "https://api.web3forms.com/submit";
+const web3FormsAccessKey = "53263dc1-21b7-46fd-8153-89e2c5547637";
 const blogFilters = document.querySelectorAll("[data-blog-filter]");
 const caseFilterButtons = document.querySelectorAll("[data-case-filter]");
 const caseCards = document.querySelectorAll(".case-card[data-case-category]");
@@ -7941,7 +7943,7 @@ emailInput?.addEventListener("input", () => {
   }
 });
 
-bookingForm?.addEventListener("submit", (event) => {
+bookingForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   submitButton?.classList.remove("is-success");
@@ -7954,23 +7956,34 @@ bookingForm?.addEventListener("submit", (event) => {
   const selectedServices = Array.from(interestCheckboxes)
     .filter((input) => input.checked)
     .map((input) => input.closest(".multi-option").querySelector("span").textContent.trim());
-  const body = [
-    `Name: ${formData.get("name") || ""}`,
-    `Email: ${formData.get("email") || ""}`,
-    `Company: ${formData.get("company") || ""}`,
-    `Interested in: ${selectedServices.join(", ") || "Not selected"}`,
-    "",
-    "Message:",
-    formData.get("message") || "",
-  ].join("\n");
 
-  const mailto = new URL("mailto:millimbusiness@millim.ltd");
-  mailto.searchParams.set("subject", "Millim website inquiry");
-  mailto.searchParams.set("body", body);
-  submitButton?.classList.add("is-success");
-  window.setTimeout(() => {
-    window.location.href = mailto.toString();
-  }, 820);
+  formData.set("access_key", web3FormsAccessKey);
+  formData.set("subject", "Millim website inquiry");
+  formData.set("from_name", "Millim Website");
+  formData.set("Interested in", selectedServices.join(", ") || "Not selected");
+  setStatus("Sending...");
+  if (submitButton) submitButton.disabled = true;
+
+  try {
+    const response = await fetch(web3FormsEndpoint, {
+      method: "POST",
+      body: formData,
+    });
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok || result.success === false) {
+      throw new Error(result.message || "Form submission failed.");
+    }
+
+    submitButton?.classList.add("is-success");
+    bookingForm.reset();
+    updateMultiSelectSummary();
+    setStatus("Sent successfully.");
+  } catch (error) {
+    setStatus("Unable to send. Please email market@millim.ltd directly.");
+  } finally {
+    if (submitButton) submitButton.disabled = false;
+  }
 });
 
 document.addEventListener("click", (event) => {
