@@ -7961,13 +7961,19 @@ bookingForm?.addEventListener("submit", async (event) => {
   formData.set("subject", "Millim website inquiry");
   formData.set("from_name", "Millim Website");
   formData.set("Interested in", selectedServices.join(", ") || "Not selected");
+  formData.set("botcheck", "");
+  const payload = Object.fromEntries(formData.entries());
   setStatus("Sending...");
   if (submitButton) submitButton.disabled = true;
 
   try {
     const response = await fetch(web3FormsEndpoint, {
       method: "POST",
-      body: formData,
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+      body: JSON.stringify(payload),
     });
     const result = await response.json().catch(() => ({}));
 
